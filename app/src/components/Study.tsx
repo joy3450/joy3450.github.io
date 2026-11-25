@@ -189,7 +189,7 @@ function QLabel({ it }: { it: Item }) {
 
 /* ---------- Learn ---------- */
 function Learn({ pool, onExit }: { pool: Item[]; onExit: () => void }) {
-  const { setLearned, gain, recordCombo } = useBank();
+  const { target, setLearned, gain, recordCombo } = useBank();
   const [round, setRound] = useState(0);
   const deck = useMemo(() => shuffle(pool), [pool, round]); // eslint-disable-line react-hooks/exhaustive-deps
   const [i, setI] = useState(0);
@@ -301,7 +301,7 @@ function Learn({ pool, onExit }: { pool: Item[]; onExit: () => void }) {
             <div className="animate-rise border-t-2 border-background pt-4">
               <div className="flex items-center gap-1">
                 <p className="m-0 text-[21px] font-bold">{it.en}</p>
-                <IconBtn label="朗讀英文" onClick={() => speak(it.en)}>
+                <IconBtn label={`朗讀${target.name}`} onClick={() => speak(it.en, it.language)}>
                   <Volume2 className="h-5 w-5" />
                 </IconBtn>
               </div>
@@ -344,7 +344,7 @@ function Kbd({ children }: { children: ReactNode }) {
 
 /* ---------- Test ---------- */
 function Test({ pool, all, onExit }: { pool: Item[]; all: Item[]; onExit: () => void }) {
-  const { gain, recordCombo, award, setLearned } = useBank();
+  const { target, gain, recordCombo, award, setLearned } = useBank();
   const [round, setRound] = useState(0);
   const deck = useMemo(() => shuffle(pool), [pool, round]); // eslint-disable-line react-hooks/exhaustive-deps
   const [i, setI] = useState(0);
@@ -481,7 +481,7 @@ function Test({ pool, all, onExit }: { pool: Item[]; all: Item[]; onExit: () => 
         <div key={i} className={cn("flex flex-col gap-5 rounded-3xl bg-card p-6 shadow-lift sm:p-8", picked !== -1 && !ok ? "animate-shake" : "animate-rise")}>
           <QLabel it={it} />
           <div>
-            <p className="m-0 text-[13px] font-extrabold text-muted-foreground">選出對應的英文</p>
+            <p className="m-0 text-[13px] font-extrabold text-muted-foreground">選出對應的{target.name}</p>
             <p className="m-0 mt-1 text-balance text-[24px] font-bold leading-snug sm:text-[28px]">{it.zh}</p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
@@ -559,7 +559,7 @@ interface WriteResult {
 }
 
 function Write({ pool, onExit }: { pool: Item[]; onExit: () => void }) {
-  const { setLearned, gain, recordCombo, award, bumpQuest } = useBank();
+  const { target, setLearned, gain, recordCombo, award, bumpQuest } = useBank();
   const [round, setRound] = useState(0);
   const deck = useMemo(() => shuffle(pool), [pool, round]); // eslint-disable-line react-hooks/exhaustive-deps
   const [i, setI] = useState(0);
@@ -607,12 +607,12 @@ function Write({ pool, onExit }: { pool: Item[]; onExit: () => void }) {
 
   const submit = (text: string) => {
     if (!it || res || !text.trim()) return;
-    finish(grade(text, it.en), text, false);
+    finish(grade(text, it.en, it.language), text, false);
   };
 
-  const speech = useSpeech((alts) => {
+  const speech = useSpeech(target.voice, (alts) => {
     if (!it || res) return;
-    const b = bestOf(alts, it.en);
+    const b = bestOf(alts, it.en, it.language);
     if (!b) return;
     setInput(b.text);
     finish(b.g, b.text, true);
@@ -718,7 +718,7 @@ function Write({ pool, onExit }: { pool: Item[]; onExit: () => void }) {
         <div key={i} className={cn("flex flex-col gap-5 rounded-3xl bg-card p-6 shadow-lift sm:p-8", res && !res.counted ? "animate-shake" : "animate-rise")}>
           <QLabel it={it} />
           <div>
-            <p className="m-0 text-[13px] font-extrabold text-muted-foreground">用英文寫出來或說出來</p>
+            <p className="m-0 text-[13px] font-extrabold text-muted-foreground">用{target.name}寫出來或說出來</p>
             <p className="m-0 mt-1 text-balance text-[24px] font-bold leading-snug sm:text-[28px]">{it.zh}</p>
           </div>
 
@@ -741,7 +741,7 @@ function Write({ pool, onExit }: { pool: Item[]; onExit: () => void }) {
                 value={speech.listening ? speech.interim : input}
                 onChange={(e) => setInput(e.target.value)}
                 readOnly={!!res || speech.listening}
-                placeholder={speech.listening ? "正在聽……說完停一下就會送出" : "輸入英文，按 Enter 送出"}
+                placeholder={speech.listening ? "正在聽……說完停一下就會送出" : `輸入${target.name}，按 Enter 送出`}
                 aria-label="你的答案"
                 autoComplete="off"
                 autoCapitalize="off"
@@ -805,7 +805,7 @@ function Write({ pool, onExit }: { pool: Item[]; onExit: () => void }) {
                       </span>
                     ))}
                   </p>
-                  <IconBtn label="朗讀英文" onClick={() => speak(it.en)}>
+                  <IconBtn label={`朗讀${target.name}`} onClick={() => speak(it.en, it.language)}>
                     <Volume2 className="h-5 w-5" />
                   </IconBtn>
                 </div>
@@ -825,7 +825,7 @@ function Write({ pool, onExit }: { pool: Item[]; onExit: () => void }) {
           )}
         </div>
         <p className="m-0 mt-4 hidden text-center text-[13px] text-muted-foreground sm:block">
-          大小寫、標點、縮寫、英美拼法和小錯字都不扣分　<Kbd>Enter</Kbd> 送出／下一題　<Kbd>Esc</Kbd> 離開
+          {target.name === "英文" ? "大小寫、標點、縮寫、英美拼法和小錯字都不扣分" : "大小寫與標點不影響評分，也容許小錯字"}　<Kbd>Enter</Kbd> 送出／下一題　<Kbd>Esc</Kbd> 離開
         </p>
         {!canSpeak && <p className="m-0 mt-2 text-center text-[13px] text-muted-foreground">這個瀏覽器不支援語音輸入，用 Chrome、Edge 或 Safari 就能用說的。</p>}
       </>
@@ -849,7 +849,7 @@ interface Tile {
 const PAIRS = 6;
 
 function Match({ pool, all, tab, onExit }: { pool: Item[]; all: Item[]; tab: TabKey; onExit: () => void }) {
-  const { gain, recordMatch, award, game } = useBank();
+  const { gain, recordMatch, award, bestMatch, target } = useBank();
   const [round, setRound] = useState(0);
   const src = pool.length >= 3 ? pool : all.filter((x) => x.tab === tab);
   const tiles = useMemo(() => {
@@ -870,7 +870,7 @@ function Match({ pool, all, tab, onExit }: { pool: Item[]; all: Item[]; tab: Tab
   const [penalty, setPenalty] = useState(0);
   const [end, setEnd] = useState<number | null>(null);
   const [xp, setXp] = useState(0);
-  const [prevBest] = useState(game.bestMatch[tab]);
+  const [prevBest] = useState(bestMatch(tab));
   const matched = gone.size / 2;
   const done = pairs > 0 && matched === pairs;
 
@@ -973,7 +973,7 @@ function Match({ pool, all, tab, onExit }: { pool: Item[]; all: Item[]; tab: Tab
     body = (
       <>
         <p className="m-0 mb-4 text-center font-semibold text-muted-foreground">
-          {start == null ? "點一張卡開始計時，把英文和中文配成一對。配錯會加 1 秒。" : `已配對 ${matched} / ${pairs}`}
+          {start == null ? `點一張卡開始計時，把${target.name}和中文配成一對。配錯會加 1 秒。` : `已配對 ${matched} / ${pairs}`}
         </p>
         <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 sm:gap-3">
           {tiles.map((t) => {

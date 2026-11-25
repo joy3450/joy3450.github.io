@@ -10,6 +10,7 @@ export function secId(sec: string) {
 }
 
 export function FilterChips({ f, set }: { f: Filters; set: (p: Partial<Filters>) => void }) {
+  const { target } = useBank();
   const chip =
     "inline-flex items-center gap-1.5 rounded-full border-2 bg-card px-3 py-0.5 text-sm font-semibold text-muted-foreground transition-colors hover:border-muted-foreground hover:text-foreground aria-pressed:border-primary aria-pressed:bg-accent aria-pressed:text-accent-foreground";
   return (
@@ -20,7 +21,7 @@ export function FilterChips({ f, set }: { f: Filters; set: (p: Partial<Filters>)
       {TONES.map((t) => (
         <button key={t} type="button" className={chip} aria-pressed={f.tone === t} onClick={() => set({ tone: t })}>
           <ToneDot tone={t} />
-          {t}
+          {target.tones[t]}
         </button>
       ))}
       <button type="button" className={chip} aria-pressed={f.fav} onClick={() => set({ fav: !f.fav })}>

@@ -32,7 +32,7 @@ const canTTS = () => typeof window !== "undefined" && "speechSynthesis" in windo
 export function tokens(en: string) {
   return en
     .split(/\s+/)
-    .map((w) => w.replace(/^[^\w']+|[^\w']+$/g, ""))
+    .map((w) => w.replace(/^[^\p{L}\p{N}_'’]+|[^\p{L}\p{N}_'’]+$/gu, ""))
     .filter((w) => w && /\w/.test(w));
 }
 
@@ -74,10 +74,10 @@ function makeCloze(item: Item): ItemEx["cloze"] | undefined {
 function makeSpot(item: Item, src: Item[]): ItemEx["spot"] | undefined {
   const words = item.en.split(/\s+/).filter(Boolean);
   if (words.length < 4) return;
-  const bare = (w: string) => w.replace(/^[^\w']+|[^\w']+$/g, "");
+  const bare = (w: string) => w.replace(/^[^\p{L}\p{N}_'’]+|[^\p{L}\p{N}_'’]+$/gu, "");
   const idx = shuffle(words.map((_, i) => i)).find((i) => {
     const b = bare(words[i]).toLowerCase();
-    return b.length >= 3 && !STOP.has(b) && /^[a-z']+$/i.test(b);
+    return b.length >= 3 && !STOP.has(b) && /^[\p{L}'’]+$/u.test(b);
   });
   if (idx === undefined) return;
   const orig = bare(words[idx]);
@@ -85,7 +85,7 @@ function makeSpot(item: Item, src: Item[]): ItemEx["spot"] | undefined {
   for (const x of confusable(item, src).slice(0, 25))
     for (const w of shuffle(tokens(x.en))) {
       const lw = w.toLowerCase();
-      if (lw.length >= 3 && !STOP.has(lw) && !have.has(lw) && /^[a-z']+$/i.test(w) && Math.abs(w.length - orig.length) <= 5) {
+      if (lw.length >= 3 && !STOP.has(lw) && !have.has(lw) && /^[\p{L}'’]+$/u.test(w) && Math.abs(w.length - orig.length) <= 5) {
         const rep = /^[A-Z]/.test(orig) ? w[0].toUpperCase() + w.slice(1) : lw;
         const out = words.slice();
         out[idx] = words[idx].replace(orig, rep);
@@ -295,7 +295,7 @@ function Pairs({ items, onDone }: { items: Item[]; onDone: () => void }) {
     if (done.has(id)) return;
     if (!sel || sel.side === side) {
       sfx.tap();
-      if (side === "l") speak(items.find((x) => x.id === id)!.en);
+      if (side === "l") speak(items.find((x) => x.id === id)!.en, items[0]?.language);
       return setSel({ side, id });
     }
     if (sel.id === id) {
@@ -424,15 +424,7 @@ export function Lesson({
   const play = (txt: string, rate = 0.95) => {
     if (plays >= playLimit) return;
     setPlays((n) => n + 1);
-    try {
-      speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(txt);
-      u.lang = "en-GB";
-      u.rate = rate;
-      speechSynthesis.speak(u);
-    } catch {
-      /* ignore */
-    }
+    speak(txt, bank.language, rate);
   };
 
   // auto-play audio and focus the input for each new exercise
@@ -440,7 +432,7 @@ export function Lesson({
     if (!ex || ex.kind === "pairs") return;
     if (ex.kind === "listen") window.setTimeout(() => play(ex.item.en), 250);
     if (ex.kind === "dictation") window.setTimeout(() => play(ex.item.ex), 250);
-    if (ex.kind === "pick-zh") window.setTimeout(() => speak(ex.item.en), 250);
+    if (ex.kind === "pick-zh") window.setTimeout(() => speak(ex.item.en, ex.item.language), 250);
     window.setTimeout(() => (document.querySelector("[data-answer]") as HTMLElement | null)?.focus(), 60);
   }, [ex?.key]); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -476,10 +468,10 @@ export function Lesson({
 
   /** Grade typed text according to the difficulty's rules. */
   function judge(typed: string, target: string, kind: Kind): { ok: boolean; note?: string } {
-    const g = grade(typed, target);
+    const g = grade(typed, target, bank.language);
     const close = g.level === "perfect" || g.level === "close";
     if (rules.grading === "strict" && kind !== "dictation") {
-      const ok = norm(typed) === norm(target);
+      const ok = norm(typed, bank.language) === norm(target, bank.language);
       return { ok, note: !ok && close ? "傳奇模式要一字不差" : undefined };
     }
     if (rules.grading !== "lenient") {
@@ -535,7 +527,7 @@ export function Lesson({
       answer(ex.options[pick].id === it.id);
     } else if (ex.kind === "build") {
       const said = built.filter((i) => ex.tiles[i]).map((i) => ex.tiles[i].w).join(" ");
-      answer(norm(said) === norm(tokens(it.en).join(" ")));
+      answer(norm(said, bank.language) === norm(tokens(it.en).join(" "), bank.language));
     } else if (ex.kind === "spot") {
       if (pick === null || !ex.spot) return;
       answer(pick === ex.spot.wrong);
@@ -858,7 +850,7 @@ export function Lesson({
       <main className="flex-1 overflow-y-auto px-4 pb-40">
         {ex && (
           <div key={ex.key} className="mx-auto flex max-w-[620px] animate-rise flex-col gap-6 pt-4">
-            <h2 className="m-0 text-[24px] font-extrabold sm:text-[28px]">{TITLE[ex.kind]}</h2>
+            <h2 className="m-0 text-[24px] font-extrabold sm:text-[28px]">{TITLE[ex.kind].replace("英文", bank.target.name)}</h2>
             {ex.kind === "pairs" ? (
               <Pairs items={ex.items} onDone={pairsDone} />
             ) : (
@@ -903,7 +895,7 @@ export function Lesson({
                         : ex.kind === "cloze" && ex.cloze
                           ? ex.cloze.answer
                           : ex.kind === "spot" && ex.spot
-                            ? `「${ex.spot.words[ex.spot.wrong].replace(/^[^\w']+|[^\w']+$/g, "")}」應該是「${ex.spot.original}」`
+                            ? `「${ex.spot.words[ex.spot.wrong].replace(/^[^\p{L}\p{N}_'’]+|[^\p{L}\p{N}_'’]+$/gu, "")}」應該是「${ex.spot.original}」`
                             : ex.kind === "dictation"
                               ? ex.item.ex
                               : ex.item.en}
@@ -975,11 +967,12 @@ function ExerciseBody({
   setText: (s: string) => void;
   inputRef: React.RefObject<HTMLInputElement | null>;
 }) {
+  const { target } = useBank();
   const it = ex.item;
   const prompt = (
     <div className="flex items-start gap-3">
       {ex.kind === "pick-zh" && (
-        <button type="button" onClick={() => speak(it.en)} aria-label="再聽一次" className="mt-0.5 grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-primary text-primary-foreground" style={shadow("--primary")}>
+        <button type="button" onClick={() => speak(it.en, it.language)} aria-label="再聽一次" className="mt-0.5 grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-primary text-primary-foreground" style={shadow("--primary")}>
           <Volume2 className="h-5 w-5" />
         </button>
       )}
@@ -1117,7 +1110,7 @@ function ExerciseBody({
             value={text}
             onChange={(e) => setText(e.target.value)}
             readOnly={!!fb}
-            aria-label="填入缺少的英文"
+            aria-label={`填入缺少的${target.name}`}
             autoComplete="off"
             autoCapitalize="off"
             autoCorrect="off"
@@ -1139,7 +1132,7 @@ function ExerciseBody({
     return (
       <>
         <p className="m-0 rounded-2xl border-2 bg-card px-4 py-3 text-[19px] font-semibold leading-snug">{it.zh}</p>
-        <p className="m-0 text-sm font-semibold text-muted-foreground">下面的英文有一個字被換掉了，點出那個字。</p>
+        <p className="m-0 text-sm font-semibold text-muted-foreground">下面的{target.name}有一個字被換掉了，點出那個字。</p>
         <div className="flex flex-wrap gap-2" role="group" aria-label="句子">
           {sp.words.map((w, k) => {
             const state = fb ? (k === sp.wrong ? "right" : pick === k ? "wrong" : undefined) : undefined;
@@ -1173,7 +1166,7 @@ function ExerciseBody({
       <>
         {player}
         <p className="m-0 text-sm font-semibold text-muted-foreground">這是「{it.en.length > 40 ? it.en.slice(0, 40) + "…" : it.en}」的例句，把整句寫下來。</p>
-        {answerInput("輸入你聽到的整句英文", true)}
+        {answerInput(`輸入你聽到的整句${target.name}`, true)}
       </>
     );
   }
@@ -1182,7 +1175,7 @@ function ExerciseBody({
   return (
     <>
       {ex.kind === "listen" ? player : prompt}
-      {answerInput(ex.kind === "listen" ? "輸入你聽到的英文" : "用英文輸入")}
+      {answerInput(ex.kind === "listen" ? `輸入你聽到的${target.name}` : `用${target.name}輸入`)}
     </>
   );
 }

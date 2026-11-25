@@ -34,8 +34,8 @@ function ctor(): RecCtor | null {
 
 export const speechSupported = () => typeof window !== "undefined" && !!ctor();
 
-/** One-shot English speech recognition. Calls onFinal with up to 4 alternative transcripts. */
-export function useSpeech(onFinal: (alts: string[]) => void) {
+/** One-shot speech recognition. Calls onFinal with up to 4 alternative transcripts. */
+export function useSpeech(voice: string, onFinal: (alts: string[]) => void) {
   const [listening, setListening] = useState(false);
   const [interim, setInterim] = useState("");
   const rec = useRef<Rec | null>(null);
@@ -52,7 +52,7 @@ export function useSpeech(onFinal: (alts: string[]) => void) {
     }
     rec.current?.abort();
     const r = new C();
-    r.lang = "en-GB";
+    r.lang = voice;
     r.interimResults = true;
     r.maxAlternatives = 4;
     r.continuous = false;
@@ -97,7 +97,7 @@ export function useSpeech(onFinal: (alts: string[]) => void) {
     } catch {
       setListening(false);
     }
-  }, []);
+  }, [voice]);
 
   useEffect(() => () => rec.current?.abort(), []);
 

@@ -2,7 +2,9 @@
 
 上課、跟同學聊天、coffee chat 和面試用得到的英文句子，加上遊戲化的練習。
 
-網站：https://hsiaoliang.github.io/phrase-bank/
+網站：https://joy3450.github.io/
+
+文法庫收錄英文與法文各 76 個主題，可從主題頁直接進入文法練功房。原始遊戲來自 [HsiaoLiang/phrase-bank](https://github.com/HsiaoLiang/phrase-bank)。
 
 ## 功能
 

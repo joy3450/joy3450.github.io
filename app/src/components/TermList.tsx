@@ -31,7 +31,7 @@ function DeleteBtn({ onConfirm }: { onConfirm: () => void }) {
 }
 
 function Term({ it }: { it: Item }) {
-  const { fav, learned, toggleFav, setLearned, deleteCustom } = useBank();
+  const { target, fav, learned, toggleFav, setLearned, deleteCustom } = useBank();
   const isL = learned.has(it.id);
   const isF = fav.has(it.id);
   const [pulse, setPulse] = useState(0);
@@ -82,10 +82,10 @@ function Term({ it }: { it: Item }) {
         >
           <CircleCheck className={cn("h-[18px] w-[18px]", isL && "fill-good/15")} />
         </IconBtn>
-        <IconBtn label="朗讀英文" onClick={() => speak(it.en)}>
+        <IconBtn label={`朗讀${target.name}`} onClick={() => speak(it.en, it.language)}>
           <Volume2 className="h-[18px] w-[18px]" />
         </IconBtn>
-        <IconBtn label="複製英文" onClick={() => copyText(it.en)}>
+        <IconBtn label={`複製${target.name}`} onClick={() => copyText(it.en)}>
           <Copy className="h-[18px] w-[18px]" />
         </IconBtn>
         {it.custom && (

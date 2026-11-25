@@ -1,5 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { BUILTIN, TABS } from "./data";
+import { languages, materialKey, type Language } from "./language";
+import { grammarResult } from "./grammar";
+import { courses, TABS } from "./data";
 import {
   ACHIEVEMENTS,
   DEFAULT_GAME,
@@ -99,7 +101,13 @@ function useBankState() {
   const [synced, setSynced] = useState<"local" | "cloud">("local");
   const cid = useRef(0);
 
-  const items = useMemo(() => BUILTIN.concat(custom), [custom]);
+  const language: Language = game.settings.language === "fr" ? "fr" : "en";
+  const catalogs = useMemo(() => ({
+    en: courses.en.concat(custom.filter(i => !i.language || i.language === "en")),
+    fr: courses.fr.concat(custom.filter(i => i.language === "fr")),
+  }), [custom]);
+  const items = catalogs[language];
+  const total = catalogs.en.length + catalogs.fr.length;
   const today = dayKey();
   const todayXP = game.days[today] ?? 0;
   const lvl = levelInfo(game.xp);
@@ -175,6 +183,25 @@ function useBankState() {
     floatFx(label ?? `+${n} 寶石`, "gem", at);
   }, []);
 
+  const finishGrammar = (topicId: string, correct: string[], questions: string[]) => {
+    const key = language + ":" + topicId;
+    const current = gameRef.current;
+    const boosted = Date.now() < current.boostUntil;
+    const day = dayKey();
+    const result = grammarResult(current.grammar[key], correct, questions, boosted);
+    setGame(g => {
+      const { progress, xp, gems } = grammarResult(g.grammar[key], correct, questions, boosted);
+      return withQuest({
+        ...g, xp: g.xp + xp, gems: g.gems + gems,
+        days: { ...g.days, [day]: (g.days[day] ?? 0) + xp },
+        grammar: { ...g.grammar, [key]: progress },
+      }, "xp", xp);
+    });
+    if (result.xp) floatXP(result.xp);
+    if (result.gems) floatFx("+" + result.gems + " 寶石", "gem");
+    return { xp: result.xp, gems: result.gems };
+  };
+
   const bumpQuest = useCallback((kind: QuestKind, n = 1) => setGame((g) => withQuest(g, kind, n)), []);
 
   /* tell the player when a quest is ready to claim (once per quest per session) */
@@ -216,34 +243,39 @@ function useBankState() {
   }, [todayXP, game.goal, push]);
 
   /* condition-based achievements */
-  const mastered = TABS.filter((t) => {
+  const mastered = Object.values(catalogs).reduce((sum, items) => sum + TABS.filter((t) => {
     const ti = items.filter((i) => i.tab === t.k);
     return ti.length > 0 && ti.every((i) => learned.has(i.id));
-  }).length;
-  const learnedCount = items.filter((i) => learned.has(i.id)).length;
+  }).length, 0);
+  const learnedCount = Object.values(catalogs).reduce((sum, list) => sum + list.filter(i => learned.has(i.id)).length, 0);
   const pathStats = useMemo(() => {
     let lessons = 0;
     let units = 0;
     let hard = 0;
     let legend = 0;
     let boss = 0;
-    for (const [id, p] of Object.entries(game.path)) {
-      if (!p.done) continue;
-      if (id.startsWith("B:")) boss++;
-      else if (id.startsWith("L:")) {
-        if ((p.level ?? 1) >= 2) hard++;
-        if ((p.level ?? 1) >= 3) legend++;
+    for (const course of Object.values(catalogs)) {
+      for (const tab of TABS) {
+        for (const unit of buildPath(course, tab.k)) {
+          let unitLessons = 0;
+          let completed = 0;
+          for (const node of unit.nodes) {
+            const progress = game.path[node.id];
+            if (node.type === "boss" && progress?.done) boss++;
+            if (node.type !== "lesson") continue;
+            unitLessons++;
+            if (!progress?.done) continue;
+            completed++;
+            if ((progress.level ?? 1) >= 2) hard++;
+            if ((progress.level ?? 1) >= 3) legend++;
+          }
+          lessons += completed;
+          if (unitLessons && completed === unitLessons) units++;
+        }
       }
     }
-    for (const t of TABS)
-      for (const u of buildPath(items, t.k)) {
-        const ls = u.nodes.filter((n) => n.type === "lesson");
-        const done = ls.filter((n) => game.path[n.id]?.done).length;
-        lessons += done;
-        if (ls.length && done === ls.length) units++;
-      }
     return { lessons, units, hard, legend, boss };
-  }, [items, game.path]);
+  }, [catalogs, game.path]);
   useEffect(() => {
     const ctx = {
       hard: pathStats.hard,
@@ -253,7 +285,7 @@ function useBankState() {
       units: pathStats.units,
       gems: game.gems,
       learned: learnedCount,
-      total: items.length,
+      total,
       mastered,
       streak,
       level: lvl.level,
@@ -265,14 +297,15 @@ function useBankState() {
     if (!fresh.length) return;
     setGame((g) => {
       const ach = { ...g.ach };
-      fresh.forEach((a) => (ach[a.id] = dayKey()));
-      return { ...g, ach, gems: g.gems + GEMS.ach * fresh.length };
+      const unpaid = fresh.filter(a => !ach[a.id]);
+      unpaid.forEach((a) => (ach[a.id] = dayKey()));
+      return { ...g, ach, gems: g.gems + GEMS.ach * unpaid.length };
     });
     fresh
       .filter((a) => a.id !== "goal")
       .slice(0, 3)
       .forEach((a) => push({ type: "ach", ach: a.id }));
-  }, [learnedCount, items.length, mastered, streak, lvl.level, custom.length, todayXP, game.goal, game.ach, game.gems, pathStats, push]);
+  }, [learnedCount, total, mastered, streak, lvl.level, custom.length, todayXP, game.goal, game.ach, game.gems, pathStats, push]);
 
   const award = useCallback(
     (id: string) => {
@@ -326,12 +359,12 @@ function useBankState() {
 
   const addCustom = useCallback(
     (it: Omit<Item, "id" | "custom">) => {
-      const item: Item = { ...it, id: "u" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), custom: true };
+      const item: Item = { ...it, language, id: materialKey(language, "u") + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), custom: true };
       setCustom((c) => [...c, item]);
       gain(XP.addPhrase);
       return item;
     },
-    [gain],
+    [gain, language],
   );
 
   const deleteCustom = useCallback((id: string) => {
@@ -358,11 +391,12 @@ function useBankState() {
 
   const recordMatch = useCallback((tab: TabKey, secs: number) => {
     setGame((g) => {
-      const best = g.bestMatch[tab];
-      const next = best == null || secs < best ? { ...g, bestMatch: { ...g.bestMatch, [tab]: secs } } : g;
+      const key = materialKey(language, tab);
+      const best = g.bestMatch[key];
+      const next = best == null || secs < best ? { ...g, bestMatch: { ...g.bestMatch, [key]: secs } } : g;
       return withQuest(next, "match", 1);
     });
-  }, []);
+  }, [language]);
 
   /* ---- hearts, shop, path, quests ---- */
   const loseHeart = useCallback(() => {
@@ -411,7 +445,7 @@ function useBankState() {
     const def = questsFor(k, perksRef.current.questSlots).find((q) => q.id === id);
     const g0 = gameRef.current;
     if (!def || g0.quests.date !== k || g0.quests.claimed.includes(id) || (g0.quests.progress[def.kind] ?? 0) < def.target) return;
-    setGame((g) => ({ ...g, gems: g.gems + def.reward, quests: { ...g.quests, claimed: [...g.quests.claimed, id] } }));
+    setGame((g) => g.quests.claimed.includes(id) ? g : ({ ...g, gems: g.gems + def.reward, quests: { ...g.quests, claimed: [...g.quests.claimed, id] } }));
     floatFx(`+${def.reward} 寶石`, "gem", at);
     sfx.chest();
     if (at) confetti({ x: at.x, y: at.y, count: 50, spread: 0.6 });
@@ -431,7 +465,7 @@ function useBankState() {
   const openChest = useCallback((id: string, at?: Point) => {
     if (gameRef.current.path[id]?.done) return 0;
     const n = GEMS.chestMin + Math.floor(Math.random() * (GEMS.chestMax - GEMS.chestMin + 1));
-    setGame((g) => ({ ...g, gems: g.gems + n, path: { ...g.path, [id]: { done: true, perfect: false, plays: 1 } } }));
+    setGame((g) => g.path[id]?.done ? g : ({ ...g, gems: g.gems + n, path: { ...g.path, [id]: { done: true, perfect: false, plays: 1 } } }));
     floatFx(`+${n} 寶石`, "gem", at);
     sfx.chest();
     confetti({ x: at?.x, y: at?.y, count: 70, spread: 0.7 });
@@ -511,6 +545,9 @@ function useBankState() {
   }, []);
 
   return {
+    language: language as Language,
+    target: languages[language],
+    bestMatch: (tab: TabKey) => game.bestMatch[materialKey(language, tab)],
     items,
     fav,
     learned,
@@ -540,6 +577,7 @@ function useBankState() {
     recordMatch,
     setGoal,
     addGems,
+    finishGrammar,
     bumpQuest,
     loseHeart,
     buy,

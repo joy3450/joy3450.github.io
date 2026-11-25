@@ -275,7 +275,7 @@ function SettingsPanel() {
 }
 
 export function PlayerPanel() {
-  const { game, lvl, streak, todayXP, setGoal } = useBank();
+  const { game, lvl, streak, todayXP, setGoal, bestMatch } = useBank();
   const week = lastNDays(game.days, 7);
   const maxDay = Math.max(game.goal, ...week.map((d) => d.xp));
   const unlocked = ACHIEVEMENTS.filter((a) => game.ach[a.id]).length;
@@ -418,7 +418,7 @@ export function PlayerPanel() {
               <dt className="flex items-center gap-2 text-muted-foreground">
                 <Timer className="h-4 w-4 text-primary" /> 配對・{t.short}
               </dt>
-              <dd className="tabular m-0 font-extrabold">{game.bestMatch[t.k] != null ? fmtTime(game.bestMatch[t.k]!) : "—"}</dd>
+              <dd className="tabular m-0 font-extrabold">{bestMatch(t.k) != null ? fmtTime(bestMatch(t.k)!) : "—"}</dd>
             </div>
           ))}
         </dl>

@@ -22,7 +22,7 @@ export function Flashcards({
   setFront: (f: "zh" | "en") => void;
   active: boolean;
 }) {
-  const { fav, toggleFav, flipped: onFlip, game } = useBank();
+  const { target, fav, toggleFav, flipped: onFlip, game } = useBank();
   const [flipped, setFlipped] = useState(false);
   const [dir, setDir] = useState<0 | 1 | -1>(0);
   const cardRef = useRef<HTMLDivElement>(null);
@@ -92,7 +92,7 @@ export function Flashcards({
               {!flippedToday && <span className="ml-2 rounded-full bg-xp-soft px-2 py-px text-xs font-extrabold text-[hsl(30_100%_30%)] dark:text-xp">+{XP.flip} XP</span>}
             </>
           ) : showEn ? (
-            "英文"
+            `${target.name}`
           ) : (
             "中文"
           )}
@@ -134,10 +134,10 @@ export function Flashcards({
           type="button"
           onClick={() => setFront(zhFirst ? "en" : "zh")}
           className="inline-flex items-center gap-2 justify-self-start rounded-lg px-2.5 py-2 text-sm font-bold text-muted-foreground transition-colors hover:bg-card hover:text-foreground"
-          aria-label={zhFirst ? "目前先看中文，切換成先看英文" : "目前先看英文，切換成先看中文"}
+          aria-label={zhFirst ? `目前先看中文，切換成先看${target.name}` : `目前先看${target.name}，切換成先看中文`}
         >
           <Repeat2 className="h-5 w-5" />
-          <span className="hidden sm:inline">{zhFirst ? "先看中文" : "先看英文"}</span>
+          <span className="hidden sm:inline">{zhFirst ? "先看中文" : `先看${target.name}`}</span>
         </button>
         <div className="flex items-center justify-center gap-3">
           <IconBtn label="上一張" disabled={index === 0} onClick={() => go(-1)} className="h-12 w-12 border-2 hover:border-primary hover:bg-card hover:text-primary">
@@ -151,7 +151,7 @@ export function Flashcards({
           </IconBtn>
         </div>
         <div className="flex justify-end">
-          <IconBtn label="朗讀英文" onClick={() => speak(it.en)}>
+          <IconBtn label={`朗讀${target.name}`} onClick={() => speak(it.en, it.language)}>
             <Volume2 className="h-5 w-5" />
           </IconBtn>
           <IconBtn

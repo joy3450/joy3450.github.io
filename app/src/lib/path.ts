@@ -1,3 +1,4 @@
+import { materialKey } from "./language";
 import type { Item, TabKey } from "./types";
 
 export interface PathNode {
@@ -41,11 +42,12 @@ export function buildPath(items: Item[], tab: TabKey): Unit[] {
     u.items.push(it);
   }
   for (const u of units) {
+    const key = (id: string) => materialKey(u.items[0].language ?? "en", id);
     chunk(u.items).forEach((group, i) =>
-      u.nodes.push({ id: `L:${tab}:${u.sec}:${i}`, type: "lesson", tab, sec: u.sec, n: i + 1, items: group }),
+      u.nodes.push({ id: key(`L:${tab}:${u.sec}:${i}`), type: "lesson", tab, sec: u.sec, n: i + 1, items: group }),
     );
-    if (u.items.length >= 4) u.nodes.push({ id: `B:${tab}:${u.sec}`, type: "boss", tab, sec: u.sec, n: 0, items: u.items });
-    u.nodes.push({ id: `C:${tab}:${u.sec}`, type: "chest", tab, sec: u.sec, n: 0, items: [] });
+    if (u.items.length >= 4) u.nodes.push({ id: key(`B:${tab}:${u.sec}`), type: "boss", tab, sec: u.sec, n: 0, items: u.items });
+    u.nodes.push({ id: key(`C:${tab}:${u.sec}`), type: "chest", tab, sec: u.sec, n: 0, items: [] });
   }
   return units;
 }

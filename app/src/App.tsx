@@ -16,6 +16,7 @@ import { TermList } from "@/components/TermList";
 import { Study } from "@/components/Study";
 import { AddDialog } from "@/components/AddDialog";
 import { Lesson } from "@/components/Lesson";
+import { Grammar } from "@/components/Grammar";
 import { PathView } from "@/components/PathView";
 import type { Level } from "@/lib/levels";
 
@@ -23,7 +24,7 @@ const LS_PREFS = "phraseBank.prefs";
 interface Prefs {
   front?: "zh" | "en";
   theme?: "dark" | "light";
-  view?: "path" | "library";
+  view?: "path" | "library" | "grammar" | "practice";
 }
 function readPrefs(): Prefs {
   try {
@@ -135,14 +136,15 @@ function Milestones({ done, total }: { done: number; total: number }) {
 
 export default function App() {
   const bank = useBank();
-  const { items, learned, fav, game } = bank;
+  const { items, learned, fav, target, language } = bank;
   const [f, setF] = useState<Filters>({ tab: "chat", tone: "all", fav: false, todo: false, q: "" });
   const [fi, setFi] = useState(0);
   const [prefs, setPrefs] = useState<Prefs>(readPrefs);
   const [study, setStudy] = useState<{ mode: StudyMode; pool: Item[] } | null>(null);
   const [lesson, setLesson] = useState<{ title: string; items: Item[]; nodeId?: string; review?: boolean; level?: Level; boss?: boolean; nonce: number } | null>(null);
+  const [topicIds, setTopicIds] = useState<Partial<Record<"en" | "fr", string>>>({});
   const view = prefs.view ?? "path";
-  const setView = (v: "path" | "library") => {
+  const setView = (v: "path" | "library" | "grammar" | "practice") => {
     const p = { ...prefs, view: v };
     setPrefs(p);
     writePrefs(p);
@@ -177,7 +179,7 @@ export default function App() {
   const tabItems = items.filter((i) => i.tab === f.tab);
   const tabDone = tabItems.filter((i) => learned.has(i.id)).length;
   const todoCount = filtered.filter((i) => !learned.has(i.id)).length;
-  const best = game.bestMatch[f.tab];
+  const best = bank.bestMatch(f.tab);
 
   const canSpeak = useMemo(speechSupported, []);
   const startStudy = (mode: StudyMode) => setStudy({ mode, pool: filtered.slice() });
@@ -201,17 +203,27 @@ export default function App() {
           >
             <Menu className="h-5 w-5" />
           </button>
-          <a href="#" className="flex shrink-0 items-center gap-2.5 text-foreground no-underline lg:w-[226px]" onClick={(e) => (e.preventDefault(), window.scrollTo({ top: 0 }))}>
+          <a href="#" className="hidden shrink-0 items-center gap-2.5 text-foreground sm:flex no-underline lg:w-[226px]" onClick={(e) => (e.preventDefault(), window.scrollTo({ top: 0 }))}>
             <span className="grid h-9 w-9 place-items-center rounded-[10px] bg-primary text-lg font-extrabold text-primary-foreground">P</span>
             <span className="hidden text-[19px] font-extrabold tracking-tight sm:inline">Phrase Bank</span>
           </a>
+          <select aria-label="教材語言" value={language}
+              className="h-10 rounded-xl border-2 bg-card px-3 font-bold"
+              onChange={e => {
+                window.speechSynthesis?.cancel();
+                bank.setSetting("language", e.target.value === "fr" ? "fr" : "en");
+                setFi(0);
+              }}>
+              <option value="en">英語</option>
+              <option value="fr">法語</option>
+            </select>
           <div className="relative hidden min-w-0 flex-1 md:block lg:max-w-[560px]">
             <Search className="pointer-events-none absolute left-3.5 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-muted-foreground" />
             <input
               type="search"
               value={f.q}
               onChange={(e) => set({ q: e.target.value })}
-              placeholder="搜尋英文或中文"
+              placeholder={`搜尋${target.name}或中文`}
               aria-label="搜尋"
               className="h-10 w-full rounded-full border-2 border-transparent bg-secondary pl-10 pr-3 text-[15px] outline-none transition-colors placeholder:text-muted-foreground focus:border-primary focus:bg-card"
             />
@@ -253,11 +265,13 @@ export default function App() {
 
         <main className="min-w-0 pb-28 pt-7 lg:pb-16">
           <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
-            <div className="inline-flex rounded-2xl border-2 bg-card p-1" role="tablist" aria-label="檢視">
+            <div className="flex flex-wrap rounded-2xl border-2 bg-card p-1" role="tablist" aria-label="檢視">
               {(
                 [
                   ["path", "學習路徑", MapIcon],
                   ["library", "句子庫", BookOpen],
+                  ["grammar", "文法庫", BookOpen],
+                  ["practice", "文法練功房", PenLine],
                 ] as const
               ).map(([k, label, I]) => (
                 <button
@@ -283,7 +297,7 @@ export default function App() {
               <Trophy className="h-4 w-4 text-xp" /> 任務與成就
             </button>
           </div>
-          <div className="mb-5 flex gap-2 overflow-x-auto pb-1 scrollbar-none lg:hidden">
+          {(view === "path" || view === "library") && <div className="mb-5 flex gap-2 overflow-x-auto pb-1 scrollbar-none lg:hidden">
             {TABS.map((t) => (
               <button
                 key={t.k}
@@ -295,10 +309,16 @@ export default function App() {
                 {t.n}
               </button>
             ))}
-          </div>
+          </div>}
 
-          {view === "path" ? (
-            <PathView
+          {view === "grammar" || view === "practice" ? (
+            <Grammar key={language + view} practice={view === "practice"} topicId={topicIds[language]}
+              selectTopic={id => setTopicIds(prev => ({ ...prev, [language]: id }))}
+              openPractice={() => setView("practice")} openLibrary={() => setView("grammar")} />
+          ) : language === "fr" && !items.length ? (
+            <p role="status" className="rounded-2xl bg-card p-8 text-center font-bold shadow-card">法語教材準備中</p>
+          ) : view === "path" ? (
+            <PathView key={language}
               tab={f.tab}
               onStart={(title, its, opts) => setLesson({ title, items: its, ...opts, nonce: Date.now() })}
               onBrowse={(sec) => {
@@ -314,7 +334,7 @@ export default function App() {
               type="search"
               value={f.q}
               onChange={(e) => set({ q: e.target.value })}
-              placeholder="搜尋英文或中文"
+              placeholder={`搜尋${target.name}或中文`}
               aria-label="搜尋"
               className="h-11 w-full rounded-full border-2 border-transparent bg-card pl-10 pr-3 text-[15px] shadow-card outline-none placeholder:text-muted-foreground focus:border-primary"
             />
@@ -351,7 +371,7 @@ export default function App() {
           </div>
 
           <section id="viewer" className="mt-6" aria-label="單字卡">
-            <Flashcards
+            <Flashcards key={language}
               deck={filtered}
               index={Math.min(fi, Math.max(0, filtered.length - 1))}
               setIndex={setFi}
@@ -403,7 +423,7 @@ export default function App() {
         </SheetContent>
       </Sheet>
 
-      <AddDialog open={addOpen} onOpenChange={setAddOpen} tab={f.tab} onAdded={(t: TabKey) => set({ tab: t })} />
+      <AddDialog key={language} open={addOpen} onOpenChange={setAddOpen} tab={f.tab} onAdded={(t: TabKey) => set({ tab: t })} />
 
       {study && <Study mode={study.mode} pool={study.pool} tab={f.tab} onExit={() => setStudy(null)} />}
       {lesson && (

@@ -10,7 +10,7 @@ const field =
 const lab = "flex flex-col gap-1.5 text-[13px] font-bold text-muted-foreground";
 
 export function AddDialog({ open, onOpenChange, tab, onAdded }: { open: boolean; onOpenChange: (o: boolean) => void; tab: TabKey; onAdded: (t: TabKey) => void }) {
-  const { items, addCustom } = useBank();
+  const { items, addCustom, target } = useBank();
   const [fTab, setFTab] = useState<TabKey>(tab);
   const [sec, setSec] = useState("");
   const [en, setEn] = useState("");
@@ -42,7 +42,7 @@ export function AddDialog({ open, onOpenChange, tab, onAdded }: { open: boolean;
           onSubmit={(e) => {
             e.preventDefault();
             if (!en.trim() || !zh.trim()) {
-              setMsg("英文和中文都要填。");
+              setMsg(target.name + "和中文都要填。");
               return;
             }
             const it = addCustom({ tab: fTab, sec: sec.trim() || "我的句子", en: en.trim(), zh: zh.trim(), ex: ex.trim(), tone });
@@ -74,8 +74,8 @@ export function AddDialog({ open, onOpenChange, tab, onAdded }: { open: boolean;
             </datalist>
           </label>
           <label className={lab + " sm:col-span-2"}>
-            英文
-            <input ref={enRef} className={field} required placeholder="例如：Fancy a cuppa?" value={en} onChange={(e) => setEn(e.target.value)} autoFocus />
+            {target.name}
+            <input ref={enRef} className={field} required placeholder={target.name === "英文" ? "例如：Fancy a cuppa?" : "例如：Bonjour !"} value={en} onChange={(e) => setEn(e.target.value)} autoFocus />
           </label>
           <label className={lab + " sm:col-span-2"}>
             中文意思
@@ -90,7 +90,7 @@ export function AddDialog({ open, onOpenChange, tab, onAdded }: { open: boolean;
             <select className={field} value={tone} onChange={(e) => setTone(e.target.value as Tone)}>
               {TONES.map((t) => (
                 <option key={t} value={t}>
-                  {t}
+                  {target.tones[t]}
                 </option>
               ))}
             </select>

@@ -1,6 +1,6 @@
 import type { TabKey, Tone } from "./types";
 
-type Row = [sec: string, en: string, zh: string, ex: string, tone: Tone];
+export type Row<T extends string = Tone> = [section: string, phrase: string, translation: string, example: string, register: T];
 
 export const RAW: Record<TabKey, Row[]> = {
 chat: [

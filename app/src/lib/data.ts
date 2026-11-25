@@ -1,4 +1,6 @@
-import { RAW } from "./raw";
+import { FRENCH, type FrenchRegister } from "./french";
+import { materialKey, type Language } from "./language";
+import { RAW, type Row } from "./raw";
 import type { Item, TabKey, Tone } from "./types";
 
 export const TABS: { k: TabKey; n: string; short: string }[] = [
@@ -10,18 +12,25 @@ export const TABS: { k: TabKey; n: string; short: string }[] = [
 
 export const TONES: Tone[] = ["casual", "neutral", "formal"];
 
-export const BUILTIN: Item[] = TABS.flatMap((t) =>
-  RAW[t.k].map((r, i) => ({
-    id: t.k + (i + 1),
-    tab: t.k,
-    sec: r[0],
-    en: r[1],
-    zh: r[2],
-    ex: r[3],
-    tone: r[4],
-    custom: false,
-  })),
-);
+const frenchTones: Record<FrenchRegister, Tone> = { familier: "casual", courant: "neutral", soutenu: "formal" };
+
+function course<T extends string>(language: Language, rows: Record<TabKey, Row<T>[]>, toneOf: (register: T) => Tone): Item[] {
+  return TABS.flatMap((t) =>
+    rows[t.k].map((r, i) => ({
+      language,
+      id: materialKey(language, t.k + (i + 1)),
+      tab: t.k,
+      sec: r[0],
+      en: r[1],
+      zh: r[2],
+      ex: r[3],
+      tone: toneOf(r[4]),
+      custom: false,
+    })),
+  );
+}
+
+export const courses = { en: course("en", RAW, tone => tone), fr: course("fr", FRENCH, tone => frenchTones[tone]) };
 
 export function tabName(k: TabKey) {
   return TABS.find((t) => t.k === k)?.n ?? k;

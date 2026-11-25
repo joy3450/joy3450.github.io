@@ -1,8 +1,13 @@
+import type { Language } from "./language";
+
+import type { GrammarProgress } from "./grammar";
+
 export type Tone = "casual" | "neutral" | "formal";
 export type TabKey = "chat" | "coffee" | "class" | "vocab";
 
 export interface Item {
   id: string;
+  language?: Language;
   tab: TabKey;
   sec: string;
   en: string;
@@ -24,6 +29,7 @@ export type StudyMode = "learn" | "write" | "test" | "match";
 
 export interface GameState {
   xp: number;
+  grammar: Record<string, GrammarProgress>;
   /** XP earned per local date, keyed YYYY-MM-DD */
   days: Record<string, number>;
   /** unlocked achievement id -> date unlocked */
@@ -33,7 +39,7 @@ export interface GameState {
   /** ids that have ever been marked learned, so toggling cannot farm XP */
   ever: string[];
   /** best match time in seconds, per tab */
-  bestMatch: Partial<Record<TabKey, number>>;
+  bestMatch: Partial<Record<string, number>>;
   bestCombo: number;
   goal: number;
   gems: number;
@@ -50,5 +56,5 @@ export interface GameState {
   mistakes: Record<string, number>;
   /** double XP active until this timestamp (ms) */
   boostUntil: number;
-  settings: { hearts: boolean; sound: boolean; level: 1 | 2; theme: "indigo" | "forest" | "sunset" | "midnight" | "gold" };
+  settings: { language?: Language; hearts: boolean; sound: boolean; level: 1 | 2; theme: "indigo" | "forest" | "sunset" | "midnight" | "gold" };
 }

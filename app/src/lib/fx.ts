@@ -1,3 +1,4 @@
+import { languages, type Language } from "./language";
 /* Small visual-effects helpers: floating "+XP" labels, confetti, toasts, speech. */
 
 export const reducedMotion = () =>
@@ -147,7 +148,7 @@ export function confetti(opts: { x?: number; y?: number; count?: number; spread?
 }
 
 /* ---------- Speech & clipboard ---------- */
-export function speak(text: string) {
+export function speak(text: string, language: Language = "en", rate = 0.95) {
   if (!("speechSynthesis" in window)) {
     toast("這個瀏覽器不支援朗讀");
     return;
@@ -155,9 +156,9 @@ export function speak(text: string) {
   try {
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = "en-GB";
-    u.rate = 0.95;
-    const v = speechSynthesis.getVoices().find((v) => /^en-GB/i.test(v.lang));
+    u.lang = languages[language].voice;
+    u.rate = rate;
+    const v = speechSynthesis.getVoices().find((v) => v.lang.toLowerCase() === u.lang.toLowerCase());
     if (v) u.voice = v;
     speechSynthesis.speak(u);
   } catch {

@@ -8,6 +8,8 @@
  * or extra word), weighting small function words less than content words.
  */
 
+import type { Language } from "./language";
+
 export type Level = "perfect" | "close" | "partial" | "miss";
 
 export interface GradeResult {
@@ -27,7 +29,8 @@ const STOP = new Set(
   "a an the to of and or but so is am are was were be been i you we they he she it this that there in on at for with by from as do does did have has had will would can could should shall may might not just me my your our".split(" "),
 );
 
-export function norm(s: string): string {
+export function norm(s: string, language: Language = "en"): string {
+  if (language === "fr") return s.normalize("NFC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
   let t = s
     .toLowerCase()
     .replace(/[’‘`´]/g, "'")
@@ -111,13 +114,13 @@ function lcsHits(t: string[], a: string[]): boolean[] {
   return hit;
 }
 
-export function grade(answer: string, target: string): GradeResult {
+export function grade(answer: string, target: string, language: Language = "en"): GradeResult {
   const display = target.split(/\s+/).filter(Boolean);
   // Map each display word to its normalised tokens so hits can be shown per word.
   const owner: number[] = [];
   const tTok: string[] = [];
   display.forEach((w, k) => {
-    norm(w)
+    norm(w, language)
       .split(" ")
       .filter(Boolean)
       .forEach((t) => {
@@ -125,7 +128,7 @@ export function grade(answer: string, target: string): GradeResult {
         owner.push(k);
       });
   });
-  const A = norm(answer);
+  const A = norm(answer, language);
   const aTok = A ? A.split(" ") : [];
   const hits = lcsHits(tTok, aTok);
 
@@ -176,14 +179,14 @@ export function grade(answer: string, target: string): GradeResult {
 export function hintOf(target: string) {
   return target
     .split(/\s+/)
-    .map((w) => w.replace(/[A-Za-z]+(?:['’][A-Za-z]+)*/g, (m) => m[0] + m.slice(1).replace(/[A-Za-z]/g, "_")))
+    .map((w) => w.replace(/\p{L}+(?:['’]\p{L}+)*/gu, (m) => m[0] + m.slice(1).replace(/\p{L}/gu, "_")))
     .join(" ");
 }
 
-export function bestOf(answers: string[], target: string) {
+export function bestOf(answers: string[], target: string, language: Language = "en") {
   let best: { text: string; g: GradeResult } | null = null;
   for (const a of answers) {
-    const g = grade(a, target);
+    const g = grade(a, target, language);
     if (!best || g.score > best.g.score) best = { text: a, g };
   }
   return best;

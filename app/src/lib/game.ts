@@ -144,6 +144,7 @@ export function achById(id: string) {
 
 export const DEFAULT_GAME: GameState = {
   xp: 0,
+  grammar: {},
   days: {},
   ach: {},
   flips: { date: "", ids: [] },
@@ -151,8 +152,8 @@ export const DEFAULT_GAME: GameState = {
   bestMatch: {},
   bestCombo: 0,
   goal: 60,
-  gems: 50,
-  hearts: 5,
+  gems: 10000,
+  hearts: 100,
   heartsAt: 0,
   freezes: 0,
   frozen: [],

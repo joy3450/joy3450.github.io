@@ -1,3 +1,4 @@
+import { useBank } from "@/lib/store";
 import type { ComponentType, ReactNode } from "react";
 import { BookOpen, Crown, Diamond, ShieldCheck, Swords, Flag, Flame, Gem, Keyboard, Map as MapIcon, Medal, Mic, PenLine, Sprout, Star, Target, Timer, Trophy, Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -127,7 +128,8 @@ const TONE_CLS: Record<Tone, string> = {
 const TONE_DOT: Record<Tone, string> = { casual: "bg-casual", neutral: "bg-neu", formal: "bg-formal" };
 
 export function ToneTag({ tone, className }: { tone: Tone; className?: string }) {
-  return <span className={cn("rounded-md px-2 py-px text-xs font-bold", TONE_CLS[tone], className)}>{tone}</span>;
+  const { target } = useBank();
+  return <span className={cn("rounded-md px-2 py-px text-xs font-bold", TONE_CLS[tone], className)}>{target.tones[tone]}</span>;
 }
 export function ToneDot({ tone }: { tone: Tone }) {
   return <span className={cn("h-2 w-2 rounded-full", TONE_DOT[tone])} />;
