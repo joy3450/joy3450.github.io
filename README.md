@@ -2,7 +2,7 @@
 
 上課、跟同學聊天、coffee chat 和面試用得到的英文句子，加上遊戲化的練習。
 
-網站：https://joy3450.github.io/
+網站：https://joy3450.github.io/phrase-bank/
 
 文法庫收錄英文與法文各 76 個主題，可從主題頁直接進入文法練功房。原始遊戲來自 [HsiaoLiang/phrase-bank](https://github.com/HsiaoLiang/phrase-bank)。
 
@@ -51,13 +51,13 @@
 
 ## 開發
 
-原始碼在 `app/`（React + TypeScript + Tailwind CSS + shadcn/ui）。根目錄的 `index.html` 是打包好的單一檔案，GitHub Pages 直接發佈它。
+原始碼在 `app/`（React + TypeScript + Tailwind CSS + shadcn/ui）。`phrase-bank/index.html` 是打包好的單一檔案，GitHub Pages 直接發佈它。
 
 ```bash
 cd app
 pnpm install
 pnpm dev          # 本機開發
-pnpm run bundle   # 打包並覆寫根目錄的 index.html
+pnpm run bundle   # 打包並覆寫phrase-bank/index.html
 ```
 
 改完記得跑 `pnpm run bundle`，再把 `index.html` 一起 commit。

@@ -9,7 +9,7 @@ import { useBank } from "@/lib/store";
 import type { Filters, Item, StudyMode, TabKey } from "@/lib/types";
 import { Bar, LevelBadge, Ring, fmtTime } from "@/components/game/bits";
 import { FxLayer } from "@/components/game/FxLayer";
-import { FilterChips, LeftNav } from "@/components/LeftNav";
+import { FilterChips, LeftNav, secId } from "@/components/LeftNav";
 import { PlayerPanel } from "@/components/PlayerPanel";
 import { Flashcards } from "@/components/Flashcards";
 import { TermList } from "@/components/TermList";
@@ -144,7 +144,11 @@ export default function App() {
   const [lesson, setLesson] = useState<{ title: string; items: Item[]; nodeId?: string; review?: boolean; level?: Level; boss?: boolean; nonce: number } | null>(null);
   const [topicIds, setTopicIds] = useState<Partial<Record<"en" | "fr", string>>>({});
   const view = prefs.view ?? "path";
+  const clearSection = () => {
+    if (location.hash.startsWith("#sec-")) history.replaceState(null, "", location.pathname);
+  };
   const setView = (v: "path" | "library" | "grammar" | "practice") => {
+    clearSection();
     const p = { ...prefs, view: v };
     setPrefs(p);
     writePrefs(p);
@@ -163,6 +167,40 @@ export default function App() {
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
   }, [dark]);
+
+  const [pendingSection, setPendingSection] = useState("");
+  useEffect(() => {
+    const navigate = () => {
+      const id = location.hash.slice(1);
+      if (!id.startsWith("sec-")) return;
+      const params = new URLSearchParams(location.search);
+      const order = params.get("lang") === "fr" ? ["fr", "en"] as const : ["en", "fr"] as const;
+      for (const lang of order) {
+        const matches = bank.catalogs[lang].filter(i => secId(i.sec || "我的句子") === id);
+        const item = matches.find(i => i.tab === params.get("tab")) ?? matches[0];
+        if (!item) continue;
+        bank.setSetting("language", lang);
+        const updated = { ...readPrefs(), view: "library" as const };
+        setPrefs(updated);
+        writePrefs(updated);
+        setF({ tab: item.tab, tone: "all", fav: false, todo: false, q: "" });
+        setFi(0);
+        setPendingSection(id);
+        return;
+      }
+    };
+    navigate();
+    window.addEventListener("hashchange", navigate);
+    return () => window.removeEventListener("hashchange", navigate);
+  }, [bank.catalogs, bank.setSetting]);
+  useEffect(() => {
+    if (!pendingSection || view !== "library") return;
+    const frame = requestAnimationFrame(() => {
+      document.getElementById(pendingSection)?.scrollIntoView({ block: "start", behavior: "instant" });
+      setPendingSection("");
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [pendingSection, view, items]);
 
   const filtered = useMemo(() => {
     const q = norm(f.q).trim();
@@ -211,6 +249,7 @@ export default function App() {
               className="h-10 rounded-xl border-2 bg-card px-3 font-bold"
               onChange={e => {
                 window.speechSynthesis?.cancel();
+                clearSection();
                 bank.setSetting("language", e.target.value === "fr" ? "fr" : "en");
                 setFi(0);
               }}>

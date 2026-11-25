@@ -5,5 +5,6 @@ set -e
 cd "$(dirname "$0")/.."
 rm -rf dist .parcel-cache
 pnpm exec parcel build index.html --dist-dir dist --no-source-maps
-node scripts/inline.mjs dist/index.html ../index.html
-echo "Wrote ../index.html ($(du -h ../index.html | cut -f1))"
+mkdir -p ../phrase-bank
+node scripts/inline.mjs dist/index.html ../phrase-bank/index.html
+echo "Wrote ../phrase-bank/index.html ($(du -h ../phrase-bank/index.html | cut -f1))"

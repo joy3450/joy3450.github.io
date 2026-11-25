@@ -35,7 +35,7 @@ export function FilterChips({ f, set }: { f: Filters; set: (p: Partial<Filters>)
 }
 
 export function LeftNav({ f, set, onJump }: { f: Filters; set: (p: Partial<Filters>) => void; onJump?: () => void }) {
-  const { items, learned, synced } = useBank();
+  const { items, learned, synced, language } = useBank();
   const tabItems = items.filter((i) => i.tab === f.tab);
   const sections: { sec: string; list: Item[] }[] = [];
   tabItems.forEach((it) => {
@@ -97,8 +97,14 @@ export function LeftNav({ f, set, onJump }: { f: Filters; set: (p: Partial<Filte
             return (
               <li key={s.sec}>
                 <a
-                  href={"#" + secId(s.sec)}
-                  onClick={() => onJump?.()}
+                  href={(language === "fr" ? "?lang=fr&tab=" + f.tab : items.some(i => i.tab !== f.tab && i.sec === s.sec) ? "?tab=" + f.tab : location.pathname) + "#" + secId(s.sec)}
+                  onClick={e => {
+                    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+                    e.preventDefault();
+                    history.pushState(null, "", e.currentTarget.href);
+                    onJump?.();
+                    window.dispatchEvent(new Event("hashchange"));
+                  }}
                   className="group flex items-center gap-2.5 rounded-lg px-2 py-1.5 text-sm text-muted-foreground no-underline transition-colors hover:bg-card hover:text-foreground"
                 >
                   <span

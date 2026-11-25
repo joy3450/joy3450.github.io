@@ -545,6 +545,7 @@ function useBankState() {
   }, []);
 
   return {
+    catalogs,
     language: language as Language,
     target: languages[language],
     bestMatch: (tab: TabKey) => game.bestMatch[materialKey(language, tab)],
