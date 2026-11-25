@@ -12,6 +12,7 @@ export interface GrammarQuestion {
 
 export interface GrammarTopic {
   language: string;
+  level?: string;
   id: string;
   title: string;
   explanation: string[];

@@ -9,7 +9,9 @@ const primary = "rounded-xl bg-primary px-5 py-2.5 font-bold text-primary-foregr
 const secondary = "rounded-xl border-2 bg-card px-4 py-2 font-bold";
 const card = "space-y-5 rounded-2xl bg-card p-5 shadow-card sm:p-7";
 
-export function Grammar({ practice, topicId, selectTopic, openPractice, openLibrary }: {
+export function Grammar({ level, setLevel, practice, topicId, selectTopic, openPractice, openLibrary }: {
+  level: string;
+  setLevel: (level: string) => void;
   practice: boolean;
   topicId?: string;
   selectTopic: (id: string) => void;
@@ -17,12 +19,21 @@ export function Grammar({ practice, topicId, selectTopic, openPractice, openLibr
   openLibrary: () => void;
 }) {
   const { language, game } = useBank();
-  const topics = grammarTopics(language);
+  const topics = grammarTopics(language).filter(t => level === "全部" || t.level === level);
   const topic = topics.find(t => t.id === topicId) ?? topics[0];
-  if (!topic) return <p className={card}>文法教材準備中</p>;
-  const progress = game.grammar[language + ":" + topic.id];
-  const mastered = topic.questions.filter(q => progress?.correct.includes(q.id)).length;
+
+  const progress = game.grammar[language + ":" + topic?.id];
+  const mastered = topic?.questions.filter(q => progress?.correct.includes(q.id)).length;
   return <section className="space-y-4">
+    <div role="group" aria-label="程度" className="flex flex-wrap items-center gap-2">
+      <span className="font-bold">程度</span>
+      {["全部", "A1", "A2", "B1", "B2", "C1", "C2"].map(value =>
+        <button key={value} type="button" aria-pressed={level === value}
+          className={level === value ? primary : secondary}
+          onClick={() => setLevel(value)}>{value}</button>
+      )}
+    </div>
+    {!topic ? <p className={card}>此程度尚無文法主題</p> : <>
     <label className="flex flex-wrap items-center gap-3 font-bold">
       文法主題
       <select className={secondary + " max-w-full"} value={topic.id} onChange={e => selectTopic(e.target.value)}>
@@ -47,6 +58,7 @@ export function Grammar({ practice, topicId, selectTopic, openPractice, openLibr
         <button type="button" className={primary} onClick={openPractice}>練這個主題</button>
       </>}
     </article>
+    </>}
   </section>;
 }
 

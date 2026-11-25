@@ -3,6 +3,7 @@
     {
       "language": "en",
       "id": "past-modal-deduction",
+      "level": "B2",
       "title": "用情態動詞推斷過去",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -80,6 +81,7 @@
     {
       "language": "fr",
       "id": "polite-conditional-requests",
+      "level": "B1",
       "title": "用條件式緩和請求",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -152,6 +154,7 @@
     {
       "language": "en",
       "id": "be-identity",
+      "level": "A1",
       "title": "be 動詞與身分介紹",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -226,6 +229,7 @@
     {
       "language": "en",
       "id": "present-habits",
+      "level": "A1",
       "title": "現在簡單式與日常習慣",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -300,6 +304,7 @@
     {
       "language": "en",
       "id": "english-articles",
+      "level": "A1",
       "title": "a、an 與 the",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -374,6 +379,7 @@
     {
       "language": "en",
       "id": "simple-past",
+      "level": "A2",
       "title": "過去簡單式與已結束的時間",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -448,6 +454,7 @@
     {
       "language": "en",
       "id": "comparatives",
+      "level": "A2",
       "title": "比較級與 than",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -522,6 +529,7 @@
     {
       "language": "en",
       "id": "countability",
+      "level": "A2",
       "title": "可數、不可數與數量詞",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -596,6 +604,7 @@
     {
       "language": "en",
       "id": "since-for",
+      "level": "B1",
       "title": "現在完成式與持續時間",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -670,6 +679,7 @@
     {
       "language": "en",
       "id": "first-conditional",
+      "level": "B1",
       "title": "第一條件句與未來計畫",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -744,6 +754,7 @@
     {
       "language": "en",
       "id": "embedded-questions",
+      "level": "B1",
       "title": "間接問句的語序",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：常",
@@ -818,6 +829,7 @@
     {
       "language": "en",
       "id": "past-counterfactual",
+      "level": "B2",
       "title": "第三條件句與過去的反事實",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：常",
@@ -892,6 +904,7 @@
     {
       "language": "en",
       "id": "supplementary-relative",
+      "level": "B2",
       "title": "非限定關係子句",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：常",
@@ -966,6 +979,7 @@
     {
       "language": "en",
       "id": "negative-fronting",
+      "level": "C1",
       "title": "否定副詞前置與倒裝",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：常",
@@ -1040,6 +1054,7 @@
     {
       "language": "en",
       "id": "anterior-participle",
+      "level": "C1",
       "title": "分詞子句與時間先後",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：常",
@@ -1114,6 +1129,7 @@
     {
       "language": "en",
       "id": "reported-infinitive",
+      "level": "C1",
       "title": "被動報導句與不定詞時態",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：常",
@@ -1188,6 +1204,7 @@
     {
       "language": "en",
       "id": "though-fronting",
+      "level": "C2",
       "title": "讓步倒裝與 as、though",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：進",
@@ -1262,6 +1279,7 @@
     {
       "language": "en",
       "id": "conditional-inversion",
+      "level": "C2",
       "title": "正式條件句的省略與倒裝",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：進",
@@ -1336,6 +1354,7 @@
     {
       "language": "en",
       "id": "nominal-substitution",
+      "level": "C2",
       "title": "指代替換與避免歧義",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：進",
@@ -1410,6 +1429,7 @@
     {
       "language": "en",
       "id": "there-is",
+      "level": "A1",
       "title": "用 there is／are 介紹空間",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -1485,6 +1505,7 @@
     {
       "language": "en",
       "id": "demonstratives",
+      "level": "A1",
       "title": "指示詞的遠近與單複數",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -1560,6 +1581,7 @@
     {
       "language": "en",
       "id": "as-as",
+      "level": "A2",
       "title": "as…as 的同等比較",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -1635,6 +1657,7 @@
     {
       "language": "en",
       "id": "arranged-future",
+      "level": "A2",
       "title": "用現在進行式說已約好的行程",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -1710,6 +1733,7 @@
     {
       "language": "en",
       "id": "used-to",
+      "level": "B1",
       "title": "used to 與 be used to",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -1785,6 +1809,7 @@
     {
       "language": "en",
       "id": "relative-defining",
+      "level": "B1",
       "title": "限定關係子句中的主詞與受詞",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -1860,6 +1885,7 @@
     {
       "language": "en",
       "id": "gerund-preposition",
+      "level": "B1",
       "title": "介系詞後的動名詞",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -1935,6 +1961,7 @@
     {
       "language": "en",
       "id": "present-perfect-yet",
+      "level": "B1",
       "title": "yet 與 already 的完成式問句",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -2010,6 +2037,7 @@
     {
       "language": "en",
       "id": "past-perfect",
+      "level": "B2",
       "title": "過去完成式與事件先後",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -2085,6 +2113,7 @@
     {
       "language": "en",
       "id": "future-perfect",
+      "level": "B2",
       "title": "未來完成式與截止時間",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -2160,6 +2189,7 @@
     {
       "language": "en",
       "id": "second-conditional",
+      "level": "B2",
       "title": "第二條件句的假設距離",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -2235,6 +2265,7 @@
     {
       "language": "en",
       "id": "causative-have",
+      "level": "B2",
       "title": "have something done 與委託服務",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -2310,6 +2341,7 @@
     {
       "language": "en",
       "id": "despite-although",
+      "level": "B2",
       "title": "despite 與 although 的補語",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -2385,6 +2417,7 @@
     {
       "language": "en",
       "id": "past-habit-would",
+      "level": "B2",
       "title": "用 would 回憶反覆發生的事",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -2460,6 +2493,7 @@
     {
       "language": "en",
       "id": "wish-present",
+      "level": "B2",
       "title": "wish 加過去式表達對現況的願望",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -2535,6 +2569,7 @@
     {
       "language": "en",
       "id": "only-after",
+      "level": "C1",
       "title": "Only after 置首時，哪個子句倒裝？",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -2610,6 +2645,7 @@
     {
       "language": "en",
       "id": "not-until-cleft",
+      "level": "C1",
       "title": "It was not until…that 聚焦時間",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -2685,6 +2721,7 @@
     {
       "language": "en",
       "id": "mixed-present-result",
+      "level": "C1",
       "title": "過去的選擇如何影響現在",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -2760,6 +2797,7 @@
     {
       "language": "en",
       "id": "mixed-past-result",
+      "level": "C1",
       "title": "長期特質如何解釋錯過的事",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -2835,6 +2873,7 @@
     {
       "language": "en",
       "id": "wish-regret",
+      "level": "C1",
       "title": "用 wish 加過去完成式回顧遺憾",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -2910,6 +2949,7 @@
     {
       "language": "en",
       "id": "would-rather",
+      "level": "C1",
       "title": "would rather 後面換主詞",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -2985,6 +3025,7 @@
     {
       "language": "en",
       "id": "mandative",
+      "level": "C1",
       "title": "提案與要求中的原形虛擬式",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3060,6 +3101,7 @@
     {
       "language": "en",
       "id": "neednt-have",
+      "level": "C1",
       "title": "needn't have done 與不必要的行動",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3135,6 +3177,7 @@
     {
       "language": "en",
       "id": "was-to-have",
+      "level": "C1",
       "title": "was to have done 與落空的安排",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：低",
@@ -3210,6 +3253,7 @@
     {
       "language": "en",
       "id": "ongoing-passive",
+      "level": "B2",
       "title": "進行中的被動與已完成的被動",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -3285,6 +3329,7 @@
     {
       "language": "en",
       "id": "reduced-relative",
+      "level": "C1",
       "title": "過去分詞片語縮短被動關係子句",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3360,6 +3405,7 @@
     {
       "language": "en",
       "id": "whatever",
+      "level": "C1",
       "title": "whatever 與不受結果影響的承諾",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3435,6 +3481,7 @@
     {
       "language": "en",
       "id": "lest",
+      "level": "C1",
       "title": "lest 引出要避免的結果",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：低",
@@ -3510,6 +3557,7 @@
     {
       "language": "en",
       "id": "irrealis-were",
+      "level": "C1",
       "title": "as if 加 were 與非現實身分",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3585,6 +3633,7 @@
     {
       "language": "en",
       "id": "high-time",
+      "level": "C1",
       "title": "It's high time 與拖延已久的行動",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3660,6 +3709,7 @@
     {
       "language": "en",
       "id": "what-cleft",
+      "level": "C1",
       "title": "What…is 分裂句與焦點",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3735,6 +3785,7 @@
     {
       "language": "en",
       "id": "no-sooner",
+      "level": "C1",
       "title": "No sooner…than 的時間倒裝",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3810,6 +3861,7 @@
     {
       "language": "en",
       "id": "scarcely",
+      "level": "C1",
       "title": "scarcely any 與近乎為零的數量",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3885,6 +3937,7 @@
     {
       "language": "en",
       "id": "not-that",
+      "level": "C1",
       "title": "not that A, but that B 修正理由",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -3960,6 +4013,7 @@
     {
       "language": "en",
       "id": "what-little",
+      "level": "C1",
       "title": "what little 與 what few 指僅有的全部",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：低",
@@ -4035,6 +4089,7 @@
     {
       "language": "en",
       "id": "such-inversion",
+      "level": "C2",
       "title": "Such was／were…that 的程度結果句",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",
@@ -4110,6 +4165,7 @@
     {
       "language": "en",
       "id": "so-inversion",
+      "level": "C2",
       "title": "So 加形容詞置首的程度倒裝",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",
@@ -4185,6 +4241,7 @@
     {
       "language": "en",
       "id": "as-if-past",
+      "level": "C2",
       "title": "as if 加過去完成式與證據強度",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -4260,6 +4317,7 @@
     {
       "language": "en",
       "id": "but-for",
+      "level": "C2",
       "title": "but for 壓縮反事實條件",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -4335,6 +4393,7 @@
     {
       "language": "en",
       "id": "except-that",
+      "level": "C2",
       "title": "except that 引出唯一的保留",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -4410,6 +4469,7 @@
     {
       "language": "en",
       "id": "far-from",
+      "level": "C2",
       "title": "far from 加動名詞推翻預期",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -4485,6 +4545,7 @@
     {
       "language": "en",
       "id": "much-as",
+      "level": "C2",
       "title": "much as 承認意願再設限",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -4560,6 +4621,7 @@
     {
       "language": "en",
       "id": "be-that-as",
+      "level": "C2",
       "title": "Be that as it may 承接不同意見",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",
@@ -4635,6 +4697,7 @@
     {
       "language": "en",
       "id": "come-what-may",
+      "level": "C2",
       "title": "come what may 表達無條件承諾",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",
@@ -4710,6 +4773,7 @@
     {
       "language": "en",
       "id": "modal-progressive",
+      "level": "C2",
       "title": "情態完成進行式推估當時的活動",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -4785,6 +4849,7 @@
     {
       "language": "en",
       "id": "may-well",
+      "level": "C2",
       "title": "may well 與 may as well",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -4860,6 +4925,7 @@
     {
       "language": "en",
       "id": "scope-all",
+      "level": "C2",
       "title": "not all 與 none 的否定範圍",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -4935,6 +5001,7 @@
     {
       "language": "en",
       "id": "scope-only",
+      "level": "C2",
       "title": "only 的位置與焦點範圍",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5010,6 +5077,7 @@
     {
       "language": "en",
       "id": "correlative",
+      "level": "C2",
       "title": "the…the… 的連動比較",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5085,6 +5153,7 @@
     {
       "language": "en",
       "id": "all-the-more",
+      "level": "C2",
       "title": "all the more 與程度加深的理由",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5160,6 +5229,7 @@
     {
       "language": "en",
       "id": "quantity-bound",
+      "level": "C2",
       "title": "no more than 的上限與 no fewer than 的下限",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5235,6 +5305,7 @@
     {
       "language": "en",
       "id": "not-so-much",
+      "level": "C2",
       "title": "not so much A as B 重新界定問題",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5310,6 +5381,7 @@
     {
       "language": "en",
       "id": "relative-number",
+      "level": "C2",
       "title": "one of those who 的先行詞與數量一致",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5385,6 +5457,7 @@
     {
       "language": "en",
       "id": "whoever",
+      "level": "C2",
       "title": "whoever 的內層主詞與外層介系詞",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5460,6 +5533,7 @@
     {
       "language": "en",
       "id": "prep-whom",
+      "level": "C2",
       "title": "正式關係子句的介系詞與 whom",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5535,6 +5609,7 @@
     {
       "language": "en",
       "id": "ellipsis-any",
+      "level": "C2",
       "title": "if any 與 if ever 的省略保留",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：中",
@@ -5610,6 +5685,7 @@
     {
       "language": "en",
       "id": "raising-appear",
+      "level": "C1",
       "title": "appear to have 與報告中的審慎判斷",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -5685,6 +5761,7 @@
     {
       "language": "en",
       "id": "passive-ing",
+      "level": "C1",
       "title": "英式 need doing 的被動意義",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -5760,6 +5837,7 @@
     {
       "language": "fr",
       "id": "articles-genre",
+      "level": "A1",
       "title": "冠詞與名詞的性數",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -5834,6 +5912,7 @@
     {
       "language": "fr",
       "id": "present-personnes",
+      "level": "A1",
       "title": "現在式與主詞人稱",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -5908,6 +5987,7 @@
     {
       "language": "fr",
       "id": "questions-est-ce",
+      "level": "A1",
       "title": "用 est-ce que 問問題",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -5983,6 +6063,7 @@
     {
       "language": "fr",
       "id": "passe-compose",
+      "level": "A2",
       "title": "複合過去式：已完成的事件",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -6057,6 +6138,7 @@
     {
       "language": "fr",
       "id": "comparaison",
+      "level": "A2",
       "title": "比較級與最高級",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -6131,6 +6213,7 @@
     {
       "language": "fr",
       "id": "objets-pronominaux",
+      "level": "A2",
       "title": "直接與間接受詞代名詞",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：常",
@@ -6205,6 +6288,7 @@
     {
       "language": "fr",
       "id": "imparfait-recit",
+      "level": "B1",
       "title": "未完成過去式與複合過去式",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -6279,6 +6363,7 @@
     {
       "language": "fr",
       "id": "relatif-simple",
+      "level": "B1",
       "title": "關係代名詞 qui、que、où",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -6353,6 +6438,7 @@
     {
       "language": "fr",
       "id": "necessite-subjonctif",
+      "level": "B2",
       "title": "虛擬式：立場、必要與讓步",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -6427,6 +6513,7 @@
     {
       "language": "fr",
       "id": "pronoms-y-en",
+      "level": "B2",
       "title": "代名詞 y 與 en",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：常",
@@ -6501,6 +6588,7 @@
     {
       "language": "fr",
       "id": "si-plus-que-parfait",
+      "level": "B2",
       "title": "過去未實現的假設",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：常",
@@ -6575,6 +6663,7 @@
     {
       "language": "fr",
       "id": "relatif-preposition",
+      "level": "C1",
       "title": "複合關係代名詞與介系詞",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：常",
@@ -6649,6 +6738,7 @@
     {
       "language": "fr",
       "id": "discours-rapporte",
+      "level": "C1",
       "title": "間接引語與過去觀點",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：常",
@@ -6723,6 +6813,7 @@
     {
       "language": "fr",
       "id": "gerondif",
+      "level": "C1",
       "title": "副動詞：同一主詞的兩個動作",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：常",
@@ -6797,6 +6888,7 @@
     {
       "language": "fr",
       "id": "condition-ecrite",
+      "level": "C2",
       "title": "正式書面語的限制條件",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：進",
@@ -6871,6 +6963,7 @@
     {
       "language": "fr",
       "id": "ne-expletif",
+      "level": "C2",
       "title": "贅詞 ne 與真正的否定",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：進",
@@ -6945,6 +7038,7 @@
     {
       "language": "fr",
       "id": "hypothese-inversee",
+      "level": "C2",
       "title": "文學與論述中的倒裝假設",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：進",
@@ -7019,6 +7113,7 @@
     {
       "language": "fr",
       "id": "avoir-age",
+      "level": "A1",
       "title": "用 avoir 表達年齡",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -7094,6 +7189,7 @@
     {
       "language": "fr",
       "id": "ne-pas",
+      "level": "A1",
       "title": "ne…pas 與 ne…plus",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -7169,6 +7265,7 @@
     {
       "language": "fr",
       "id": "possessifs",
+      "level": "A1",
       "title": "所有形容詞跟誰配合？",
       "explanation": [
         "CEFR A1 ｜ 使用頻率：高",
@@ -7244,6 +7341,7 @@
     {
       "language": "fr",
       "id": "partitif",
+      "level": "A2",
       "title": "用部分冠詞取用未計量的東西",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -7319,6 +7417,7 @@
     {
       "language": "fr",
       "id": "quantite-de",
+      "level": "A2",
       "title": "數量詞之後的 de",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -7394,6 +7493,7 @@
     {
       "language": "fr",
       "id": "futur-proche",
+      "level": "A2",
       "title": "aller 加原形與近期打算",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -7469,6 +7569,7 @@
     {
       "language": "fr",
       "id": "passe-recent",
+      "level": "A2",
       "title": "venir de 與剛完成的動作",
       "explanation": [
         "CEFR A2 ｜ 使用頻率：高",
@@ -7544,6 +7645,7 @@
     {
       "language": "fr",
       "id": "pronominal",
+      "level": "B1",
       "title": "代名動詞與反身代名詞",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -7619,6 +7721,7 @@
     {
       "language": "fr",
       "id": "lieu-pays",
+      "level": "B1",
       "title": "城市與國名的地點介系詞",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -7694,6 +7797,7 @@
     {
       "language": "fr",
       "id": "imperatif-tu",
+      "level": "B1",
       "title": "給熟人的 tu 命令式",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -7769,6 +7873,7 @@
     {
       "language": "fr",
       "id": "plus-que-parfait",
+      "level": "B1",
       "title": "愈過去式與更早發生的事",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -7844,6 +7949,7 @@
     {
       "language": "fr",
       "id": "futur-simple",
+      "level": "B1",
       "title": "簡單未來式的承諾",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：中",
@@ -7919,6 +8025,7 @@
     {
       "language": "fr",
       "id": "quand-futur",
+      "level": "B1",
       "title": "quand 引出未來時間",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -7994,6 +8101,7 @@
     {
       "language": "fr",
       "id": "si-present",
+      "level": "B1",
       "title": "si 加現在式的開放條件",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8069,6 +8177,7 @@
     {
       "language": "fr",
       "id": "si-imparfait",
+      "level": "B1",
       "title": "si 加未完成過去式的假設",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8144,6 +8253,7 @@
     {
       "language": "fr",
       "id": "depuis",
+      "level": "B1",
       "title": "depuis 與持續到現在的狀態",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8219,6 +8329,7 @@
     {
       "language": "fr",
       "id": "il-y-a",
+      "level": "B1",
       "title": "il y a 與從現在回推的時間點",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8294,6 +8405,7 @@
     {
       "language": "fr",
       "id": "pendant-en",
+      "level": "B1",
       "title": "pendant 與 en 的歷時觀點",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8369,6 +8481,7 @@
     {
       "language": "fr",
       "id": "negative-quantity",
+      "level": "B1",
       "title": "否定句中的 de 與冠詞",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8444,6 +8557,7 @@
     {
       "language": "fr",
       "id": "interrogatif-quel",
+      "level": "B1",
       "title": "quel 與 lequel 的選擇",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8519,6 +8633,7 @@
     {
       "language": "fr",
       "id": "reflexive-inf",
+      "level": "B1",
       "title": "代名不定詞的人稱與位置",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8594,6 +8709,7 @@
     {
       "language": "fr",
       "id": "comparatif-nom",
+      "level": "B1",
       "title": "比較形容詞與比較名詞數量",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -8669,6 +8785,7 @@
     {
       "language": "fr",
       "id": "pour-que",
+      "level": "B2",
       "title": "pour que 與目的的執行者",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -8744,6 +8861,7 @@
     {
       "language": "fr",
       "id": "bien-que",
+      "level": "B2",
       "title": "bien que 與讓步虛擬式",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -8819,6 +8937,7 @@
     {
       "language": "fr",
       "id": "avant-que",
+      "level": "B2",
       "title": "avant que 與尚未跨過的時間界線",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -8894,6 +9013,7 @@
     {
       "language": "fr",
       "id": "douter",
+      "level": "B2",
       "title": "douter 與 se douter 的立場差異",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -8969,6 +9089,7 @@
     {
       "language": "fr",
       "id": "conditional-regret",
+      "level": "B2",
       "title": "條件式過去與事後檢討",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9044,6 +9165,7 @@
     {
       "language": "fr",
       "id": "double-pronouns",
+      "level": "B2",
       "title": "動詞前的雙受詞代名詞",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9119,6 +9241,7 @@
     {
       "language": "fr",
       "id": "imperative-pronouns",
+      "level": "B2",
       "title": "肯定與否定命令句的代名詞順序",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9194,6 +9317,7 @@
     {
       "language": "fr",
       "id": "dont",
+      "level": "B2",
       "title": "dont 與需要 de 的補語",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9269,6 +9393,7 @@
     {
       "language": "fr",
       "id": "ce-qui",
+      "level": "B2",
       "title": "ce qui 與未指明的主詞",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9344,6 +9469,7 @@
     {
       "language": "fr",
       "id": "ce-dont",
+      "level": "B2",
       "title": "ce dont 與未指明的間接補語",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9419,6 +9545,7 @@
     {
       "language": "fr",
       "id": "accord-avoir",
+      "level": "B2",
       "title": "avoir 過去分詞與前置直接受詞",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9494,6 +9621,7 @@
     {
       "language": "fr",
       "id": "passif",
+      "level": "B2",
       "title": "被動式與執行者 par",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9569,6 +9697,7 @@
     {
       "language": "fr",
       "id": "causatif",
+      "level": "B2",
       "title": "faire 加原形與委託服務",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9644,6 +9773,7 @@
     {
       "language": "fr",
       "id": "dans-temps",
+      "level": "B1",
       "title": "dans 與未來等待時間",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -9719,6 +9849,7 @@
     {
       "language": "fr",
       "id": "faute-de",
+      "level": "B2",
       "title": "faute de 與必要條件不足",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：中",
@@ -9794,6 +9925,7 @@
     {
       "language": "fr",
       "id": "quitte-a",
+      "level": "B2",
       "title": "quitte à 與願意承擔的代價",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：中",
@@ -9869,6 +10001,7 @@
     {
       "language": "fr",
       "id": "avoir-beau",
+      "level": "B2",
       "title": "avoir beau 與徒勞的努力",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -9944,6 +10077,7 @@
     {
       "language": "fr",
       "id": "futur-anterieur",
+      "level": "B2",
       "title": "先將來時與未來事件的先後",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：中",
@@ -10019,6 +10153,7 @@
     {
       "language": "fr",
       "id": "restriction-que",
+      "level": "B1",
       "title": "ne…que 的限制範圍",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -10094,6 +10229,7 @@
     {
       "language": "fr",
       "id": "objectif-meme-sujet",
+      "level": "B1",
       "title": "souhaiter 與兩個動作的主詞",
       "explanation": [
         "CEFR B1 ｜ 使用頻率：高",
@@ -10169,6 +10305,7 @@
     {
       "language": "fr",
       "id": "a-force-de",
+      "level": "B2",
       "title": "à force de 與反覆行動的結果",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -10244,6 +10381,7 @@
     {
       "language": "fr",
       "id": "avant-apres",
+      "level": "C1",
       "title": "après que 與正式書寫的直陳式",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -10319,6 +10457,7 @@
     {
       "language": "fr",
       "id": "sans-que",
+      "level": "B2",
       "title": "sans que 與未伴隨發生的事",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -10394,6 +10533,7 @@
     {
       "language": "fr",
       "id": "pourvu",
+      "level": "B2",
       "title": "pourvu que 的條件與願望",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：中",
@@ -10469,6 +10609,7 @@
     {
       "language": "fr",
       "id": "moins-que",
+      "level": "C1",
       "title": "à moins que 與使安排失效的例外",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -10544,6 +10685,7 @@
     {
       "language": "fr",
       "id": "inversion-complexe",
+      "level": "B2",
       "title": "正式問句中的複合倒裝",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -10619,6 +10761,7 @@
     {
       "language": "fr",
       "id": "infinitif-passe",
+      "level": "C1",
       "title": "完成不定詞與先行動作",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -10694,6 +10837,7 @@
     {
       "language": "fr",
       "id": "subjonctif-passe",
+      "level": "C1",
       "title": "虛擬式過去與已完成的事件",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -10769,6 +10913,7 @@
     {
       "language": "fr",
       "id": "mise-relief",
+      "level": "B2",
       "title": "c'est…qui／que 的焦點",
       "explanation": [
         "CEFR B2 ｜ 使用頻率：高",
@@ -10844,6 +10989,7 @@
     {
       "language": "fr",
       "id": "ne-litteraire",
+      "level": "C2",
       "title": "文雅語體中有否定意義的單獨 ne",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",
@@ -10919,6 +11065,7 @@
     {
       "language": "fr",
       "id": "encore-faut",
+      "level": "C1",
       "title": "encore faut-il que 與必要前提",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -10994,6 +11141,7 @@
     {
       "language": "fr",
       "id": "fut-ce",
+      "level": "C2",
       "title": "ne fût-ce que 與最低限度的理由",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",
@@ -11069,6 +11217,7 @@
     {
       "language": "fr",
       "id": "nominalisation",
+      "level": "C1",
       "title": "名詞化後標出動作者與承受者",
       "explanation": [
         "CEFR C1 ｜ 使用頻率：中",
@@ -11144,6 +11293,7 @@
     {
       "language": "fr",
       "id": "quelque",
+      "level": "C2",
       "title": "quelque 加形容詞的讓步結構",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",
@@ -11219,6 +11369,7 @@
     {
       "language": "fr",
       "id": "quand-bien-meme",
+      "level": "C2",
       "title": "quand bien même 與極端讓步假設",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",
@@ -11294,6 +11445,7 @@
     {
       "language": "fr",
       "id": "tout-adverbe",
+      "level": "C2",
       "title": "副詞 tout 的特殊性數配合",
       "explanation": [
         "CEFR C2 ｜ 使用頻率：低",

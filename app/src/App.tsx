@@ -142,6 +142,7 @@ export default function App() {
   const [prefs, setPrefs] = useState<Prefs>(readPrefs);
   const [study, setStudy] = useState<{ mode: StudyMode; pool: Item[] } | null>(null);
   const [lesson, setLesson] = useState<{ title: string; items: Item[]; nodeId?: string; review?: boolean; level?: Level; boss?: boolean; nonce: number } | null>(null);
+  const [grammarLevel, setGrammarLevel] = useState("全部");
   const [topicIds, setTopicIds] = useState<Partial<Record<"en" | "fr", string>>>({});
   const view = prefs.view ?? "path";
   const clearSection = () => {
@@ -351,7 +352,7 @@ export default function App() {
           </div>}
 
           {view === "grammar" || view === "practice" ? (
-            <Grammar key={language + view} practice={view === "practice"} topicId={topicIds[language]}
+            <Grammar level={grammarLevel} setLevel={setGrammarLevel} key={language + view} practice={view === "practice"} topicId={topicIds[language]}
               selectTopic={id => setTopicIds(prev => ({ ...prev, [language]: id }))}
               openPractice={() => setView("practice")} openLibrary={() => setView("grammar")} />
           ) : language === "fr" && !items.length ? (
