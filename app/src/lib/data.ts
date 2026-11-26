@@ -1,4 +1,4 @@
-import { FRENCH, type FrenchRegister } from "./french";
+import { frenchItems } from "./french";
 import { materialKey, type Language } from "./language";
 import { RAW, type Row } from "./raw";
 import type { Item, TabKey, Tone } from "./types";
@@ -12,7 +12,7 @@ export const TABS: { k: TabKey; n: string; short: string }[] = [
 
 export const TONES: Tone[] = ["casual", "neutral", "formal"];
 
-const frenchTones: Record<FrenchRegister, Tone> = { familier: "casual", courant: "neutral", soutenu: "formal" };
+
 
 function course<T extends string>(language: Language, rows: Record<TabKey, Row<T>[]>, toneOf: (register: T) => Tone): Item[] {
   return TABS.flatMap((t) =>
@@ -30,7 +30,7 @@ function course<T extends string>(language: Language, rows: Record<TabKey, Row<T
   );
 }
 
-export const courses = { en: course("en", RAW, tone => tone), fr: course("fr", FRENCH, tone => frenchTones[tone]) };
+export const courses = { en: course("en", RAW, tone => tone), fr: frenchItems };
 
 export function tabName(k: TabKey) {
   return TABS.find((t) => t.k === k)?.n ?? k;

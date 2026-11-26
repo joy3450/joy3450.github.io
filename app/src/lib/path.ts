@@ -3,6 +3,7 @@ import type { Item, TabKey } from "./types";
 
 export interface PathNode {
   id: string;
+  title?: string;
   type: "lesson" | "boss" | "chest";
   tab: TabKey;
   sec: string;
@@ -37,17 +38,28 @@ export function buildPath(items: Item[], tab: TabKey): Unit[] {
   for (const it of items) {
     if (it.tab !== tab) continue;
     const sec = it.sec || "我的句子";
-    let u = units.find((x) => x.sec === sec);
+    let u = units.find((x) => x.sec === sec && x.items[0].unitId === it.unitId);
     if (!u) units.push((u = { sec, idx: units.length, nodes: [], items: [] }));
     u.items.push(it);
   }
   for (const u of units) {
     const key = (id: string) => materialKey(u.items[0].language ?? "en", id);
-    chunk(u.items).forEach((group, i) =>
-      u.nodes.push({ id: key(`L:${tab}:${u.sec}:${i}`), type: "lesson", tab, sec: u.sec, n: i + 1, items: group }),
+    const first = u.items[0];
+    const unitKey = first.unitId ?? `${tab}:${u.sec}`;
+    const lessons = new Map<string, Item[]>();
+    if (first.unitId) {
+      for (const item of u.items) {
+        const id = item.lessonId!;
+        if (!lessons.has(id)) lessons.set(id, []);
+        lessons.get(id)!.push(item);
+      }
+    }
+    const groups = first.unitId ? [...lessons.values()] : chunk(u.items);
+    groups.forEach((group, i) =>
+      u.nodes.push({ id: key(group[0].lessonId ?? `L:${tab}:${u.sec}:${i}`), title: group[0].lessonTitle, type: "lesson", tab, sec: u.sec, n: i + 1, items: group }),
     );
-    if (u.items.length >= 4) u.nodes.push({ id: key(`B:${tab}:${u.sec}`), type: "boss", tab, sec: u.sec, n: 0, items: u.items });
-    u.nodes.push({ id: key(`C:${tab}:${u.sec}`), type: "chest", tab, sec: u.sec, n: 0, items: [] });
+    if (u.items.length >= 4) u.nodes.push({ id: key(`B:${unitKey}`), type: "boss", tab, sec: u.sec, n: 0, items: u.items });
+    u.nodes.push({ id: key(`C:${unitKey}`), type: "chest", tab, sec: u.sec, n: 0, items: [] });
   }
   return units;
 }

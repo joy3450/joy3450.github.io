@@ -7,6 +7,9 @@ export type TabKey = "chat" | "coffee" | "class" | "vocab";
 
 export interface Item {
   id: string;
+  unitId?: string;
+  lessonId?: string;
+  lessonTitle?: string;
   language?: Language;
   tab: TabKey;
   sec: string;

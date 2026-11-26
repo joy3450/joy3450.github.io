@@ -1,0 +1,5072 @@
+{
+  "language": "fr",
+  "locale": "fr-FR",
+  "units": [
+    {
+      "id": "fr-u01",
+      "title": "宿舍報修",
+      "lessons": [
+        {
+          "id": "fr-u01-l01",
+          "title": "忽冷忽熱",
+          "phraseIds": [
+            "fr-u01-l01-p1",
+            "fr-u01-l01-p2",
+            "fr-u01-l01-p3",
+            "fr-u01-l01-p4",
+            "fr-u01-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u01-l02",
+          "title": "說清楚水壓",
+          "phraseIds": [
+            "fr-u01-l02-p1",
+            "fr-u01-l02-p2",
+            "fr-u01-l02-p3",
+            "fr-u01-l02-p4",
+            "fr-u01-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u01-l03",
+          "title": "約師傅上門",
+          "phraseIds": [
+            "fr-u01-l03-p1",
+            "fr-u01-l03-p2",
+            "fr-u01-l03-p3",
+            "fr-u01-l03-p4",
+            "fr-u01-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u01-l04",
+          "title": "追問維修進度",
+          "phraseIds": [
+            "fr-u01-l04-p1",
+            "fr-u01-l04-p2",
+            "fr-u01-l04-p3",
+            "fr-u01-l04-p4",
+            "fr-u01-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u01-l05",
+          "title": "確認修復",
+          "phraseIds": [
+            "fr-u01-l05-p1",
+            "fr-u01-l05-p2",
+            "fr-u01-l05-p3",
+            "fr-u01-l05-p4",
+            "fr-u01-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u02",
+      "title": "宿舍共用生活",
+      "lessons": [
+        {
+          "id": "fr-u02-l01",
+          "title": "共用廚房",
+          "phraseIds": [
+            "fr-u02-l01-p1",
+            "fr-u02-l01-p2",
+            "fr-u02-l01-p3",
+            "fr-u02-l01-p4",
+            "fr-u02-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u02-l02",
+          "title": "冰箱空間",
+          "phraseIds": [
+            "fr-u02-l02-p1",
+            "fr-u02-l02-p2",
+            "fr-u02-l02-p3",
+            "fr-u02-l02-p4",
+            "fr-u02-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u02-l03",
+          "title": "洗衣時段",
+          "phraseIds": [
+            "fr-u02-l03-p1",
+            "fr-u02-l03-p2",
+            "fr-u02-l03-p3",
+            "fr-u02-l03-p4",
+            "fr-u02-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u02-l04",
+          "title": "商量安靜時間",
+          "phraseIds": [
+            "fr-u02-l04-p1",
+            "fr-u02-l04-p2",
+            "fr-u02-l04-p3",
+            "fr-u02-l04-p4",
+            "fr-u02-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u02-l05",
+          "title": "收包裹",
+          "phraseIds": [
+            "fr-u02-l05-p1",
+            "fr-u02-l05-p2",
+            "fr-u02-l05-p3",
+            "fr-u02-l05-p4",
+            "fr-u02-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u03",
+      "title": "巴黎通勤",
+      "lessons": [
+        {
+          "id": "fr-u03-l01",
+          "title": "找月台",
+          "phraseIds": [
+            "fr-u03-l01-p1",
+            "fr-u03-l01-p2",
+            "fr-u03-l01-p3",
+            "fr-u03-l01-p4",
+            "fr-u03-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u03-l02",
+          "title": "碰上停駛",
+          "phraseIds": [
+            "fr-u03-l02-p1",
+            "fr-u03-l02-p2",
+            "fr-u03-l02-p3",
+            "fr-u03-l02-p4",
+            "fr-u03-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u03-l03",
+          "title": "錯過末班車",
+          "phraseIds": [
+            "fr-u03-l03-p1",
+            "fr-u03-l03-p2",
+            "fr-u03-l03-p3",
+            "fr-u03-l03-p4",
+            "fr-u03-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u03-l04",
+          "title": "票卡失效",
+          "phraseIds": [
+            "fr-u03-l04-p1",
+            "fr-u03-l04-p2",
+            "fr-u03-l04-p3",
+            "fr-u03-l04-p4",
+            "fr-u03-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u03-l05",
+          "title": "約在車站",
+          "phraseIds": [
+            "fr-u03-l05-p1",
+            "fr-u03-l05-p2",
+            "fr-u03-l05-p3",
+            "fr-u03-l05-p4",
+            "fr-u03-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u04",
+      "title": "市集與餐桌",
+      "lessons": [
+        {
+          "id": "fr-u04-l01",
+          "title": "買當季蔬菜",
+          "phraseIds": [
+            "fr-u04-l01-p1",
+            "fr-u04-l01-p2",
+            "fr-u04-l01-p3",
+            "fr-u04-l01-p4",
+            "fr-u04-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u04-l02",
+          "title": "挑乳酪",
+          "phraseIds": [
+            "fr-u04-l02-p1",
+            "fr-u04-l02-p2",
+            "fr-u04-l02-p3",
+            "fr-u04-l02-p4",
+            "fr-u04-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u04-l03",
+          "title": "問清楚菜單",
+          "phraseIds": [
+            "fr-u04-l03-p1",
+            "fr-u04-l03-p2",
+            "fr-u04-l03-p3",
+            "fr-u04-l03-p4",
+            "fr-u04-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u04-l04",
+          "title": "結帳分攤",
+          "phraseIds": [
+            "fr-u04-l04-p1",
+            "fr-u04-l04-p2",
+            "fr-u04-l04-p3",
+            "fr-u04-l04-p4",
+            "fr-u04-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u04-l05",
+          "title": "做一鍋奶茶",
+          "phraseIds": [
+            "fr-u04-l05-p1",
+            "fr-u04-l05-p2",
+            "fr-u04-l05-p3",
+            "fr-u04-l05-p4",
+            "fr-u04-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u05",
+      "title": "在巴黎約朋友",
+      "lessons": [
+        {
+          "id": "fr-u05-l01",
+          "title": "難喬的時間",
+          "phraseIds": [
+            "fr-u05-l01-p1",
+            "fr-u05-l01-p2",
+            "fr-u05-l01-p3",
+            "fr-u05-l01-p4",
+            "fr-u05-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u05-l02",
+          "title": "找座位讀書",
+          "phraseIds": [
+            "fr-u05-l02-p1",
+            "fr-u05-l02-p2",
+            "fr-u05-l02-p3",
+            "fr-u05-l02-p4",
+            "fr-u05-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u05-l03",
+          "title": "聊甜點",
+          "phraseIds": [
+            "fr-u05-l03-p1",
+            "fr-u05-l03-p2",
+            "fr-u05-l03-p3",
+            "fr-u05-l03-p4",
+            "fr-u05-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u05-l04",
+          "title": "酒吧聊天",
+          "phraseIds": [
+            "fr-u05-l04-p1",
+            "fr-u05-l04-p2",
+            "fr-u05-l04-p3",
+            "fr-u05-l04-p4",
+            "fr-u05-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u05-l05",
+          "title": "婉拒又不冷場",
+          "phraseIds": [
+            "fr-u05-l05-p1",
+            "fr-u05-l05-p2",
+            "fr-u05-l05-p3",
+            "fr-u05-l05-p4",
+            "fr-u05-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u06",
+      "title": "行政文件",
+      "lessons": [
+        {
+          "id": "fr-u06-l01",
+          "title": "問該交哪份",
+          "phraseIds": [
+            "fr-u06-l01-p1",
+            "fr-u06-l01-p2",
+            "fr-u06-l01-p3",
+            "fr-u06-l01-p4",
+            "fr-u06-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u06-l02",
+          "title": "寄送掃描檔",
+          "phraseIds": [
+            "fr-u06-l02-p1",
+            "fr-u06-l02-p2",
+            "fr-u06-l02-p3",
+            "fr-u06-l02-p4",
+            "fr-u06-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u06-l03",
+          "title": "追蹤案件",
+          "phraseIds": [
+            "fr-u06-l03-p1",
+            "fr-u06-l03-p2",
+            "fr-u06-l03-p3",
+            "fr-u06-l03-p4",
+            "fr-u06-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u06-l04",
+          "title": "更正姓名",
+          "phraseIds": [
+            "fr-u06-l04-p1",
+            "fr-u06-l04-p2",
+            "fr-u06-l04-p3",
+            "fr-u06-l04-p4",
+            "fr-u06-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u06-l05",
+          "title": "趕不上截止日",
+          "phraseIds": [
+            "fr-u06-l05-p1",
+            "fr-u06-l05-p2",
+            "fr-u06-l05-p3",
+            "fr-u06-l05-p4",
+            "fr-u06-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u07",
+      "title": "課堂發言",
+      "lessons": [
+        {
+          "id": "fr-u07-l01",
+          "title": "接續同學觀點",
+          "phraseIds": [
+            "fr-u07-l01-p1",
+            "fr-u07-l01-p2",
+            "fr-u07-l01-p3",
+            "fr-u07-l01-p4",
+            "fr-u07-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u07-l02",
+          "title": "沒聽清楚",
+          "phraseIds": [
+            "fr-u07-l02-p1",
+            "fr-u07-l02-p2",
+            "fr-u07-l02-p3",
+            "fr-u07-l02-p4",
+            "fr-u07-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u07-l03",
+          "title": "提出反例",
+          "phraseIds": [
+            "fr-u07-l03-p1",
+            "fr-u07-l03-p2",
+            "fr-u07-l03-p3",
+            "fr-u07-l03-p4",
+            "fr-u07-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u07-l04",
+          "title": "爭取回應時間",
+          "phraseIds": [
+            "fr-u07-l04-p1",
+            "fr-u07-l04-p2",
+            "fr-u07-l04-p3",
+            "fr-u07-l04-p4",
+            "fr-u07-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u07-l05",
+          "title": "課後問老師",
+          "phraseIds": [
+            "fr-u07-l05-p1",
+            "fr-u07-l05-p2",
+            "fr-u07-l05-p3",
+            "fr-u07-l05-p4",
+            "fr-u07-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u08",
+      "title": "小組協作",
+      "lessons": [
+        {
+          "id": "fr-u08-l01",
+          "title": "分工",
+          "phraseIds": [
+            "fr-u08-l01-p1",
+            "fr-u08-l01-p2",
+            "fr-u08-l01-p3",
+            "fr-u08-l01-p4",
+            "fr-u08-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u08-l02",
+          "title": "版本控管",
+          "phraseIds": [
+            "fr-u08-l02-p1",
+            "fr-u08-l02-p2",
+            "fr-u08-l02-p3",
+            "fr-u08-l02-p4",
+            "fr-u08-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u08-l03",
+          "title": "追進度又不催人",
+          "phraseIds": [
+            "fr-u08-l03-p1",
+            "fr-u08-l03-p2",
+            "fr-u08-l03-p3",
+            "fr-u08-l03-p4",
+            "fr-u08-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u08-l04",
+          "title": "處理意見不合",
+          "phraseIds": [
+            "fr-u08-l04-p1",
+            "fr-u08-l04-p2",
+            "fr-u08-l04-p3",
+            "fr-u08-l04-p4",
+            "fr-u08-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u08-l05",
+          "title": "交付成果",
+          "phraseIds": [
+            "fr-u08-l05-p1",
+            "fr-u08-l05-p2",
+            "fr-u08-l05-p3",
+            "fr-u08-l05-p4",
+            "fr-u08-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u09",
+      "title": "用數據說話",
+      "lessons": [
+        {
+          "id": "fr-u09-l01",
+          "title": "核對樣本",
+          "phraseIds": [
+            "fr-u09-l01-p1",
+            "fr-u09-l01-p2",
+            "fr-u09-l01-p3",
+            "fr-u09-l01-p4",
+            "fr-u09-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u09-l02",
+          "title": "讀百分比",
+          "phraseIds": [
+            "fr-u09-l02-p1",
+            "fr-u09-l02-p2",
+            "fr-u09-l02-p3",
+            "fr-u09-l02-p4",
+            "fr-u09-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u09-l03",
+          "title": "區分因果",
+          "phraseIds": [
+            "fr-u09-l03-p1",
+            "fr-u09-l03-p2",
+            "fr-u09-l03-p3",
+            "fr-u09-l03-p4",
+            "fr-u09-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u09-l04",
+          "title": "發現異常值",
+          "phraseIds": [
+            "fr-u09-l04-p1",
+            "fr-u09-l04-p2",
+            "fr-u09-l04-p3",
+            "fr-u09-l04-p4",
+            "fr-u09-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u09-l05",
+          "title": "解釋限制",
+          "phraseIds": [
+            "fr-u09-l05-p1",
+            "fr-u09-l05-p2",
+            "fr-u09-l05-p3",
+            "fr-u09-l05-p4",
+            "fr-u09-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u10",
+      "title": "簡報與問答",
+      "lessons": [
+        {
+          "id": "fr-u10-l01",
+          "title": "設計開場",
+          "phraseIds": [
+            "fr-u10-l01-p1",
+            "fr-u10-l01-p2",
+            "fr-u10-l01-p3",
+            "fr-u10-l01-p4",
+            "fr-u10-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u10-l02",
+          "title": "指引圖表",
+          "phraseIds": [
+            "fr-u10-l02-p1",
+            "fr-u10-l02-p2",
+            "fr-u10-l02-p3",
+            "fr-u10-l02-p4",
+            "fr-u10-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u10-l03",
+          "title": "限時報告",
+          "phraseIds": [
+            "fr-u10-l03-p1",
+            "fr-u10-l03-p2",
+            "fr-u10-l03-p3",
+            "fr-u10-l03-p4",
+            "fr-u10-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u10-l04",
+          "title": "接手同學段落",
+          "phraseIds": [
+            "fr-u10-l04-p1",
+            "fr-u10-l04-p2",
+            "fr-u10-l04-p3",
+            "fr-u10-l04-p4",
+            "fr-u10-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u10-l05",
+          "title": "回答難題",
+          "phraseIds": [
+            "fr-u10-l05-p1",
+            "fr-u10-l05-p2",
+            "fr-u10-l05-p3",
+            "fr-u10-l05-p4",
+            "fr-u10-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u11",
+      "title": "語言交換",
+      "lessons": [
+        {
+          "id": "fr-u11-l01",
+          "title": "說明程度",
+          "phraseIds": [
+            "fr-u11-l01-p1",
+            "fr-u11-l01-p2",
+            "fr-u11-l01-p3",
+            "fr-u11-l01-p4",
+            "fr-u11-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u11-l02",
+          "title": "請人糾正",
+          "phraseIds": [
+            "fr-u11-l02-p1",
+            "fr-u11-l02-p2",
+            "fr-u11-l02-p3",
+            "fr-u11-l02-p4",
+            "fr-u11-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u11-l03",
+          "title": "問語氣",
+          "phraseIds": [
+            "fr-u11-l03-p1",
+            "fr-u11-l03-p2",
+            "fr-u11-l03-p3",
+            "fr-u11-l03-p4",
+            "fr-u11-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u11-l04",
+          "title": "確認聽到的詞",
+          "phraseIds": [
+            "fr-u11-l04-p1",
+            "fr-u11-l04-p2",
+            "fr-u11-l04-p3",
+            "fr-u11-l04-p4",
+            "fr-u11-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u11-l05",
+          "title": "把中文概念說清楚",
+          "phraseIds": [
+            "fr-u11-l05-p1",
+            "fr-u11-l05-p2",
+            "fr-u11-l05-p3",
+            "fr-u11-l05-p4",
+            "fr-u11-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u12",
+      "title": "音樂與排練",
+      "lessons": [
+        {
+          "id": "fr-u12-l01",
+          "title": "借琴房",
+          "phraseIds": [
+            "fr-u12-l01-p1",
+            "fr-u12-l01-p2",
+            "fr-u12-l01-p3",
+            "fr-u12-l01-p4",
+            "fr-u12-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u12-l02",
+          "title": "找適合的調",
+          "phraseIds": [
+            "fr-u12-l02-p1",
+            "fr-u12-l02-p2",
+            "fr-u12-l02-p3",
+            "fr-u12-l02-p4",
+            "fr-u12-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u12-l03",
+          "title": "和伴奏對拍",
+          "phraseIds": [
+            "fr-u12-l03-p1",
+            "fr-u12-l03-p2",
+            "fr-u12-l03-p3",
+            "fr-u12-l03-p4",
+            "fr-u12-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u12-l04",
+          "title": "錄一段彈唱",
+          "phraseIds": [
+            "fr-u12-l04-p1",
+            "fr-u12-l04-p2",
+            "fr-u12-l04-p3",
+            "fr-u12-l04-p4",
+            "fr-u12-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u12-l05",
+          "title": "演出後交流",
+          "phraseIds": [
+            "fr-u12-l05-p1",
+            "fr-u12-l05-p2",
+            "fr-u12-l05-p3",
+            "fr-u12-l05-p4",
+            "fr-u12-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u13",
+      "title": "規劃週末小旅行",
+      "lessons": [
+        {
+          "id": "fr-u13-l01",
+          "title": "挑目的地",
+          "phraseIds": [
+            "fr-u13-l01-p1",
+            "fr-u13-l01-p2",
+            "fr-u13-l01-p3",
+            "fr-u13-l01-p4",
+            "fr-u13-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u13-l02",
+          "title": "看懂票種",
+          "phraseIds": [
+            "fr-u13-l02-p1",
+            "fr-u13-l02-p2",
+            "fr-u13-l02-p3",
+            "fr-u13-l02-p4",
+            "fr-u13-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u13-l03",
+          "title": "選住宿",
+          "phraseIds": [
+            "fr-u13-l03-p1",
+            "fr-u13-l03-p2",
+            "fr-u13-l03-p3",
+            "fr-u13-l03-p4",
+            "fr-u13-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u13-l04",
+          "title": "火車誤點轉乘",
+          "phraseIds": [
+            "fr-u13-l04-p1",
+            "fr-u13-l04-p2",
+            "fr-u13-l04-p3",
+            "fr-u13-l04-p4",
+            "fr-u13-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u13-l05",
+          "title": "回顧旅程",
+          "phraseIds": [
+            "fr-u13-l05-p1",
+            "fr-u13-l05-p2",
+            "fr-u13-l05-p3",
+            "fr-u13-l05-p4",
+            "fr-u13-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u14",
+      "title": "實習與履歷",
+      "lessons": [
+        {
+          "id": "fr-u14-l01",
+          "title": "讀職缺",
+          "phraseIds": [
+            "fr-u14-l01-p1",
+            "fr-u14-l01-p2",
+            "fr-u14-l01-p3",
+            "fr-u14-l01-p4",
+            "fr-u14-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u14-l02",
+          "title": "說明可入職時間",
+          "phraseIds": [
+            "fr-u14-l02-p1",
+            "fr-u14-l02-p2",
+            "fr-u14-l02-p3",
+            "fr-u14-l02-p4",
+            "fr-u14-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u14-l03",
+          "title": "改寫履歷",
+          "phraseIds": [
+            "fr-u14-l03-p1",
+            "fr-u14-l03-p2",
+            "fr-u14-l03-p3",
+            "fr-u14-l03-p4",
+            "fr-u14-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u14-l04",
+          "title": "寫求職信",
+          "phraseIds": [
+            "fr-u14-l04-p1",
+            "fr-u14-l04-p2",
+            "fr-u14-l04-p3",
+            "fr-u14-l04-p4",
+            "fr-u14-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u14-l05",
+          "title": "追蹤投遞",
+          "phraseIds": [
+            "fr-u14-l05-p1",
+            "fr-u14-l05-p2",
+            "fr-u14-l05-p3",
+            "fr-u14-l05-p4",
+            "fr-u14-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u15",
+      "title": "面試敘事",
+      "lessons": [
+        {
+          "id": "fr-u15-l01",
+          "title": "一分鐘自介",
+          "phraseIds": [
+            "fr-u15-l01-p1",
+            "fr-u15-l01-p2",
+            "fr-u15-l01-p3",
+            "fr-u15-l01-p4",
+            "fr-u15-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u15-l02",
+          "title": "釐清個人貢獻",
+          "phraseIds": [
+            "fr-u15-l02-p1",
+            "fr-u15-l02-p2",
+            "fr-u15-l02-p3",
+            "fr-u15-l02-p4",
+            "fr-u15-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u15-l03",
+          "title": "談失敗",
+          "phraseIds": [
+            "fr-u15-l03-p1",
+            "fr-u15-l03-p2",
+            "fr-u15-l03-p3",
+            "fr-u15-l03-p4",
+            "fr-u15-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u15-l04",
+          "title": "解釋職涯選擇",
+          "phraseIds": [
+            "fr-u15-l04-p1",
+            "fr-u15-l04-p2",
+            "fr-u15-l04-p3",
+            "fr-u15-l04-p4",
+            "fr-u15-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u15-l05",
+          "title": "面試結尾提問",
+          "phraseIds": [
+            "fr-u15-l05-p1",
+            "fr-u15-l05-p2",
+            "fr-u15-l05-p3",
+            "fr-u15-l05-p4",
+            "fr-u15-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u16",
+      "title": "職涯交流",
+      "lessons": [
+        {
+          "id": "fr-u16-l01",
+          "title": "第一封邀約",
+          "phraseIds": [
+            "fr-u16-l01-p1",
+            "fr-u16-l01-p2",
+            "fr-u16-l01-p3",
+            "fr-u16-l01-p4",
+            "fr-u16-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u16-l02",
+          "title": "交流開場",
+          "phraseIds": [
+            "fr-u16-l02-p1",
+            "fr-u16-l02-p2",
+            "fr-u16-l02-p3",
+            "fr-u16-l02-p4",
+            "fr-u16-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u16-l03",
+          "title": "打聽團隊文化",
+          "phraseIds": [
+            "fr-u16-l03-p1",
+            "fr-u16-l03-p2",
+            "fr-u16-l03-p3",
+            "fr-u16-l03-p4",
+            "fr-u16-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u16-l04",
+          "title": "請教轉職經驗",
+          "phraseIds": [
+            "fr-u16-l04-p1",
+            "fr-u16-l04-p2",
+            "fr-u16-l04-p3",
+            "fr-u16-l04-p4",
+            "fr-u16-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u16-l05",
+          "title": "會後致謝",
+          "phraseIds": [
+            "fr-u16-l05-p1",
+            "fr-u16-l05-p2",
+            "fr-u16-l05-p3",
+            "fr-u16-l05-p4",
+            "fr-u16-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u17",
+      "title": "供應鏈與營運",
+      "lessons": [
+        {
+          "id": "fr-u17-l01",
+          "title": "描繪流程",
+          "phraseIds": [
+            "fr-u17-l01-p1",
+            "fr-u17-l01-p2",
+            "fr-u17-l01-p3",
+            "fr-u17-l01-p4",
+            "fr-u17-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u17-l02",
+          "title": "找出瓶頸",
+          "phraseIds": [
+            "fr-u17-l02-p1",
+            "fr-u17-l02-p2",
+            "fr-u17-l02-p3",
+            "fr-u17-l02-p4",
+            "fr-u17-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u17-l03",
+          "title": "談交貨時間",
+          "phraseIds": [
+            "fr-u17-l03-p1",
+            "fr-u17-l03-p2",
+            "fr-u17-l03-p3",
+            "fr-u17-l03-p4",
+            "fr-u17-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u17-l04",
+          "title": "盤點存貨",
+          "phraseIds": [
+            "fr-u17-l04-p1",
+            "fr-u17-l04-p2",
+            "fr-u17-l04-p3",
+            "fr-u17-l04-p4",
+            "fr-u17-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u17-l05",
+          "title": "比較供應商",
+          "phraseIds": [
+            "fr-u17-l05-p1",
+            "fr-u17-l05-p2",
+            "fr-u17-l05-p3",
+            "fr-u17-l05-p4",
+            "fr-u17-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u18",
+      "title": "自動化與改善流程",
+      "lessons": [
+        {
+          "id": "fr-u18-l01",
+          "title": "找重複作業",
+          "phraseIds": [
+            "fr-u18-l01-p1",
+            "fr-u18-l01-p2",
+            "fr-u18-l01-p3",
+            "fr-u18-l01-p4",
+            "fr-u18-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u18-l02",
+          "title": "定義觸發條件",
+          "phraseIds": [
+            "fr-u18-l02-p1",
+            "fr-u18-l02-p2",
+            "fr-u18-l02-p3",
+            "fr-u18-l02-p4",
+            "fr-u18-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u18-l03",
+          "title": "試跑與例外",
+          "phraseIds": [
+            "fr-u18-l03-p1",
+            "fr-u18-l03-p2",
+            "fr-u18-l03-p3",
+            "fr-u18-l03-p4",
+            "fr-u18-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u18-l04",
+          "title": "量化省下的時間",
+          "phraseIds": [
+            "fr-u18-l04-p1",
+            "fr-u18-l04-p2",
+            "fr-u18-l04-p3",
+            "fr-u18-l04-p4",
+            "fr-u18-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u18-l05",
+          "title": "交接給使用者",
+          "phraseIds": [
+            "fr-u18-l05-p1",
+            "fr-u18-l05-p2",
+            "fr-u18-l05-p3",
+            "fr-u18-l05-p4",
+            "fr-u18-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u19",
+      "title": "志工任務籌備",
+      "lessons": [
+        {
+          "id": "fr-u19-l01",
+          "title": "和校方盤點需求",
+          "phraseIds": [
+            "fr-u19-l01-p1",
+            "fr-u19-l01-p2",
+            "fr-u19-l01-p3",
+            "fr-u19-l01-p4",
+            "fr-u19-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u19-l02",
+          "title": "組成十八人團隊",
+          "phraseIds": [
+            "fr-u19-l02-p1",
+            "fr-u19-l02-p2",
+            "fr-u19-l02-p3",
+            "fr-u19-l02-p4",
+            "fr-u19-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u19-l03",
+          "title": "跨村移動",
+          "phraseIds": [
+            "fr-u19-l03-p1",
+            "fr-u19-l03-p2",
+            "fr-u19-l03-p3",
+            "fr-u19-l03-p4",
+            "fr-u19-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u19-l04",
+          "title": "準備雙語教材",
+          "phraseIds": [
+            "fr-u19-l04-p1",
+            "fr-u19-l04-p2",
+            "fr-u19-l04-p3",
+            "fr-u19-l04-p4",
+            "fr-u19-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u19-l05",
+          "title": "尊重當地節奏",
+          "phraseIds": [
+            "fr-u19-l05-p1",
+            "fr-u19-l05-p2",
+            "fr-u19-l05-p3",
+            "fr-u19-l05-p4",
+            "fr-u19-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u20",
+      "title": "帶班與教學",
+      "lessons": [
+        {
+          "id": "fr-u20-l01",
+          "title": "破冰與分組",
+          "phraseIds": [
+            "fr-u20-l01-p1",
+            "fr-u20-l01-p2",
+            "fr-u20-l01-p3",
+            "fr-u20-l01-p4",
+            "fr-u20-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u20-l02",
+          "title": "確認孩子理解",
+          "phraseIds": [
+            "fr-u20-l02-p1",
+            "fr-u20-l02-p2",
+            "fr-u20-l02-p3",
+            "fr-u20-l02-p4",
+            "fr-u20-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u20-l03",
+          "title": "鼓勵安靜學生",
+          "phraseIds": [
+            "fr-u20-l03-p1",
+            "fr-u20-l03-p2",
+            "fr-u20-l03-p3",
+            "fr-u20-l03-p4",
+            "fr-u20-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u20-l04",
+          "title": "臨場換活動",
+          "phraseIds": [
+            "fr-u20-l04-p1",
+            "fr-u20-l04-p2",
+            "fr-u20-l04-p3",
+            "fr-u20-l04-p4",
+            "fr-u20-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u20-l05",
+          "title": "課後回饋",
+          "phraseIds": [
+            "fr-u20-l05-p1",
+            "fr-u20-l05-p2",
+            "fr-u20-l05-p3",
+            "fr-u20-l05-p4",
+            "fr-u20-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u21",
+      "title": "口述歷史與文化",
+      "lessons": [
+        {
+          "id": "fr-u21-l01",
+          "title": "邀請受訪者",
+          "phraseIds": [
+            "fr-u21-l01-p1",
+            "fr-u21-l01-p2",
+            "fr-u21-l01-p3",
+            "fr-u21-l01-p4",
+            "fr-u21-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u21-l02",
+          "title": "徵求錄音同意",
+          "phraseIds": [
+            "fr-u21-l02-p1",
+            "fr-u21-l02-p2",
+            "fr-u21-l02-p3",
+            "fr-u21-l02-p4",
+            "fr-u21-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u21-l03",
+          "title": "引出時代細節",
+          "phraseIds": [
+            "fr-u21-l03-p1",
+            "fr-u21-l03-p2",
+            "fr-u21-l03-p3",
+            "fr-u21-l03-p4",
+            "fr-u21-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u21-l04",
+          "title": "保留不確定之處",
+          "phraseIds": [
+            "fr-u21-l04-p1",
+            "fr-u21-l04-p2",
+            "fr-u21-l04-p3",
+            "fr-u21-l04-p4",
+            "fr-u21-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u21-l05",
+          "title": "交還訪談成果",
+          "phraseIds": [
+            "fr-u21-l05-p1",
+            "fr-u21-l05-p2",
+            "fr-u21-l05-p3",
+            "fr-u21-l05-p4",
+            "fr-u21-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u22",
+      "title": "募款與夥伴關係",
+      "lessons": [
+        {
+          "id": "fr-u22-l01",
+          "title": "說明資金缺口",
+          "phraseIds": [
+            "fr-u22-l01-p1",
+            "fr-u22-l01-p2",
+            "fr-u22-l01-p3",
+            "fr-u22-l01-p4",
+            "fr-u22-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u22-l02",
+          "title": "接洽贊助方",
+          "phraseIds": [
+            "fr-u22-l02-p1",
+            "fr-u22-l02-p2",
+            "fr-u22-l02-p3",
+            "fr-u22-l02-p4",
+            "fr-u22-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u22-l03",
+          "title": "協商合作條件",
+          "phraseIds": [
+            "fr-u22-l03-p1",
+            "fr-u22-l03-p2",
+            "fr-u22-l03-p3",
+            "fr-u22-l03-p4",
+            "fr-u22-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u22-l04",
+          "title": "呈報成果",
+          "phraseIds": [
+            "fr-u22-l04-p1",
+            "fr-u22-l04-p2",
+            "fr-u22-l04-p3",
+            "fr-u22-l04-p4",
+            "fr-u22-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u22-l05",
+          "title": "維繫長期關係",
+          "phraseIds": [
+            "fr-u22-l05-p1",
+            "fr-u22-l05-p2",
+            "fr-u22-l05-p3",
+            "fr-u22-l05-p4",
+            "fr-u22-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u23",
+      "title": "顧問個案討論",
+      "lessons": [
+        {
+          "id": "fr-u23-l01",
+          "title": "釐清題目",
+          "phraseIds": [
+            "fr-u23-l01-p1",
+            "fr-u23-l01-p2",
+            "fr-u23-l01-p3",
+            "fr-u23-l01-p4",
+            "fr-u23-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u23-l02",
+          "title": "拆解問題",
+          "phraseIds": [
+            "fr-u23-l02-p1",
+            "fr-u23-l02-p2",
+            "fr-u23-l02-p3",
+            "fr-u23-l02-p4",
+            "fr-u23-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u23-l03",
+          "title": "快速估算",
+          "phraseIds": [
+            "fr-u23-l03-p1",
+            "fr-u23-l03-p2",
+            "fr-u23-l03-p3",
+            "fr-u23-l03-p4",
+            "fr-u23-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u23-l04",
+          "title": "測試假設",
+          "phraseIds": [
+            "fr-u23-l04-p1",
+            "fr-u23-l04-p2",
+            "fr-u23-l04-p3",
+            "fr-u23-l04-p4",
+            "fr-u23-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u23-l05",
+          "title": "給決策建議",
+          "phraseIds": [
+            "fr-u23-l05-p1",
+            "fr-u23-l05-p2",
+            "fr-u23-l05-p3",
+            "fr-u23-l05-p4",
+            "fr-u23-l05-p5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u24",
+      "title": "巴黎綜合任務",
+      "lessons": [
+        {
+          "id": "fr-u24-l01",
+          "title": "帶訪客來校",
+          "phraseIds": [
+            "fr-u24-l01-p1",
+            "fr-u24-l01-p2",
+            "fr-u24-l01-p3",
+            "fr-u24-l01-p4",
+            "fr-u24-l01-p5"
+          ]
+        },
+        {
+          "id": "fr-u24-l02",
+          "title": "救援跨校活動",
+          "phraseIds": [
+            "fr-u24-l02-p1",
+            "fr-u24-l02-p2",
+            "fr-u24-l02-p3",
+            "fr-u24-l02-p4",
+            "fr-u24-l02-p5"
+          ]
+        },
+        {
+          "id": "fr-u24-l03",
+          "title": "提出教育試辦",
+          "phraseIds": [
+            "fr-u24-l03-p1",
+            "fr-u24-l03-p2",
+            "fr-u24-l03-p3",
+            "fr-u24-l03-p4",
+            "fr-u24-l03-p5"
+          ]
+        },
+        {
+          "id": "fr-u24-l04",
+          "title": "向合作方報告變更",
+          "phraseIds": [
+            "fr-u24-l04-p1",
+            "fr-u24-l04-p2",
+            "fr-u24-l04-p3",
+            "fr-u24-l04-p4",
+            "fr-u24-l04-p5"
+          ]
+        },
+        {
+          "id": "fr-u24-l05",
+          "title": "回顧與下一步",
+          "phraseIds": [
+            "fr-u24-l05-p1",
+            "fr-u24-l05-p2",
+            "fr-u24-l05-p3",
+            "fr-u24-l05-p4",
+            "fr-u24-l05-p5"
+          ]
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "fr-u01-l01-p1",
+      "fr": "Chez toi aussi, la douche fait des siennes ?",
+      "zh": "你那邊的淋浴也不太正常嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u01-l01-p2",
+      "fr": "L'eau devient froide au bout de deux minutes.",
+      "zh": "水過兩分鐘就變冷。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l01-p3",
+      "fr": "Le problème revient surtout le soir.",
+      "zh": "問題主要是晚上反覆出現。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l01-p4",
+      "fr": "J'ai essayé à plusieurs heures de la journée.",
+      "zh": "我一天當中試過好幾個時段。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l01-p5",
+      "fr": "Je vous serais reconnaissant de bien vouloir vérifier le chauffe-eau.",
+      "zh": "煩請您檢查熱水器。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u01-l02-p1",
+      "fr": "On dirait que le robinet est à moitié bouché.",
+      "zh": "感覺水龍頭像堵住了一半。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u01-l02-p2",
+      "fr": "Le débit baisse dès que j'ouvre l'eau chaude.",
+      "zh": "我一開熱水，水流就變小。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l02-p3",
+      "fr": "Le lavabo fonctionne normalement.",
+      "zh": "洗手台出水正常。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l02-p4",
+      "fr": "J'ai filmé la douche pour vous montrer la différence.",
+      "zh": "我拍了淋浴出水的影片，讓您看看差別。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l02-p5",
+      "fr": "Pourriez-vous préciser si d'autres chambres sont concernées ?",
+      "zh": "可否請您說明其他房間是否也受影響？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u01-l03-p1",
+      "fr": "Ça t'embête de lui ouvrir si je suis en cours ?",
+      "zh": "如果我在上課，你方便幫他開門嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u01-l03-p2",
+      "fr": "Je suis disponible entre midi et quatorze heures.",
+      "zh": "我中午十二點到下午兩點有空。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l03-p3",
+      "fr": "Faut-il être présent pendant toute l'intervention ?",
+      "zh": "維修期間需要全程在場嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l03-p4",
+      "fr": "Prévenez-moi dix minutes avant votre arrivée.",
+      "zh": "請在抵達前十分鐘通知我。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l03-p5",
+      "fr": "Je vous autorise à entrer dans ma chambre au créneau convenu.",
+      "zh": "我同意您在約定時段進入我的房間。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u01-l04-p1",
+      "fr": "T'as eu des nouvelles du gardien ?",
+      "zh": "你收到管理員的消息了嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u01-l04-p2",
+      "fr": "Le technicien est passé hier sans laisser de mot.",
+      "zh": "師傅昨天來過，但沒有留字條。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l04-p3",
+      "fr": "Est-ce qu'il manque une pièce pour finir la réparation ?",
+      "zh": "是不是還缺零件才能修完？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l04-p4",
+      "fr": "Le numéro de ma demande figure dans le premier message.",
+      "zh": "我在第一封訊息裡寫了報修編號。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l04-p5",
+      "fr": "À défaut de date précise, pourriez-vous m'indiquer un délai approximatif ?",
+      "zh": "若暫時無法給出確切日期，可否提供大致所需時間？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u01-l05-p1",
+      "fr": "Cette fois, l'eau reste chaude, ça change tout !",
+      "zh": "這次熱水能一直維持，真的差很多！",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u01-l05-p2",
+      "fr": "Je vais refaire un essai ce soir.",
+      "zh": "我今晚會再測一次。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l05-p3",
+      "fr": "La température est stable, mais le débit reste faible.",
+      "zh": "水溫穩定了，但水流還是很弱。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l05-p4",
+      "fr": "Je garde la demande ouverte jusqu'à demain.",
+      "zh": "我先讓報修單保留到明天。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u01-l05-p5",
+      "fr": "Je vous confirme que l'incident peut désormais être clôturé.",
+      "zh": "向您確認，這起報修現在可以結案了。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u02-l01-p1",
+      "fr": "Tu me gardes un coin sur la plaque ?",
+      "zh": "爐子上幫我留一個位置好嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u02-l01-p2",
+      "fr": "Je libère le four dans dix minutes.",
+      "zh": "再十分鐘我就用完烤箱。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l01-p3",
+      "fr": "À qui appartient la casserole sur le feu ?",
+      "zh": "爐火上的鍋子是誰的？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l01-p4",
+      "fr": "On pourrait étiqueter les boîtes avec la date.",
+      "zh": "我們可以在盒子上標日期。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l01-p5",
+      "fr": "Merci de laisser le plan de travail libre après utilisation.",
+      "zh": "使用完畢後，請將流理臺檯面清空。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u02-l02-p1",
+      "fr": "Ton truc au fond du frigo, tu le gardes ?",
+      "zh": "冰箱深處你那個東西還要留嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u02-l02-p2",
+      "fr": "Je peux déplacer ton lait sur l'étagère du haut ?",
+      "zh": "我可以把你的牛奶移到上層嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l02-p3",
+      "fr": "Cette salade est à partager.",
+      "zh": "這份沙拉是給大家一起吃的。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l02-p4",
+      "fr": "J'ai pris ton yaourt par erreur, je t'en rachète un.",
+      "zh": "我不小心拿了你的優格，我再買一個還你。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l02-p5",
+      "fr": "Serait-il possible de réserver un compartiment par chambre ?",
+      "zh": "是否可以為每間房保留一格空間？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u02-l03-p1",
+      "fr": "Ta machine a bipé, je crois que c'est fini.",
+      "zh": "你的洗衣機響了，我看是洗好了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u02-l03-p2",
+      "fr": "Il reste combien de temps avant l'essorage ?",
+      "zh": "還有多久才會開始脫水？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l03-p3",
+      "fr": "Le sèche-linge tourne sans chauffer.",
+      "zh": "烘衣機一直轉卻不加熱。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l03-p4",
+      "fr": "J'ai noté le numéro de la machine en panne.",
+      "zh": "我記下了故障機器的編號。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l03-p5",
+      "fr": "Je souhaiterais obtenir le remboursement du cycle interrompu.",
+      "zh": "我想申請退還中斷洗程的費用。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u02-l04-p1",
+      "fr": "Vous pouvez baisser un poil la musique ?",
+      "zh": "你們可以把音樂轉小一點點嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l04-p2",
+      "fr": "J'ai un entretien en ligne demain matin.",
+      "zh": "我明早有一場線上面試。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l04-p3",
+      "fr": "Le son passe surtout par la porte du couloir.",
+      "zh": "聲音主要從走廊那扇門傳過來。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l04-p4",
+      "fr": "Après vingt-deux heures, je répète au casque.",
+      "zh": "晚上十點以後我戴耳機練習。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l04-p5",
+      "fr": "Je vous remercie de veiller au calme dans les parties communes.",
+      "zh": "感謝您協助維持公共區域的安寧。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u02-l05-p1",
+      "fr": "Tu m'as sauvé en récupérant mon colis !",
+      "zh": "你幫我收了包裹，真是救了我！",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l05-p2",
+      "fr": "Le suivi indique que le colis a été livré à l'accueil.",
+      "zh": "物流紀錄顯示包裹送到櫃檯了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l05-p3",
+      "fr": "Il est peut-être enregistré sous mon nom de famille.",
+      "zh": "包裹可能是用我的姓氏登記。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l05-p4",
+      "fr": "Je peux vous montrer le code de retrait.",
+      "zh": "我可以給您看取件碼。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u02-l05-p5",
+      "fr": "Je mandate mon colocataire pour retirer ce colis en mon nom.",
+      "zh": "我委託室友代我領取這個包裹。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u03-l01-p1",
+      "fr": "On est bien du bon côté, là ?",
+      "zh": "我們現在是在正確的這一側吧？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u03-l01-p2",
+      "fr": "Le prochain train dessert-il Jouy-en-Josas ?",
+      "zh": "下一班車有停茹伊昂若薩嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l01-p3",
+      "fr": "Le quai a changé depuis ce matin.",
+      "zh": "月台跟今天早上不一樣了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l01-p4",
+      "fr": "Il faut passer sous les voies pour changer de direction.",
+      "zh": "要換方向得走軌道下方的通道。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l01-p5",
+      "fr": "Pourriez-vous m'indiquer le chemin le plus court vers la correspondance ?",
+      "zh": "可否為我指出前往轉乘處最短的路？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u03-l02-p1",
+      "fr": "On est coincés à Massy, tu parles d'une galère !",
+      "zh": "我們卡在馬西了，真折騰！",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u03-l02-p2",
+      "fr": "La circulation est interrompue entre les deux gares.",
+      "zh": "兩個車站之間的列車停駛了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l02-p3",
+      "fr": "Le panneau ne donne pas encore d'heure de reprise.",
+      "zh": "看板上還沒有恢復行車的時間。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l02-p4",
+      "fr": "Je vais passer par Versailles pour contourner la coupure.",
+      "zh": "我會繞經凡爾賽避開停駛路段。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l02-p5",
+      "fr": "Compte tenu de la perturbation, je risque d'arriver après le début du cours.",
+      "zh": "受到交通中斷影響，我恐怕會在開課後才到。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u03-l03-p1",
+      "fr": "Le dernier bus vient de nous passer sous le nez.",
+      "zh": "末班車就在我們眼前開走了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u03-l03-p2",
+      "fr": "Est-ce qu'il reste un bus de nuit pour rentrer ?",
+      "zh": "還有夜班公車可以回去嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l03-p3",
+      "fr": "On partage un taxi jusqu'à la résidence ?",
+      "zh": "我們一起搭計程車回宿舍，分攤車費好嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l03-p4",
+      "fr": "Je préfère attendre dans un endroit éclairé.",
+      "zh": "我想在有照明的地方等。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l03-p5",
+      "fr": "Veuillez conserver le reçu afin que nous puissions répartir les frais.",
+      "zh": "請保留收據，以便我們分攤費用。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u03-l04-p1",
+      "fr": "Ma carte fait encore des siennes au portillon.",
+      "zh": "我的卡在閘門又出狀況了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u03-l04-p2",
+      "fr": "J'ai rechargé mon passe hier sur mon téléphone.",
+      "zh": "我昨天在手機上替交通卡儲值了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l04-p3",
+      "fr": "Le voyant reste rouge quand je présente la carte.",
+      "zh": "我刷卡時，指示燈一直顯示紅色。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l04-p4",
+      "fr": "Pouvez-vous vérifier si le titre est bien chargé ?",
+      "zh": "可以幫我查票券有沒有成功載入嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l04-p5",
+      "fr": "Je tiens à votre disposition la confirmation de paiement.",
+      "zh": "如您需要，我可以提供付款確認紀錄。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u03-l05-p1",
+      "fr": "Retrouve-moi côté boulangerie, pas côté taxis.",
+      "zh": "在麵包店那側找我，別走到計程車那邊。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u03-l05-p2",
+      "fr": "Je t'attends juste après les portillons.",
+      "zh": "我在出閘門後的地方等你。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l05-p3",
+      "fr": "Envoie-moi le numéro de ta sortie.",
+      "zh": "把你的出口編號傳給我。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l05-p4",
+      "fr": "Si on se rate, retrouvons-nous devant le kiosque.",
+      "zh": "如果錯過彼此，就在報亭前會合。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u03-l05-p5",
+      "fr": "Je vous propose de convenir d'un point de rencontre unique.",
+      "zh": "我建議大家事先約定同一個集合點。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u04-l01-p1",
+      "fr": "Tes poireaux, tu les fais comment ?",
+      "zh": "你的韭蔥都怎麼煮？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u04-l01-p2",
+      "fr": "Je cherche des légumes qui tiennent quelques jours.",
+      "zh": "我想買些可以存放幾天的蔬菜。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l01-p3",
+      "fr": "Ils viennent de quelle région, ces champignons ?",
+      "zh": "這些菇是哪個地區產的？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l01-p4",
+      "fr": "Mettez-moi juste de quoi faire une soupe pour deux.",
+      "zh": "請給我煮兩人份湯剛好的量。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l01-p5",
+      "fr": "Auriez-vous une variété qui convienne particulièrement à la cuisson au four ?",
+      "zh": "您是否有特別適合烤箱料理的品種？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u04-l02-p1",
+      "fr": "Celui-là, il arrache un peu ou ça va ?",
+      "zh": "這款味道很衝，還是還好？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u04-l02-p2",
+      "fr": "Je voudrais quelque chose de doux mais pas trop crémeux.",
+      "zh": "我想要味道溫和，但質地別太濃滑的。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l02-p3",
+      "fr": "Est-ce que je peux goûter un petit morceau ?",
+      "zh": "我可以試吃一小塊嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l02-p4",
+      "fr": "Une tranche de cette épaisseur me suffit.",
+      "zh": "切這個厚度的一片就夠了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l02-p5",
+      "fr": "Pourriez-vous emballer les deux portions séparément ?",
+      "zh": "能否請您把兩份分開包裝？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u04-l03-p1",
+      "fr": "Ça te dit de prendre deux entrées à partager ?",
+      "zh": "要不要點兩份前菜一起吃？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u04-l03-p2",
+      "fr": "Le plat du jour est-il encore disponible ?",
+      "zh": "今日特餐還有嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l03-p3",
+      "fr": "Est-ce que la sauce contient de la crème ?",
+      "zh": "這款醬有加鮮奶油嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l03-p4",
+      "fr": "Je prendrai les légumes à la place des frites.",
+      "zh": "我想把薯條換成蔬菜。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l03-p5",
+      "fr": "Je vous saurais gré de vérifier la composition auprès de la cuisine.",
+      "zh": "可否麻煩您向廚房確認一下成分？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u04-l04-p1",
+      "fr": "Je t'avance ta part, tu me rembourses demain.",
+      "zh": "我先幫你墊，你明天還我。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l04-p2",
+      "fr": "On répartit les boissons entre ceux qui en ont pris.",
+      "zh": "飲料錢由有點飲料的人分攤。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l04-p3",
+      "fr": "Il me semble que cette ligne apparaît deux fois.",
+      "zh": "這個項目好像出現了兩次。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l04-p4",
+      "fr": "Gardons le ticket pour faire les comptes.",
+      "zh": "把收據留著，方便算帳。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l04-p5",
+      "fr": "Serait-il possible d'établir deux notes distinctes ?",
+      "zh": "可否分別開立兩張帳單？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u04-l05-p1",
+      "fr": "J'ai eu la main lourde sur les épices.",
+      "zh": "我香料下手太重了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u04-l05-p2",
+      "fr": "Je laisse le thé infuser avant d'ajouter le lait.",
+      "zh": "我會先讓茶浸泡，再加牛奶。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l05-p3",
+      "fr": "Tu as une passoire assez fine pour les feuilles ?",
+      "zh": "你有濾得掉茶葉的細篩網嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l05-p4",
+      "fr": "On peut rallonger le thé avec un peu de lait chaud.",
+      "zh": "我們可以加一點熱牛奶把茶調淡。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u04-l05-p5",
+      "fr": "Merci de bien vouloir préciser si vous souhaitez du sucre.",
+      "zh": "煩請告知您是否需要加糖。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u05-l01-p1",
+      "fr": "On se cale un verre après ton cours ?",
+      "zh": "你下課後我們約喝一杯？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u05-l01-p2",
+      "fr": "J'ai un créneau entre la répétition et le dîner.",
+      "zh": "我排練和晚餐中間有一段空檔。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l01-p3",
+      "fr": "Ça t'arrange mieux en semaine ou le week-end ?",
+      "zh": "你平日比較方便還是週末？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l01-p4",
+      "fr": "Je te confirme l'heure dès que j'ai mon emploi du temps.",
+      "zh": "我一拿到課表就跟你確認時間。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l01-p5",
+      "fr": "Je vous laisse le soin de choisir l'horaire qui vous conviendra le mieux.",
+      "zh": "時間請您依方便選擇。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u05-l02-p1",
+      "fr": "C'est blindé ici, on tente la rue d'à côté ?",
+      "zh": "這裡擠爆了，我們去隔壁街找找？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u05-l02-p2",
+      "fr": "Je cherche un café où l'on peut sortir son ordinateur.",
+      "zh": "我在找一家能用筆電的咖啡館。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l02-p3",
+      "fr": "Cette table est-elle réservée pour le déjeuner ?",
+      "zh": "這桌是為午餐客人預留的嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l02-p4",
+      "fr": "Je vais reprendre un café si on reste plus longtemps.",
+      "zh": "如果我們多待一會兒，我會再點杯咖啡。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l02-p5",
+      "fr": "M'autoriseriez-vous à brancher mon ordinateur près de la fenêtre ?",
+      "zh": "我可以在窗邊替筆電插電嗎？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u05-l03-p1",
+      "fr": "Tu me fais goûter une bouchée ?",
+      "zh": "可以讓我嚐一口嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u05-l03-p2",
+      "fr": "La crème est légère, avec une pointe de citron.",
+      "zh": "奶油餡很輕盈，帶點檸檬味。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l03-p3",
+      "fr": "J'aime bien le contraste entre le croustillant et le fondant.",
+      "zh": "我蠻喜歡酥脆和綿密之間的對比。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l03-p4",
+      "fr": "Je préfère partager pour pouvoir goûter plusieurs desserts.",
+      "zh": "我想分著吃，這樣能嚐幾種甜點。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l03-p5",
+      "fr": "Quel dessert conseilleriez-vous à quelqu'un qui apprécie les saveurs peu sucrées ?",
+      "zh": "若客人偏好甜度較低的口味，您會推薦哪款甜點？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u05-l04-p1",
+      "fr": "Je passe mon tour pour la prochaine tournée.",
+      "zh": "下一輪我先跳過。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u05-l04-p2",
+      "fr": "Je cherche un cocktail plutôt acidulé.",
+      "zh": "我想找一杯偏酸的調酒。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l04-p3",
+      "fr": "Tu préfères t'installer au comptoir ou en terrasse ?",
+      "zh": "你想坐吧檯還是戶外座位？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l04-p4",
+      "fr": "Je vais prendre un verre d'eau avant de commander autre chose.",
+      "zh": "我再點別的之前先喝杯水。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l04-p5",
+      "fr": "Pourriez-vous me proposer une version sans alcool de ce cocktail ?",
+      "zh": "能否為我推薦這款調酒的無酒精版本？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u05-l05-p1",
+      "fr": "Ce soir, je suis rincé, on remet ça ?",
+      "zh": "我今晚累癱了，改天好嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u05-l05-p2",
+      "fr": "J'aurais aimé venir, mais j'ai déjà donné ma parole à un ami.",
+      "zh": "我本來很想去，但我已經答應一位朋友了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l05-p3",
+      "fr": "Je suis libre jeudi si tu veux qu'on se rattrape.",
+      "zh": "如果想另外約，我週四有空。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l05-p4",
+      "fr": "Merci d'avoir pensé à moi pour cette sortie.",
+      "zh": "謝謝你這次出遊有想到我。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u05-l05-p5",
+      "fr": "J'espère avoir le plaisir de me joindre à vous une prochaine fois.",
+      "zh": "希望下次有機會與各位同行。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u06-l01-p1",
+      "fr": "Tu sais ce qu'ils entendent par justificatif ?",
+      "zh": "你知道他們說的證明文件是指哪種嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u06-l01-p2",
+      "fr": "Une attestation de la résidence suffit-elle ?",
+      "zh": "宿舍開的證明就夠了嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l01-p3",
+      "fr": "Le formulaire demande une adresse permanente.",
+      "zh": "表格要求填永久地址。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l01-p4",
+      "fr": "Je peux fournir une version en français ou en anglais.",
+      "zh": "我可以提供法文版或英文版。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l01-p5",
+      "fr": "Je souhaiterais obtenir la liste exhaustive des pièces à joindre.",
+      "zh": "我想索取完整的應附文件清單。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u06-l02-p1",
+      "fr": "Mon scan est tout de travers, je le refais.",
+      "zh": "我掃歪了，我重掃。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u06-l02-p2",
+      "fr": "J'ai regroupé les deux pages dans un seul fichier.",
+      "zh": "我把兩頁合併到同一個檔案了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l02-p3",
+      "fr": "La signature apparaît bien en bas de la deuxième page.",
+      "zh": "簽名清楚顯示在第二頁底部。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l02-p4",
+      "fr": "Le fichier dépasse la taille maximale autorisée.",
+      "zh": "檔案超過允許的大小上限。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l02-p5",
+      "fr": "Veuillez trouver ci-joint la version lisible du document demandé.",
+      "zh": "隨信附上您要求的文件清晰版。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u06-l03-p1",
+      "fr": "Ton dossier, il en est où ?",
+      "zh": "你的申請案辦到哪了？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u06-l03-p2",
+      "fr": "J'ai reçu l'accusé de réception, mais pas de réponse sur le fond.",
+      "zh": "我收到收件通知了，但還沒有實質答覆。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l03-p3",
+      "fr": "Est-ce qu'un document bloque le traitement ?",
+      "zh": "是有哪份文件卡住了辦理進度嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l03-p4",
+      "fr": "Je vous rappelle le numéro de référence de ma demande.",
+      "zh": "再提供一次我的申請案號供您查詢。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l03-p5",
+      "fr": "Je me permets de revenir vers vous au sujet de mon dossier déposé lundi.",
+      "zh": "謹就我週一遞交的申請再次向您詢問。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u06-l04-p1",
+      "fr": "Ils ont inversé mon nom et mon prénom.",
+      "zh": "他們把我的姓跟名填反了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u06-l04-p2",
+      "fr": "Sur mon passeport, le nom est écrit en majuscules.",
+      "zh": "我的護照上姓氏以大寫顯示。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l04-p3",
+      "fr": "Il manque un tiret dans la version imprimée.",
+      "zh": "列印版本少了一個連字號。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l04-p4",
+      "fr": "Je joins une copie pour que vous puissiez comparer.",
+      "zh": "我附上一份副本，方便您比對。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l04-p5",
+      "fr": "Je sollicite la rectification de cette erreur avant l'émission de la carte.",
+      "zh": "懇請在製卡前更正此錯誤。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u06-l05-p1",
+      "fr": "Je suis un peu juste pour tout rendre ce soir.",
+      "zh": "要我今晚全部交齊有點趕。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u06-l05-p2",
+      "fr": "La dernière attestation ne sera prête que vendredi.",
+      "zh": "最後一份證明要到週五才會好。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l05-p3",
+      "fr": "Puis-je déposer les pièces déjà disponibles ?",
+      "zh": "我可以先交手邊已經有的文件嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l05-p4",
+      "fr": "Je transmettrai le complément dès réception.",
+      "zh": "我一收到就會補交。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u06-l05-p5",
+      "fr": "Compte tenu de ce retard indépendant de ma volonté, un délai supplémentaire serait-il envisageable ?",
+      "zh": "這項延誤非我所能控制，是否可能延長期限？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u07-l01-p1",
+      "fr": "Je rebondis là-dessus deux secondes.",
+      "zh": "我接著這點講兩句。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u07-l01-p2",
+      "fr": "Ton exemple me fait penser à notre enquête.",
+      "zh": "你的例子讓我想到我們的調查。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l01-p3",
+      "fr": "Je suis d'accord avec toi sur le premier point.",
+      "zh": "第一點我同意你。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l01-p4",
+      "fr": "J'ajouterais une distinction entre accès et usage.",
+      "zh": "我會再區分取得服務和實際使用。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l01-p5",
+      "fr": "Si vous le permettez, j'aimerais prolonger ce raisonnement.",
+      "zh": "若各位允許，我想延伸這項論點。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u07-l02-p1",
+      "fr": "J'ai décroché au moment du calcul.",
+      "zh": "講到計算的時候我沒跟上。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u07-l02-p2",
+      "fr": "Vous pourriez reprendre la dernière étape ?",
+      "zh": "您可以再說一次最後那一步嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l02-p3",
+      "fr": "Quand vous dites « marge », de quelle marge parlez-vous ?",
+      "zh": "您說的「利潤率」是指哪一種？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l02-p4",
+      "fr": "Je voudrais vérifier que j'ai bien compris la consigne.",
+      "zh": "我想確認自己對指示的理解。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l02-p5",
+      "fr": "Pourriez-vous expliciter le lien entre ces deux notions ?",
+      "zh": "可否說明這兩個概念之間的關聯？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u07-l03-p1",
+      "fr": "Attends, ça marche aussi dans l'autre sens ?",
+      "zh": "等等，反過來也成立嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u07-l03-p2",
+      "fr": "J'ai en tête un cas qui semble contredire cette règle.",
+      "zh": "我想到一個似乎與這條規則相抵觸的案例。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l03-p3",
+      "fr": "Imaginons une école sans accès à Internet.",
+      "zh": "假設有一間學校無法上網。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l03-p4",
+      "fr": "Dans cet exemple, le coût ne change pas.",
+      "zh": "在這個例子裡，成本沒有變動。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l03-p5",
+      "fr": "Cette exception invite à préciser les limites du modèle.",
+      "zh": "這項例外說明我們需要界定模型的適用範圍。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u07-l04-p1",
+      "fr": "Laisse-moi deux secondes pour formuler ça.",
+      "zh": "給我兩秒鐘組織一下。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u07-l04-p2",
+      "fr": "Je vais prendre un exemple plus concret.",
+      "zh": "我舉個更具體的例子。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l04-p3",
+      "fr": "Je sais comment l'expliquer en anglais, mais le mot français m'échappe.",
+      "zh": "我知道英文怎麼解釋，可是一時想不起法文那個詞。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l04-p4",
+      "fr": "Je reformule ma question autrement.",
+      "zh": "我換個方式問。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l04-p5",
+      "fr": "Pourriez-vous m'accorder un instant pour ordonner mes idées ?",
+      "zh": "可否容我片刻整理思路？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u07-l05-p1",
+      "fr": "Tu viens voir le prof avec moi ?",
+      "zh": "你要跟我一起去找老師嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u07-l05-p2",
+      "fr": "Il me reste une question sur le corrigé.",
+      "zh": "關於參考解答，我還有一個問題。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l05-p3",
+      "fr": "J'ai suivi la même méthode, mais j'obtiens un autre résultat.",
+      "zh": "我用了同一種方法，但算出不同結果。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l05-p4",
+      "fr": "Est-ce que je peux vous montrer mon raisonnement ?",
+      "zh": "可以請您看看我的推理過程嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u07-l05-p5",
+      "fr": "Auriez-vous un créneau pour en discuter pendant vos permanences ?",
+      "zh": "您的辦公時間裡是否有空討論這個問題？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u08-l01-p1",
+      "fr": "Tu prends les slides et je gère les chiffres ?",
+      "zh": "你做投影片，我來搞定數字？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l01-p2",
+      "fr": "Qui se sent à l'aise pour mener l'entretien ?",
+      "zh": "誰比較有把握主持訪談？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l01-p3",
+      "fr": "On peut répartir les tâches selon nos disponibilités.",
+      "zh": "我們可以按照各自有空的時間分工。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l01-p4",
+      "fr": "Je veux bien relire la version finale.",
+      "zh": "我可以幫忙校閱最終版。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l01-p5",
+      "fr": "Je propose que chaque partie ait un responsable clairement identifié.",
+      "zh": "我建議每個部分都明確指定一位負責人。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u08-l02-p1",
+      "fr": "Oups, j'ai bossé sur l'ancienne version.",
+      "zh": "糟糕，我用舊版做了半天。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u08-l02-p2",
+      "fr": "Le lien partagé dans le groupe est le bon.",
+      "zh": "群組裡分享的連結是正確的。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l02-p3",
+      "fr": "Ajoutez vos remarques en commentaire plutôt que dans le texte.",
+      "zh": "請把意見加在註解裡，以免混進正文。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l02-p4",
+      "fr": "Je renomme le fichier avec la date de ce soir.",
+      "zh": "我會用今晚的日期重新命名檔案。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l02-p5",
+      "fr": "Afin d'éviter les doublons, merci de centraliser les modifications ici.",
+      "zh": "為避免出現重複版本，請集中在此修改。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u08-l03-p1",
+      "fr": "T'en es où sur ta partie ?",
+      "zh": "你負責的部分做到哪了？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u08-l03-p2",
+      "fr": "Est-ce qu'il te manque quelque chose pour avancer ?",
+      "zh": "你還缺什麼才能繼續？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l03-p3",
+      "fr": "Je peux reprendre le graphique si tu manques de temps.",
+      "zh": "如果你時間不夠，我可以接手圖表。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l03-p4",
+      "fr": "Il nous reste une soirée pour mettre le tout en commun.",
+      "zh": "我們還有一個晚上可以整合。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l03-p5",
+      "fr": "Pourriez-vous signaler d'ici midi tout point susceptible de retarder la remise ?",
+      "zh": "若有可能影響繳交時間的事項，請在中午前提出。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u08-l04-p1",
+      "fr": "Là, je crois qu'on se comprend de travers.",
+      "zh": "我覺得我們在這點上誤會彼此了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l04-p2",
+      "fr": "Je vois l'intérêt de ta proposition.",
+      "zh": "我看得出你的提議有什麼好處。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l04-p3",
+      "fr": "Notre désaccord porte sur la méthode, pas sur l'objectif.",
+      "zh": "我們有分歧的是方法，目標是一致的。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l04-p4",
+      "fr": "Essayons les deux options sur un petit échantillon.",
+      "zh": "我們先用小樣本把兩種方案都試一次。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l04-p5",
+      "fr": "Serait-il envisageable de retenir une solution intermédiaire ?",
+      "zh": "我們是否可以採用折衷方案？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u08-l05-p1",
+      "fr": "Ça y est, c'est envoyé !",
+      "zh": "搞定，寄出去了！",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l05-p2",
+      "fr": "J'ai vérifié les noms sur la page de garde.",
+      "zh": "我核對了封面上的姓名。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l05-p3",
+      "fr": "La plateforme affiche bien l'heure de dépôt.",
+      "zh": "平台有顯示上傳時間。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l05-p4",
+      "fr": "Je mets la confirmation dans notre dossier partagé.",
+      "zh": "我把確認紀錄放進共享資料夾。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u08-l05-p5",
+      "fr": "Au nom de l'équipe, je vous remercie pour vos retours tout au long du projet.",
+      "zh": "我代表團隊感謝您在整個專案期間提供的回饋。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u09-l01-p1",
+      "fr": "On a surtout interrogé nos potes, non ?",
+      "zh": "我們主要都問自己朋友吧？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u09-l01-p2",
+      "fr": "Les répondants viennent presque tous du même campus.",
+      "zh": "受訪者幾乎全來自同一個校區。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l01-p3",
+      "fr": "Combien de personnes ont abandonné avant la fin ?",
+      "zh": "有多少人還沒填完就退出？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l01-p4",
+      "fr": "Il manque les personnes qui ne prennent jamais le bus.",
+      "zh": "樣本漏掉了從不搭公車的人。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l01-p5",
+      "fr": "La composition de l'échantillon limite la portée de nos conclusions.",
+      "zh": "樣本組成限制了我們結論的適用範圍。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u09-l02-p1",
+      "fr": "Là, tu comptes les gens ou les réponses ?",
+      "zh": "你這裡是在算人數還是答案數？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u09-l02-p2",
+      "fr": "Le taux passe de dix à quinze pour cent.",
+      "zh": "比率從百分之十升到百分之十五。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l02-p3",
+      "fr": "Cela représente cinq points de pourcentage supplémentaires.",
+      "zh": "這代表增加了五個百分點。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l02-p4",
+      "fr": "Le dénominateur change d'une colonne à l'autre.",
+      "zh": "不同欄位使用的分母不同。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l02-p5",
+      "fr": "Merci de préciser la base de calcul sous le tableau.",
+      "zh": "請在表格下方註明計算基礎。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u09-l03-p1",
+      "fr": "Les deux courbes bougent ensemble, mais ça ne prouve pas grand-chose.",
+      "zh": "兩條曲線同步變動，但這證明不了多少。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l03-p2",
+      "fr": "Une hausse des ventes peut avoir plusieurs causes.",
+      "zh": "銷售增加可能有好幾種原因。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l03-p3",
+      "fr": "Avons-nous tenu compte de la saison ?",
+      "zh": "我們有把季節因素算進去嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l03-p4",
+      "fr": "Il faudrait comparer deux groupes semblables.",
+      "zh": "需要拿兩組相似的對象做比較。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l03-p5",
+      "fr": "Ces observations ne permettent pas d'attribuer l'effet à la campagne.",
+      "zh": "僅憑這些觀察，無法將效果歸因於這次宣傳。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u09-l04-p1",
+      "fr": "Ce chiffre-là me paraît louche.",
+      "zh": "這個數字我看有點怪。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u09-l04-p2",
+      "fr": "La valeur dépasse de loin toutes les autres.",
+      "zh": "這個值遠高於所有其他值。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l04-p3",
+      "fr": "Je vais remonter jusqu'à la ligne d'origine.",
+      "zh": "我會追查到原始資料的那一列。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l04-p4",
+      "fr": "La virgule a peut-être été déplacée à l'importation.",
+      "zh": "匯入時小數點的位置可能跑掉了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l04-p5",
+      "fr": "Avant toute exclusion, il convient de documenter l'origine de l'écart.",
+      "zh": "在排除這筆資料前，應記錄差異的來源。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u09-l05-p1",
+      "fr": "On ne va pas faire dire aux chiffres plus qu'ils ne disent.",
+      "zh": "我們可別過度解讀數字。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u09-l05-p2",
+      "fr": "Les résultats couvrent seulement le premier mois.",
+      "zh": "結果只涵蓋第一個月。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l05-p3",
+      "fr": "Nous n'avons pas recueilli de données sur les coûts fixes.",
+      "zh": "我們沒有蒐集固定成本的資料。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l05-p4",
+      "fr": "Une deuxième mesure aiderait à vérifier la tendance.",
+      "zh": "再做一次測量有助於確認趨勢。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u09-l05-p5",
+      "fr": "À ce stade, il serait prématuré de généraliser à l'ensemble des écoles.",
+      "zh": "現階段若推論到所有學校仍言之過早。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u10-l01-p1",
+      "fr": "On évite de lire tout le titre, hein ?",
+      "zh": "我們別把整個標題唸一遍，好嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u10-l01-p2",
+      "fr": "Je voudrais partir d'une scène vécue dans une école.",
+      "zh": "我想從一間學校裡親身經歷的情境說起。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l01-p3",
+      "fr": "Imaginez que le seul bus arrive après la première heure de cours.",
+      "zh": "請想像唯一一班公車在第一節下課後才到。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l01-p4",
+      "fr": "C'est à partir de ce problème que nous avons construit notre étude.",
+      "zh": "我們的研究就是從這個問題出發。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l01-p5",
+      "fr": "Permettez-moi de rappeler brièvement la question qui nous réunit.",
+      "zh": "請容我簡述今天各位共同探討的問題。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u10-l02-p1",
+      "fr": "Regardez juste la courbe du bas.",
+      "zh": "先看下面那條曲線就好。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u10-l02-p2",
+      "fr": "L'axe horizontal correspond aux semaines de cours.",
+      "zh": "橫軸對應教學週次。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l02-p3",
+      "fr": "La zone grise représente les réponses manquantes.",
+      "zh": "灰色區域表示缺漏的回覆。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l02-p4",
+      "fr": "Le changement le plus net se situe après les vacances.",
+      "zh": "最明顯的變化出現在假期之後。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l02-p5",
+      "fr": "J'attire votre attention sur l'écart entre les deux dernières colonnes.",
+      "zh": "敬請各位留意最後兩欄的差距。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u10-l03-p1",
+      "fr": "Il me reste combien de temps, à la louche ?",
+      "zh": "我大概還剩多少時間？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u10-l03-p2",
+      "fr": "Je passe directement au résultat principal.",
+      "zh": "我直接講最主要的結果。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l03-p3",
+      "fr": "Je garde les détails techniques pour les questions.",
+      "zh": "技術細節我留到問答時再談。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l03-p4",
+      "fr": "En une phrase, le délai compte plus que le prix.",
+      "zh": "一句話概括，等待時間比價格更重要。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l03-p5",
+      "fr": "Pour respecter le temps imparti, je m'en tiendrai à deux constats.",
+      "zh": "為遵守時間限制，我將只說明兩項觀察。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u10-l04-p1",
+      "fr": "À toi de jouer pour la suite !",
+      "zh": "接下來換你上場！",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u10-l04-p2",
+      "fr": "Je laisse maintenant la parole à ma collègue.",
+      "zh": "接下來交給我的同學說明。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l04-p3",
+      "fr": "Ce que tu viens de montrer éclaire notre deuxième question.",
+      "zh": "你剛才展示的內容有助於釐清我們的第二個問題。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l04-p4",
+      "fr": "Avant de changer de sujet, retenons ce premier chiffre.",
+      "zh": "轉到下一個主題之前，先記住第一個數字。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l04-p5",
+      "fr": "Cette observation m'amène à examiner les conséquences pour les usagers.",
+      "zh": "這項觀察引導我進一步探討對使用者的影響。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u10-l05-p1",
+      "fr": "Bonne colle, je n'ai pas le chiffre en tête.",
+      "zh": "這題真考倒我了，我一時想不起數字。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u10-l05-p2",
+      "fr": "Si je comprends bien, vous demandez ce qui se passerait sans subvention.",
+      "zh": "如果我理解得對，您問的是沒有補助會怎樣。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l05-p3",
+      "fr": "Notre enquête ne permet pas de trancher cette question.",
+      "zh": "我們的調查無法對這個問題下定論。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l05-p4",
+      "fr": "Je peux vous envoyer le détail du calcul après la séance.",
+      "zh": "會後我可以寄給您計算細節。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u10-l05-p5",
+      "fr": "Je préfère vérifier cette donnée avant de vous apporter une réponse définitive.",
+      "zh": "我希望先查核這項資料，再給您確切答覆。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u11-l01-p1",
+      "fr": "En français, je me débrouille, mais je cherche encore mes mots.",
+      "zh": "我法文應付得來，但還是常要找一下詞。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u11-l01-p2",
+      "fr": "Je comprends mieux quand je connais déjà le sujet.",
+      "zh": "如果事先熟悉主題，我理解得比較好。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l01-p3",
+      "fr": "J'aimerais travailler les échanges spontanés.",
+      "zh": "我想練臨場對話。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l01-p4",
+      "fr": "Je peux t'aider en mandarin en échange.",
+      "zh": "作為交換，我可以幫你練中文。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l01-p5",
+      "fr": "Mon objectif est de gagner en aisance à l'oral dans un cadre professionnel.",
+      "zh": "我的目標是在職場口語溝通時能更從容。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u11-l02-p1",
+      "fr": "Tu me reprends si je dis un truc bizarre ?",
+      "zh": "如果我講得很怪，你可以糾正我嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u11-l02-p2",
+      "fr": "Je préfère finir ma phrase avant la correction.",
+      "zh": "我希望先講完整句再被糾正。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l02-p3",
+      "fr": "Est-ce une faute ou simplement une tournure peu naturelle ?",
+      "zh": "這是錯誤，還是只是不太自然的說法？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l02-p4",
+      "fr": "Tu peux me donner une phrase où ce mot sonne juste ?",
+      "zh": "可以給我一個這個詞用起來很自然的例句嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l02-p5",
+      "fr": "N'hésitez pas à me signaler toute formulation susceptible de prêter à confusion.",
+      "zh": "若我有任何可能造成誤解的表達，請不吝指出。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u11-l03-p1",
+      "fr": "Ça fait un peu sec si je dis ça ?",
+      "zh": "我這樣講聽起來會不會有點冷淡？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u11-l03-p2",
+      "fr": "Tu emploierais ce mot avec un professeur ?",
+      "zh": "你和教授說話時會用這個詞嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l03-p3",
+      "fr": "Cette expression me paraît plus écrite qu'orale.",
+      "zh": "我覺得這種表達比較偏書面。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l03-p4",
+      "fr": "Je cherche une façon plus douce de refuser.",
+      "zh": "我在找比較委婉的拒絕方式。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l03-p5",
+      "fr": "Quelle formule conviendrait à un premier échange avec une administration ?",
+      "zh": "第一次與行政單位聯絡時，哪種說法比較合適？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u11-l04-p1",
+      "fr": "T'as dit « délai » ou « délit » ?",
+      "zh": "你剛說的是 délai 還是 délit？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u11-l04-p2",
+      "fr": "Je n'ai pas entendu la fin du mot.",
+      "zh": "我沒聽清楚那個字的結尾。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l04-p3",
+      "fr": "Vous pouvez l'épeler en séparant les lettres ?",
+      "zh": "您可以把它逐個字母拼出來嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l04-p4",
+      "fr": "Je l'ai noté pour pouvoir le réutiliser demain.",
+      "zh": "我記下來了，明天就能再用一次。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l04-p5",
+      "fr": "Pourriez-vous répéter le nom propre un peu plus lentement ?",
+      "zh": "可否請您把那個專有名詞再說慢一點？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u11-l05-p1",
+      "fr": "Il n'y a pas vraiment de mot pile pareil en français.",
+      "zh": "法文裡好像沒有完全對應的詞。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u11-l05-p2",
+      "fr": "Chez moi, cette expression évoque surtout le respect des aînés.",
+      "zh": "在我家鄉，這句話主要讓人想到對長輩的尊重。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l05-p3",
+      "fr": "Je vais passer par un exemple plutôt que par une traduction littérale.",
+      "zh": "我會舉例解釋，比逐字翻譯更清楚。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l05-p4",
+      "fr": "Selon le contexte, le même mot peut être affectueux ou ironique.",
+      "zh": "同一個詞依語境不同，可以親暱也可以帶諷刺。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u11-l05-p5",
+      "fr": "Une traduction mot à mot risquerait ici d'effacer la nuance culturelle.",
+      "zh": "此處若逐字翻譯，恐怕會抹去文化上的細微差異。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u12-l01-p1",
+      "fr": "Tu me passes le code de la salle de piano ?",
+      "zh": "可以把琴房密碼傳給我嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u12-l01-p2",
+      "fr": "Je voudrais réserver un créneau après dix-huit heures.",
+      "zh": "我想預約傍晚六點以後的時段。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l01-p3",
+      "fr": "Le piano est-il accessible aux étudiants qui ne suivent pas de cours de musique ?",
+      "zh": "沒修音樂課的學生也可以用那台琴嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l01-p4",
+      "fr": "Je rendrai la clé à l'accueil en sortant.",
+      "zh": "我離開時會把鑰匙交回櫃檯。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l01-p5",
+      "fr": "Serait-il possible de prolonger exceptionnellement ma réservation d'un quart d'heure ?",
+      "zh": "這次是否可以破例讓我延長預約十五分鐘？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u12-l02-p1",
+      "fr": "On la descend d'un ton, celle-là ?",
+      "zh": "這首要不要降一個全音？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u12-l02-p2",
+      "fr": "Je chante plus confortablement dans le médium.",
+      "zh": "我唱中音區比較舒服。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l02-p3",
+      "fr": "La dernière note est un peu haute pour ma voix de baryton.",
+      "zh": "對我的男中音來說，最後那個音有點高。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l02-p4",
+      "fr": "Essayons le refrain dans les deux tonalités.",
+      "zh": "我們用兩個調各試唱一次副歌。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l02-p5",
+      "fr": "Cette transposition permettrait de préserver le caractère du morceau.",
+      "zh": "這樣移調應能保留樂曲的特色。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u12-l03-p1",
+      "fr": "J'arrive trop tôt sur le deuxième temps.",
+      "zh": "我在第二拍進得太早。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u12-l03-p2",
+      "fr": "Donne-moi deux mesures avant de commencer à chanter.",
+      "zh": "我開唱前先彈兩小節。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l03-p3",
+      "fr": "On reprend juste avant le changement de rythme.",
+      "zh": "我們從節奏變化前一點重來。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l03-p4",
+      "fr": "Je te ferai signe quand je prendrai ma respiration.",
+      "zh": "我要換氣時會給你手勢。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l03-p5",
+      "fr": "Pourriez-vous maintenir le tempo jusqu'à la fin de la phrase ?",
+      "zh": "可否請您把速度維持到這個樂句結束？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u12-l04-p1",
+      "fr": "Mince, on entend la porte sur la prise !",
+      "zh": "糟了，這次錄音裡聽得到門聲！",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u12-l04-p2",
+      "fr": "J'enregistre d'abord un extrait pour régler le niveau.",
+      "zh": "我先錄一小段來調音量。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l04-p3",
+      "fr": "La voix couvre le piano dans les aigus.",
+      "zh": "高音區的人聲蓋過了鋼琴。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l04-p4",
+      "fr": "Je préfère garder cette prise malgré la petite hésitation.",
+      "zh": "雖然有一點猶豫，我還是想保留這次錄音。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l04-p5",
+      "fr": "Avant toute publication, je souhaiterais recueillir l'accord des personnes filmées.",
+      "zh": "發布前，我希望先取得入鏡者的同意。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u12-l05-p1",
+      "fr": "Ton entrée sur le refrain, elle m'a filé des frissons.",
+      "zh": "你副歌一進來，我雞皮疙瘩都起來了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u12-l05-p2",
+      "fr": "J'ai aimé la façon dont tu as laissé respirer le dernier accord.",
+      "zh": "我很喜歡你讓最後一個和弦自然延續的處理。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l05-p3",
+      "fr": "Depuis le fond de la salle, entendait-on bien les paroles ?",
+      "zh": "坐在後排聽得清楚歌詞嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l05-p4",
+      "fr": "On pourrait reprendre ce morceau au prochain concert.",
+      "zh": "我們下次演出可以再唱這首。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u12-l05-p5",
+      "fr": "Je tiens à remercier l'équipe technique pour la qualité des retours de scène.",
+      "zh": "我想感謝技術團隊提供優質的舞台監聽。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u13-l01-p1",
+      "fr": "J'ai envie de bouger sans passer ma vie dans le train.",
+      "zh": "我想出去走走，但可不想整天耗在火車上。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u13-l01-p2",
+      "fr": "Je cherche une ville qu'on puisse visiter à pied.",
+      "zh": "我想找個走路就能逛的城市。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l01-p3",
+      "fr": "Le marché du samedi m'intéresse plus que les boutiques.",
+      "zh": "星期六的市集比商店更吸引我。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l01-p4",
+      "fr": "Avec une seule nuit sur place, mieux vaut partir tôt.",
+      "zh": "只在當地過一晚的話，最好早點出發。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l01-p5",
+      "fr": "Pourriez-vous m'indiquer si les visites guidées sont maintenues en hiver ?",
+      "zh": "能否告知冬季是否照常舉辦導覽？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u13-l02-p1",
+      "fr": "Attends, le retour est compris là-dedans ?",
+      "zh": "等等，這個有含回程嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u13-l02-p2",
+      "fr": "Ce billet est valable uniquement sur le train indiqué.",
+      "zh": "這張票只適用於指定班次。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l02-p3",
+      "fr": "La réduction s'applique-t-elle aussi à mon accompagnateur ?",
+      "zh": "我的同行者也能享有折扣嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l02-p4",
+      "fr": "Je compare le prix total, réservation comprise.",
+      "zh": "我比較的是含訂位費的總價。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l02-p5",
+      "fr": "Je souhaiterais connaître les conditions d'échange avant de régler.",
+      "zh": "付款前，我想了解換票條件。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u13-l03-p1",
+      "fr": "Si on dort là, on va galérer pour rentrer le soir.",
+      "zh": "如果住那裡，我們晚上回去會很折騰。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u13-l03-p2",
+      "fr": "La chambre donne-t-elle sur la rue ou sur la cour ?",
+      "zh": "房間是面街還是面中庭？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l03-p3",
+      "fr": "Je préfère payer un peu plus pour rester près de la gare.",
+      "zh": "我寧願多付一點，住得離車站近些。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l03-p4",
+      "fr": "L'arrivée tardive entraîne-t-elle un supplément ?",
+      "zh": "較晚入住需要加價嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l03-p5",
+      "fr": "Pourriez-vous me confirmer par écrit le montant total du séjour ?",
+      "zh": "可否書面確認整段住宿的總金額？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u13-l04-p1",
+      "fr": "Notre correspondance, ça va être chaud.",
+      "zh": "我們要趕上轉乘會很吃緊。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u13-l04-p2",
+      "fr": "Le train suivant part d'un autre quai.",
+      "zh": "下一班車從另一個月台開出。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l04-p3",
+      "fr": "Le contrôleur peut-il prévenir la gare d'arrivée ?",
+      "zh": "列車員可以通知抵達站嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l04-p4",
+      "fr": "Je vais garder une capture de l'horaire annoncé.",
+      "zh": "我會保留公告時刻的截圖。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l04-p5",
+      "fr": "Je sollicite une attestation mentionnant l'heure réelle d'arrivée.",
+      "zh": "我想申請一份註明實際抵達時間的證明。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u13-l05-p1",
+      "fr": "Le détour valait carrément le coup.",
+      "zh": "這段繞路真的很值得。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u13-l05-p2",
+      "fr": "La prochaine fois, je réserverai moins de visites le même jour.",
+      "zh": "下次我會少排幾個同一天的參觀行程。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l05-p3",
+      "fr": "Ce que j'ai préféré, c'est la promenade le long du fleuve.",
+      "zh": "我最喜歡的是沿河散步。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l05-p4",
+      "fr": "Je t'envoie l'adresse de la pension où nous avons dormi.",
+      "zh": "我把我們住過的民宿地址寄給你。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u13-l05-p5",
+      "fr": "Je remercie notre guide d'avoir adapté le parcours au rythme du groupe.",
+      "zh": "感謝導覽員根據團體步調調整路線。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u14-l01-p1",
+      "fr": "Tu crois qu'ils prennent des stagiaires pour deux mois ?",
+      "zh": "你覺得他們收兩個月的實習生嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u14-l01-p2",
+      "fr": "L'annonce mentionne une prise de poste en juillet.",
+      "zh": "職缺寫的是七月到職。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l01-p3",
+      "fr": "La durée minimale est-elle négociable ?",
+      "zh": "最短實習期間可以商量嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l01-p4",
+      "fr": "Je vérifie si la mission comporte une partie analytique.",
+      "zh": "我在確認工作是否包含分析任務。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l01-p5",
+      "fr": "Je me permets de vous demander si le recrutement est toujours en cours.",
+      "zh": "冒昧請問目前是否仍在招募。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u14-l02-p1",
+      "fr": "Je peux commencer dès que mes exams sont finis.",
+      "zh": "我考完試就可以開始。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u14-l02-p2",
+      "fr": "Mon calendrier universitaire me laisse libre en juillet et en août.",
+      "zh": "依學校行事曆，我七月和八月都有空。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l02-p3",
+      "fr": "Une prolongation en septembre reste à confirmer.",
+      "zh": "能否延長到九月仍待確認。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l02-p4",
+      "fr": "Je dois faire valider les dates par mon école.",
+      "zh": "我得讓學校確認這些日期。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l02-p5",
+      "fr": "Je serais disposé à ajuster ma date de début dans la mesure du possible.",
+      "zh": "在可行範圍內，我願意調整到職日期。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u14-l03-p1",
+      "fr": "Cette ligne de mon CV fait un peu fourre-tout.",
+      "zh": "我履歷上這一行有點什麼都塞在一起。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u14-l03-p2",
+      "fr": "Je voudrais mettre l'accent sur le résultat obtenu.",
+      "zh": "我想凸顯實際取得的成果。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l03-p3",
+      "fr": "Cette formulation donne-t-elle l'impression que j'ai travaillé seul ?",
+      "zh": "這樣寫會讓人以為我獨自完成嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l03-p4",
+      "fr": "J'ai remplacé un terme vague par un verbe d'action.",
+      "zh": "我把一個模糊詞彙換成了具體動詞。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l03-p5",
+      "fr": "La responsabilité décrite correspond précisément au périmètre de ma mission.",
+      "zh": "所述職責確切對應我當時的工作範圍。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u14-l04-p1",
+      "fr": "Ça fait trop copier-coller, cette intro ?",
+      "zh": "這個開頭會不會太像複製貼上？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u14-l04-p2",
+      "fr": "Je souhaite relier mon parcours à une mission précise.",
+      "zh": "我想把自己的經歷對應到一項具體任務。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l04-p3",
+      "fr": "J'ai découvert votre équipe lors d'une rencontre sur le campus.",
+      "zh": "我是透過一場校園交流認識貴團隊的。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l04-p4",
+      "fr": "Je joins mon CV à jour et un exemple de projet.",
+      "zh": "我附上最新版履歷和一份專案例子。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l04-p5",
+      "fr": "Je serais heureux de mettre mon expérience de terrain au service de votre équipe.",
+      "zh": "我很樂意運用自己的第一線經驗為貴團隊效力。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u14-l05-p1",
+      "fr": "Je les relance ou j'attends encore un peu ?",
+      "zh": "我要追問，還是再等一下？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u14-l05-p2",
+      "fr": "J'ai postulé la semaine dernière via votre plateforme.",
+      "zh": "我上週透過貴公司的平台投遞了申請。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l05-p3",
+      "fr": "Mon espace candidat affiche toujours le même statut.",
+      "zh": "我的應徵頁面一直顯示相同狀態。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l05-p4",
+      "fr": "Je reste disponible pour un premier échange téléphonique.",
+      "zh": "我可以配合初步電話面談。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u14-l05-p5",
+      "fr": "Pourriez-vous m'indiquer le calendrier prévisionnel des prochaines étapes ?",
+      "zh": "可否告知後續各階段的預計時程？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u15-l01-p1",
+      "fr": "Si je résume, j'aime bien rendre les choses plus simples.",
+      "zh": "簡單說，我喜歡把事情變得好操作。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u15-l01-p2",
+      "fr": "Après mes études à Taïwan, j'ai rejoint le programme de management à HEC.",
+      "zh": "在台灣完成學業後，我來 HEC 就讀管理課程。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l01-p3",
+      "fr": "Mon échange à Édimbourg m'a habitué aux équipes internationales.",
+      "zh": "在愛丁堡的交換讓我習慣與國際團隊共事。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l01-p4",
+      "fr": "Je voudrais maintenant approfondir le conseil en stratégie.",
+      "zh": "我現在想進一步探索策略顧問工作。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l01-p5",
+      "fr": "Mon parcours associe analyse de données et engagement auprès d'équipes bénévoles.",
+      "zh": "我的經歷結合了資料分析與志工團隊服務。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u15-l02-p1",
+      "fr": "Sur ce coup-là, c'est moi qui ai repris le planning.",
+      "zh": "那次是我接手重排時程。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l02-p2",
+      "fr": "La décision finale appartenait au comité.",
+      "zh": "最終決定權在委員會。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l02-p3",
+      "fr": "J'étais chargé de coordonner les échanges entre les six écoles.",
+      "zh": "我負責協調六所學校之間的聯繫。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l02-p4",
+      "fr": "Nous avons conçu le programme ensemble, puis j'ai piloté sa mise en œuvre.",
+      "zh": "我們共同設計方案，之後由我主導執行。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l02-p5",
+      "fr": "Je tiens à distinguer ma contribution personnelle du travail collectif.",
+      "zh": "我希望清楚區分我個人的貢獻和團隊的共同成果。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u15-l03-p1",
+      "fr": "J'ai voulu aller trop vite et ça m'a rattrapé.",
+      "zh": "我當初想求快，後來就吃到苦頭了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u15-l03-p2",
+      "fr": "J'avais sous-estimé le temps nécessaire à la traduction.",
+      "zh": "我低估了翻譯需要的時間。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l03-p3",
+      "fr": "Les enseignants ont dû attendre les consignes.",
+      "zh": "老師們只好等候指示。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l03-p4",
+      "fr": "Depuis, je prévois une étape de relecture avant chaque départ.",
+      "zh": "從那以後，我每次出發前都會安排校閱。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l03-p5",
+      "fr": "Avec le recul, j'aurais dû consulter les partenaires locaux plus tôt.",
+      "zh": "事後回顧，我當時應該更早徵詢當地夥伴。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u15-l04-p1",
+      "fr": "Ce qui me branche, c'est de comprendre pourquoi un projet coince.",
+      "zh": "我最有興趣的是弄懂一個專案為什麼卡住。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u15-l04-p2",
+      "fr": "Je m'intéresse aux décisions qui changent réellement l'accès à l'éducation.",
+      "zh": "我對真正改變教育可近性的決策感興趣。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l04-p3",
+      "fr": "Le conseil me permettrait de découvrir plusieurs secteurs.",
+      "zh": "顧問工作能讓我接觸不同產業。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l04-p4",
+      "fr": "À terme, j'aimerais rejoindre une organisation à vocation sociale.",
+      "zh": "長遠來說，我希望加入以社會使命為本的組織。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l04-p5",
+      "fr": "Je recherche un environnement où l'analyse débouche sur des décisions concrètes.",
+      "zh": "我尋找的是能將分析轉化為具體決策的環境。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u15-l05-p1",
+      "fr": "Au quotidien, ça ressemble à quoi, une bonne semaine ici ?",
+      "zh": "在這裡，一個過得很順的工作週大概長怎樣？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u15-l05-p2",
+      "fr": "Quel type de dossier confiez-vous à un stagiaire au départ ?",
+      "zh": "一開始您通常會把哪類案件交給實習生？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l05-p3",
+      "fr": "Comment les retours sont-ils organisés au sein de l'équipe ?",
+      "zh": "團隊內部如何安排回饋？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l05-p4",
+      "fr": "Qu'est-ce qui distingue un bon résultat d'un excellent résultat sur ce poste ?",
+      "zh": "在這個職位上，表現好和表現非常好差在哪裡？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u15-l05-p5",
+      "fr": "Je vous remercie de m'avoir donné l'occasion de préciser mes motivations.",
+      "zh": "感謝您給我機會進一步說明申請動機。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u16-l01-p1",
+      "fr": "Tu connais quelqu'un qui bosse en stratégie à Paris ?",
+      "zh": "你認識在巴黎做策略工作的人嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u16-l01-p2",
+      "fr": "Nous avons suivi le même cours à HEC à deux ans d'intervalle.",
+      "zh": "我們在 HEC 上過同一門課，時間相差兩年。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l01-p3",
+      "fr": "Votre parcours entre conseil et monde associatif m'intéresse beaucoup.",
+      "zh": "我對您從顧問業到非營利組織的經歷很感興趣。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l01-p4",
+      "fr": "Auriez-vous quinze minutes pour un échange à distance ?",
+      "zh": "您方便撥十五分鐘線上聊聊嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l01-p5",
+      "fr": "Je m'adapterai volontiers à vos disponibilités dans les semaines à venir.",
+      "zh": "未來幾週我很樂意配合您的時間。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u16-l02-p1",
+      "fr": "Merci d'avoir trouvé un trou dans ton agenda.",
+      "zh": "謝謝你從滿檔行程裡擠出時間。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u16-l02-p2",
+      "fr": "Je vous propose de commencer par votre rôle actuel.",
+      "zh": "我建議先從您現在的職務聊起。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l02-p3",
+      "fr": "Est-ce que vingt minutes vous conviennent toujours ?",
+      "zh": "現在談二十分鐘還方便嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l02-p4",
+      "fr": "J'ai préparé trois questions pour structurer notre échange.",
+      "zh": "我準備了三個問題來安排這次談話。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l02-p5",
+      "fr": "Avec votre accord, je prendrai quelques notes au fil de la discussion.",
+      "zh": "若您同意，我會在談話過程中簡單做些筆記。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u16-l03-p1",
+      "fr": "En vrai, les journées finissent souvent tard ?",
+      "zh": "說真的，平常是不是常常很晚才下班？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u16-l03-p2",
+      "fr": "Comment se passe l'intégration des nouveaux arrivants ?",
+      "zh": "新成員加入時通常怎麼融入團隊？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l03-p3",
+      "fr": "À qui vous adressez-vous quand vous bloquez sur une analyse ?",
+      "zh": "遇到分析卡關時，您會向誰求助？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l03-p4",
+      "fr": "Quelle place est laissée aux initiatives des juniors ?",
+      "zh": "初階成員有多少主動提出想法的空間？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l03-p5",
+      "fr": "Comment décririez-vous l'équilibre entre autonomie et encadrement ?",
+      "zh": "您會如何描述自主工作與主管指導之間的平衡？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u16-l04-p1",
+      "fr": "Qu'est-ce qui t'a donné le déclic pour changer de voie ?",
+      "zh": "是什麼讓你突然下定決心轉換跑道？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u16-l04-p2",
+      "fr": "Quelles compétences vous ont le plus servi après votre transition ?",
+      "zh": "轉職後，哪些能力對您幫助最大？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l04-p3",
+      "fr": "Avez-vous dû repartir de zéro sur certains sujets ?",
+      "zh": "有些領域您必須從頭學起嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l04-p4",
+      "fr": "J'hésite entre renforcer mon profil analytique et chercher une expérience de terrain.",
+      "zh": "我在猶豫該強化分析背景，還是尋求第一線經驗。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l04-p5",
+      "fr": "Quel investissement vous semblerait le plus pertinent à ce stade de mon parcours ?",
+      "zh": "以我現階段的經歷，您認為投資在哪方面最合適？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u16-l05-p1",
+      "fr": "Ton conseil sur les entretiens m'a bien débloqué.",
+      "zh": "你給的面試建議真的幫我突破卡關。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u16-l05-p2",
+      "fr": "J'ai déjà repris mon CV à la lumière de vos remarques.",
+      "zh": "我已經根據您的意見修改了履歷。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l05-p3",
+      "fr": "Je retiens surtout l'importance de préciser mon rôle exact.",
+      "zh": "我印象最深的是要說清楚自己的具體角色。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l05-p4",
+      "fr": "Puis-je vous tenir au courant de la suite de mes démarches ?",
+      "zh": "之後我可以跟您分享求職進展嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u16-l05-p5",
+      "fr": "Je vous remercie sincèrement pour la franchise et la précision de vos conseils.",
+      "zh": "衷心感謝您坦率而具體的建議。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u17-l01-p1",
+      "fr": "Le colis se balade entre trois dépôts avant d'arriver.",
+      "zh": "包裹送到前居然要在三個倉庫間轉來轉去。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u17-l01-p2",
+      "fr": "À quelle étape la commande change-t-elle de responsable ?",
+      "zh": "訂單在哪個階段換負責人？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l01-p3",
+      "fr": "Je vais dessiner le trajet d'un carton jusqu'à l'école.",
+      "zh": "我會畫出一箱物資送到學校的路線。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l01-p4",
+      "fr": "Le même contrôle est effectué à deux endroits.",
+      "zh": "同一項檢查被安排在兩個地方。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l01-p5",
+      "fr": "Cette cartographie vise à identifier les ruptures dans la transmission des informations.",
+      "zh": "這張流程圖旨在找出資訊交接中斷的位置。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u17-l02-p1",
+      "fr": "C'est là que tout s'empile le vendredi.",
+      "zh": "每週五就是在這裡全都堆起來。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u17-l02-p2",
+      "fr": "La préparation prend plus de temps que le transport.",
+      "zh": "備貨比運輸更耗時。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l02-p3",
+      "fr": "Quel est le volume maximal que cette équipe peut traiter en une heure ?",
+      "zh": "這個團隊一小時最多能處理多少量？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l02-p4",
+      "fr": "Ajouter un camion ne réduirait pas l'attente au quai.",
+      "zh": "多加一輛車也不會縮短碼頭的等待時間。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l02-p5",
+      "fr": "Il conviendrait de mesurer la capacité réelle avant d'accroître les effectifs.",
+      "zh": "擴編人手前，應先測量實際處理能力。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u17-l03-p1",
+      "fr": "On a un peu de marge si le fournisseur traîne ?",
+      "zh": "如果供應商拖延，我們有一點緩衝嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u17-l03-p2",
+      "fr": "Le délai annoncé commence à la validation du devis.",
+      "zh": "公告的交期從估價單獲准時起算。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l03-p3",
+      "fr": "La livraison peut-elle être fractionnée en deux lots ?",
+      "zh": "交貨可以拆成兩批嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l03-p4",
+      "fr": "Nous avons besoin du matériel avant la rentrée.",
+      "zh": "我們需要在開學前收到物資。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l03-p5",
+      "fr": "Merci de nous avertir sans délai de tout aléa susceptible d'affecter l'échéance.",
+      "zh": "如遇可能影響期限的意外狀況，請立即通知我們。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u17-l04-p1",
+      "fr": "On est à sec côté feutres bleus.",
+      "zh": "藍色麥克筆已經見底了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u17-l04-p2",
+      "fr": "Le stock théorique ne correspond pas au comptage sur place.",
+      "zh": "帳面庫存和現場清點結果對不上。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l04-p3",
+      "fr": "Il reste deux cartons entamés dans la réserve.",
+      "zh": "儲藏室還有兩箱已拆封的物資。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l04-p4",
+      "fr": "Je distingue le matériel réservé du matériel disponible.",
+      "zh": "我會將已預留的物資與可用物資分開。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l04-p5",
+      "fr": "Un inventaire contradictoire permettrait de rapprocher nos relevés respectifs.",
+      "zh": "雙方共同盤點有助於核對各自的紀錄。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u17-l05-p1",
+      "fr": "Le moins cher devient salé quand tu ajoutes le transport.",
+      "zh": "最便宜的那家加上運費就不便宜了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u17-l05-p2",
+      "fr": "Comparons les offres à quantité égale.",
+      "zh": "我們用相同數量比較報價。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l05-p3",
+      "fr": "La garantie couvre-t-elle les pièces de remplacement ?",
+      "zh": "保固有包含替換零件嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l05-p4",
+      "fr": "Une livraison fiable compte autant que le prix unitaire.",
+      "zh": "可靠的交貨和單價同樣重要。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u17-l05-p5",
+      "fr": "Notre recommandation tient compte du coût total sur l'ensemble de la période.",
+      "zh": "我們提出建議時已考量整段期間的總成本。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u18-l01-p1",
+      "fr": "Tu recopies tout ça à la main à chaque fois ?",
+      "zh": "你每次都得把這些手動抄一遍嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u18-l01-p2",
+      "fr": "Combien de fois cette tâche revient-elle par semaine ?",
+      "zh": "這項工作每週要重複幾次？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l01-p3",
+      "fr": "Je voudrais observer un dossier du début à la fin.",
+      "zh": "我想從頭到尾觀察一個案件。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l01-p4",
+      "fr": "La plupart des erreurs apparaissent au moment de la saisie.",
+      "zh": "多數錯誤出現在輸入資料時。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l01-p5",
+      "fr": "Pourriez-vous décrire les exceptions que la procédure actuelle ne prévoit pas ?",
+      "zh": "可否說明現行流程沒有涵蓋的例外情況？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u18-l02-p1",
+      "fr": "Si le mail arrive deux fois, ça lance deux fois le truc ?",
+      "zh": "如果信來兩次，這東西也會跑兩次嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u18-l02-p2",
+      "fr": "Le traitement démarre à la réception d'une pièce jointe.",
+      "zh": "收到附件時就會啟動處理。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l02-p3",
+      "fr": "Seuls les fichiers au bon format sont acceptés.",
+      "zh": "只接受符合指定格式的檔案。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l02-p4",
+      "fr": "Un identifiant unique permet de repérer les doublons.",
+      "zh": "用唯一識別碼就能辨認重複資料。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l02-p5",
+      "fr": "Tout déclenchement manuel devra être consigné dans le journal de suivi.",
+      "zh": "每一次手動啟動都應記入追蹤紀錄。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u18-l03-p1",
+      "fr": "Fais tourner un essai sur un faux dossier.",
+      "zh": "拿一份模擬資料試跑看看。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u18-l03-p2",
+      "fr": "Que se passe-t-il si le champ est vide ?",
+      "zh": "如果欄位空白會怎樣？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l03-p3",
+      "fr": "Le système envoie une alerte au lieu de supprimer la ligne.",
+      "zh": "系統會發出提醒，並保留那一列。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l03-p4",
+      "fr": "Je garde une copie du résultat attendu pour comparer.",
+      "zh": "我會保留一份預期結果來比對。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l03-p5",
+      "fr": "La mise en service sera conditionnée à la validation des cas atypiques.",
+      "zh": "正式啟用的前提是通過例外情境的驗證。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u18-l04-p1",
+      "fr": "Sur une journée, ça nous libère un sacré créneau.",
+      "zh": "累積一整天，真的能空出一大段時間。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u18-l04-p2",
+      "fr": "Nous avons chronométré cinq dossiers avant la modification.",
+      "zh": "修改前我們測了五個案件的處理時間。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l04-p3",
+      "fr": "Le gain moyen masque des écarts selon la complexité.",
+      "zh": "平均節省時間掩蓋了不同複雜程度造成的差異。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l04-p4",
+      "fr": "Il faut déduire le temps consacré aux vérifications.",
+      "zh": "還要扣掉花在檢查上的時間。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l04-p5",
+      "fr": "Cette estimation repose sur des observations réalisées en conditions réelles.",
+      "zh": "這項估計以實際工作情境中的觀察為基礎。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u18-l05-p1",
+      "fr": "Si ça plante, tu cliques où pour reprendre ?",
+      "zh": "如果跑到一半掛了，要按哪裡繼續？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u18-l05-p2",
+      "fr": "J'ai rédigé une fiche avec les trois gestes essentiels.",
+      "zh": "我整理了一張列出三項關鍵操作的說明單。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l05-p3",
+      "fr": "Chaque équipe désigne une personne pour les premiers retours.",
+      "zh": "每個團隊指定一人彙整初期回饋。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l05-p4",
+      "fr": "On peut revenir à la procédure manuelle si nécessaire.",
+      "zh": "有需要時我們可以改回人工流程。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u18-l05-p5",
+      "fr": "Je propose un point de suivi après deux semaines d'utilisation.",
+      "zh": "我建議啟用兩週後安排一次追蹤會議。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u19-l01-p1",
+      "fr": "Avant de foncer, on leur demande ce qui leur manque ?",
+      "zh": "先別急著做，我們要不要問他們缺什麼？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u19-l01-p2",
+      "fr": "Quels supports utilisez-vous déjà avec les élèves ?",
+      "zh": "您已經在課堂上使用哪些教材？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l01-p3",
+      "fr": "Le nombre d'inscrits correspond-il au nombre de présents ?",
+      "zh": "報名人數和實到人數一致嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l01-p4",
+      "fr": "Nous adapterons les activités aux ressources sur place.",
+      "zh": "我們會配合當地資源調整活動。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l01-p5",
+      "fr": "Nous souhaitons définir les priorités en concertation avec l'équipe enseignante.",
+      "zh": "我們希望與教師團隊共同訂定優先事項。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u19-l02-p1",
+      "fr": "On se met par binômes pour éviter les oublis.",
+      "zh": "我們兩人一組，比較不會漏東漏西。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u19-l02-p2",
+      "fr": "Chacun connaît-il la personne à contacter en cas d'imprévu ?",
+      "zh": "大家都知道遇到意外狀況要聯絡誰嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l02-p3",
+      "fr": "J'ai réparti les dix-huit bénévoles entre les ateliers.",
+      "zh": "我把十八位志工分配到各個工作坊。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l02-p4",
+      "fr": "Il nous faut aussi quelqu'un pour gérer les pauses.",
+      "zh": "我們還需要有人協調休息時段。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l02-p5",
+      "fr": "La répartition des rôles sera communiquée avant le départ de l'équipe.",
+      "zh": "團隊出發前將公布職務分配。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u19-l03-p1",
+      "fr": "Avec toutes ces caisses, on ne tiendra jamais dans une seule voiture.",
+      "zh": "這麼多箱子，一輛車肯定塞不下。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u19-l03-p2",
+      "fr": "La route entre les deux villages est-elle praticable après la pluie ?",
+      "zh": "下雨後兩個村落之間的路還能通行嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l03-p3",
+      "fr": "Nous laisserons le matériel lourd dans la première école.",
+      "zh": "我們會把重器材留在第一所學校。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l03-p4",
+      "fr": "Prévoyons une marge pour charger les sacs.",
+      "zh": "我們預留一點時間搬行李上車。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l03-p5",
+      "fr": "Toute modification de l'itinéraire devra être signalée au coordinateur local.",
+      "zh": "路線如有變更，須通知當地協調人。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u19-l04-p1",
+      "fr": "Ce jeu de mots ne passe pas du tout dans l'autre langue.",
+      "zh": "這個雙關換成另一種語言就完全沒效果了。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u19-l04-p2",
+      "fr": "Nous cherchons un exemple que les enfants connaissent déjà.",
+      "zh": "我們在找孩子們本來就熟悉的例子。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l04-p3",
+      "fr": "Je laisse une colonne libre pour les notes de l'interprète.",
+      "zh": "我留一欄給口譯員做筆記。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l04-p4",
+      "fr": "Une image peut remplacer une longue explication.",
+      "zh": "一張圖就能取代一大段說明。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l04-p5",
+      "fr": "Nous soumettrons la version traduite aux enseignants avant impression.",
+      "zh": "我們會在印製前先將譯本交給老師審閱。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u19-l05-p1",
+      "fr": "Le programme est trop serré, on va les épuiser.",
+      "zh": "行程太緊了，會把大家累壞。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u19-l05-p2",
+      "fr": "À quelle heure les familles viennent-elles chercher les enfants ?",
+      "zh": "家長通常幾點來接孩子？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l05-p3",
+      "fr": "Nous pouvons déplacer le dernier atelier après la pause.",
+      "zh": "我們可以把最後一場工作坊移到休息後。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l05-p4",
+      "fr": "Je préfère laisser du temps aux échanges informels.",
+      "zh": "我想留些時間讓大家自在交流。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u19-l05-p5",
+      "fr": "La décision finale sur les horaires revient à l'établissement d'accueil.",
+      "zh": "活動時間的最終決定權屬於接待學校。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u20-l01-p1",
+      "fr": "Allez, trouvez quelqu'un que vous ne connaissez pas encore !",
+      "zh": "來，找一位你還不認識的人！",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u20-l01-p2",
+      "fr": "Présentez votre partenaire en une phrase.",
+      "zh": "請用一句話介紹你的搭檔。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l01-p3",
+      "fr": "Vous pouvez choisir un dessin au lieu d'écrire votre prénom.",
+      "zh": "你們可以選畫一個圖案，不必寫名字。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l01-p4",
+      "fr": "Je mélange les groupes pour que chacun rencontre d'autres élèves.",
+      "zh": "我會打散分組，讓每個人認識其他同學。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l01-p5",
+      "fr": "La participation à cette activité demeure entièrement libre.",
+      "zh": "本活動完全由參與者自由決定是否參加。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u20-l02-p1",
+      "fr": "On essaie ensemble avant de se lancer ?",
+      "zh": "正式開始前要不要一起試一次？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l02-p2",
+      "fr": "Qui peut redire la consigne avec ses propres mots ?",
+      "zh": "誰能用自己的話再講一次指示？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l02-p3",
+      "fr": "Montrez-moi le premier geste sans utiliser de mots.",
+      "zh": "不要說話，用動作示範第一步給我看。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l02-p4",
+      "fr": "Si deux réponses sont possibles, expliquez votre choix.",
+      "zh": "若有兩個可能答案，請解釋自己的選擇。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l02-p5",
+      "fr": "Votre démonstration nous permettra de vérifier que la consigne est suffisamment claire.",
+      "zh": "透過您的示範，我們可以確認說明是否足夠清楚。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u20-l03-p1",
+      "fr": "Prends ton temps, personne ne te presse.",
+      "zh": "慢慢來，沒有人催你。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l03-p2",
+      "fr": "Tu peux d'abord en parler avec ton voisin.",
+      "zh": "你可以先和旁邊的同學討論。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l03-p3",
+      "fr": "Je te laisse choisir entre montrer ta réponse et la lire.",
+      "zh": "你可以選擇把答案展示出來或唸出來。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l03-p4",
+      "fr": "Une idée incomplète peut déjà nous aider à avancer.",
+      "zh": "還沒想完整的點子也能幫助我們前進。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l03-p5",
+      "fr": "Veillons à ce que chaque élève dispose d'un temps de parole équitable.",
+      "zh": "請確保每位學生都有公平的發言時間。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u20-l04-p1",
+      "fr": "Le projecteur nous lâche, on sort les cartes !",
+      "zh": "投影機罷工了，拿卡片出來吧！",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u20-l04-p2",
+      "fr": "Nous allons faire la même activité par petits groupes.",
+      "zh": "我們改成小組進行同一個活動。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l04-p3",
+      "fr": "Posez les cartes face cachée sur la table.",
+      "zh": "請把卡片面朝下放在桌上。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l04-p4",
+      "fr": "Je réduis le nombre de tours pour finir à l'heure.",
+      "zh": "我會減少輪數，讓我們準時結束。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l04-p5",
+      "fr": "Ce changement de support préserve l'objectif pédagogique initial.",
+      "zh": "這次教具調整仍保留了原本的教學目標。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u20-l05-p1",
+      "fr": "C'est quoi, le moment où tu t'es senti perdu ?",
+      "zh": "你是哪個環節覺得跟不上？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u20-l05-p2",
+      "fr": "Qu'aimeriez-vous refaire la prochaine fois ?",
+      "zh": "下次你們還想再做哪個活動？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l05-p3",
+      "fr": "J'ai remarqué que les exemples visuels facilitaient les échanges.",
+      "zh": "我注意到視覺化的例子讓討論更順暢。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l05-p4",
+      "fr": "Nous remettrons les fiches modifiables aux enseignants.",
+      "zh": "我們會把可編輯的學習單交給老師。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u20-l05-p5",
+      "fr": "Je vous invite à nous signaler les ajustements qui vous paraissent nécessaires.",
+      "zh": "敬請告知您認為需要哪些調整。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u21-l01-p1",
+      "fr": "On commence par un souvenir qui vous fait sourire ?",
+      "zh": "我們從一段讓您想起來會笑的回憶聊起？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l01-p2",
+      "fr": "Je recueille des récits sur la vie quotidienne d'autrefois.",
+      "zh": "我在蒐集關於昔日生活的故事。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l01-p3",
+      "fr": "Vous choisissez les sujets que vous souhaitez aborder.",
+      "zh": "您可以自行選擇想談的主題。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l01-p4",
+      "fr": "Nous pouvons faire une pause à tout moment.",
+      "zh": "我們隨時都可以停下來休息。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l01-p5",
+      "fr": "Accepteriez-vous de nous accorder un entretien à l'heure de votre choix ?",
+      "zh": "您是否願意在方便的時間接受我們的訪談？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u21-l02-p1",
+      "fr": "Si le micro vous gêne, je le range tout de suite.",
+      "zh": "如果麥克風讓您不自在，我馬上收起來。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l02-p2",
+      "fr": "L'enregistrement sert d'abord à préparer la transcription.",
+      "zh": "這份錄音首先用來製作逐字稿。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l02-p3",
+      "fr": "Souhaitez-vous apparaître sous votre nom ou sous un pseudonyme ?",
+      "zh": "您希望使用本名還是化名？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l02-p4",
+      "fr": "Je vous demanderai un accord séparé avant toute diffusion.",
+      "zh": "要對外公開前，我會另外徵求您的同意。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l02-p5",
+      "fr": "Aucun extrait ne sera rendu public sans votre autorisation explicite.",
+      "zh": "未經您明確許可，任何片段都不會公開。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u21-l03-p1",
+      "fr": "Et dans la cuisine, ça sentait quoi ?",
+      "zh": "那時廚房裡聞起來是什麼味道？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l03-p2",
+      "fr": "Comment se déroulait une journée ordinaire dans ce quartier ?",
+      "zh": "當時這個街區平常的一天是怎麼過的？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l03-p3",
+      "fr": "Vous souvenez-vous d'une chanson qu'on entendait souvent ?",
+      "zh": "您記得當時常聽到的哪首歌嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l03-p4",
+      "fr": "Quand vous dites « la maison », de quel lieu s'agit-il ?",
+      "zh": "您說的「家」具體是指哪個地方？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l03-p5",
+      "fr": "Si ce souvenir vous est accessible, pourriez-vous situer cette scène dans le temps ?",
+      "zh": "如果您還記得，能否大致說明這件事發生的時期？",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u21-l04-p1",
+      "fr": "On note « vers 1960 » plutôt que d'inventer un jour précis.",
+      "zh": "我們就記「大約一九六〇年」，別硬湊確切日期。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u21-l04-p2",
+      "fr": "La date reste à confirmer avec un autre témoin.",
+      "zh": "日期還需要跟另一位見證者確認。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l04-p3",
+      "fr": "Ces deux récits diffèrent sur l'ordre des événements.",
+      "zh": "兩段敘述對事件先後的說法不同。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l04-p4",
+      "fr": "Je garde ses mots, même si la formulation est inhabituelle.",
+      "zh": "即使措辭少見，我也保留他的原話。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l04-p5",
+      "fr": "Cette divergence sera signalée dans la note qui accompagne le témoignage.",
+      "zh": "我們會在附於證詞的說明中標記這項差異。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u21-l05-p1",
+      "fr": "Je vous ai apporté la photo dont on parlait l'autre jour.",
+      "zh": "我帶來了上次我們聊到的那張照片。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l05-p2",
+      "fr": "Vous pouvez barrer un passage que vous préférez garder privé.",
+      "zh": "您可以劃掉希望保持私密的段落。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l05-p3",
+      "fr": "Je peux vous lire le texte à voix haute si vous préférez.",
+      "zh": "如果您願意，我可以把文字朗讀給您聽。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l05-p4",
+      "fr": "À qui souhaitez-vous remettre un exemplaire du livret ?",
+      "zh": "這本小冊子您想送一份給誰？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u21-l05-p5",
+      "fr": "Nous vous remercions de nous avoir confié une part de votre histoire.",
+      "zh": "感謝您願意把一段人生故事託付給我們。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u22-l01-p1",
+      "fr": "Il nous manque de quoi payer le deuxième trajet.",
+      "zh": "我們還差第二趟車程的錢。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u22-l01-p2",
+      "fr": "Le matériel a déjà été financé par une autre association.",
+      "zh": "器材已由另一個協會出資。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l01-p3",
+      "fr": "Le poste le plus lourd reste le transport entre les villages.",
+      "zh": "最大的支出仍然是村落之間的交通。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l01-p4",
+      "fr": "Je peux détailler la part de chaque dépense.",
+      "zh": "我可以逐項說明各筆支出的占比。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l01-p5",
+      "fr": "Votre soutien financerait directement l'acheminement des supports pédagogiques.",
+      "zh": "您的支持將直接用於運送教材。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u22-l02-p1",
+      "fr": "Tu me présentes à la personne qui suit les partenariats ?",
+      "zh": "你可以幫我介紹負責合作案的那位嗎？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u22-l02-p2",
+      "fr": "Nous préparons des ateliers conçus avec les enseignants locaux.",
+      "zh": "我們正在籌備與當地老師共同設計的工作坊。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l02-p3",
+      "fr": "Avez-vous déjà soutenu un projet éducatif de cette taille ?",
+      "zh": "您過去支持過這種規模的教育專案嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l02-p4",
+      "fr": "Nous pouvons aussi accepter un prêt de matériel.",
+      "zh": "我們也可以接受器材借用。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l02-p5",
+      "fr": "Je souhaiterais examiner avec vous les modalités d'un éventuel partenariat.",
+      "zh": "我希望與您探討可能的合作方式。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u22-l03-p1",
+      "fr": "On promet seulement ce qu'on peut vraiment livrer.",
+      "zh": "我們只答應真正做得到的事。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u22-l03-p2",
+      "fr": "Combien de temps dure la mise à disposition du véhicule ?",
+      "zh": "車輛可以借用多久？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l03-p3",
+      "fr": "L'équipe locale doit approuver tout usage du logo de l'école.",
+      "zh": "任何使用校徽的安排都得經過當地團隊同意。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l03-p4",
+      "fr": "Je vais distinguer les engagements fermes des pistes à explorer.",
+      "zh": "我會把確定承諾和仍待探索的方向分開。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l03-p5",
+      "fr": "Nous préférerions que les conditions de visibilité figurent dans un accord écrit.",
+      "zh": "我們希望宣傳曝光的條件能列入書面協議。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u22-l04-p1",
+      "fr": "Un beau chiffre, ça ne raconte pas toute l'histoire.",
+      "zh": "漂亮的數字沒辦法講完整個故事。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l04-p2",
+      "fr": "Nous avons compté les participants uniques pour éviter les doublons.",
+      "zh": "我們計算不重複的參與者人數，以免重複計算。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l04-p3",
+      "fr": "Les enseignants ont réutilisé les fiches après notre départ.",
+      "zh": "我們離開後，老師仍繼續使用那些學習單。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l04-p4",
+      "fr": "Nous avons conservé un exemple d'activité adaptée sur place.",
+      "zh": "我們保留了一個在現場調整活動的案例。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l04-p5",
+      "fr": "Le bilan distingue les réalisations immédiates des effets restant à évaluer.",
+      "zh": "成果報告區分了立即成果與仍待評估的後續影響。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u22-l05-p1",
+      "fr": "On leur donne des nouvelles même quand on n'a rien à demander.",
+      "zh": "即使沒事要拜託，我們也會向他們更新近況。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l05-p2",
+      "fr": "Quelle fréquence de suivi vous semblerait raisonnable ?",
+      "zh": "您覺得多久追蹤一次較為合適？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l05-p3",
+      "fr": "Je vous enverrai une courte synthèse après chaque étape.",
+      "zh": "每個階段結束後，我會寄給您一份簡短摘要。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l05-p4",
+      "fr": "Notre interlocutrice habituelle change de poste en juin.",
+      "zh": "平常與我們對接的窗口六月會調職。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u22-l05-p5",
+      "fr": "Nous serions honorés de poursuivre cette collaboration au-delà de la phase pilote.",
+      "zh": "若能在試辦期後延續合作，我們將深感榮幸。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u23-l01-p1",
+      "fr": "Attends, on cherche à vendre plus ou à gagner plus ?",
+      "zh": "等一下，我們是要賣更多，還是要賺更多？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u23-l01-p2",
+      "fr": "Quand vous parlez de croissance, quel indicateur retenez-vous ?",
+      "zh": "您說到成長，具體採用哪項指標？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l01-p3",
+      "fr": "Le périmètre inclut-il les activités à l'étranger ?",
+      "zh": "範圍有包含海外業務嗎？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l01-p4",
+      "fr": "Je pars de l'hypothèse que le budget reste constant.",
+      "zh": "我先假設預算維持不變。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l01-p5",
+      "fr": "Pour cadrer notre analyse, je souhaiterais préciser l'horizon retenu.",
+      "zh": "為界定分析範圍，我想先釐清採用的時間尺度。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u23-l02-p1",
+      "fr": "On peut couper le problème en deux sans se marcher dessus.",
+      "zh": "我們可以把問題分成兩塊，各自處理不重疊。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u23-l02-p2",
+      "fr": "Je distinguerais la demande des contraintes de capacité.",
+      "zh": "我會把需求和產能限制分開。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l02-p3",
+      "fr": "Où classeriez-vous les commandes annulées ?",
+      "zh": "您會把取消的訂單歸在哪一類？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l02-p4",
+      "fr": "Cette branche mélange une cause et une conséquence.",
+      "zh": "這個分支把因果兩端混在一起了。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l02-p5",
+      "fr": "La structure proposée doit couvrir l'ensemble des facteurs pertinents.",
+      "zh": "提議的架構應涵蓋所有相關因素。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u23-l03-p1",
+      "fr": "À la louche, ça fait combien par école ?",
+      "zh": "粗算起來，每所學校是多少？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u23-l03-p2",
+      "fr": "Je vais arrondir les chiffres pour faciliter le calcul.",
+      "zh": "我會把數字取整以便計算。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l03-p3",
+      "fr": "Partons de cent élèves par établissement.",
+      "zh": "我們先以每所學校一百名學生估算。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l03-p4",
+      "fr": "Je vérifie l'ordre de grandeur avant d'aller plus loin.",
+      "zh": "再往下算之前，我先核對數量級。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l03-p5",
+      "fr": "Cette estimation devra être affinée à partir des effectifs réels.",
+      "zh": "這項估計仍須根據實際人數進一步精算。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u23-l04-p1",
+      "fr": "Qu'est-ce qui nous ferait changer d'avis ?",
+      "zh": "看到什麼情況我們才會改變看法？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u23-l04-p2",
+      "fr": "Notre hypothèse suppose que les familles connaissent le programme.",
+      "zh": "我們的假設以家庭已知悉這個計畫為前提。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l04-p3",
+      "fr": "Un entretien avec les non-participants serait plus instructif.",
+      "zh": "訪問沒有參加的人可能更有啟發。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l04-p4",
+      "fr": "Si les réponses vont dans l'autre sens, nous réviserons le modèle.",
+      "zh": "如果答覆指向相反方向，我們就會修改模型。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l04-p5",
+      "fr": "Je propose de définir au préalable les observations qui infirmeraient cette hypothèse.",
+      "zh": "我建議事先界定哪些觀察結果足以推翻這項假設。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u23-l05-p1",
+      "fr": "Si on doit trancher aujourd'hui, je garderais le petit pilote.",
+      "zh": "如果今天非得決定，我會留小規模試辦。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u23-l05-p2",
+      "fr": "Cette option réduit le risque sans bloquer la suite.",
+      "zh": "這個選項能降低風險，也不會封死後續發展。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l05-p3",
+      "fr": "Le principal compromis concerne la vitesse de déploiement.",
+      "zh": "主要需要取捨的是推行速度。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l05-p4",
+      "fr": "Je prévoirais une décision intermédiaire à la fin du premier mois.",
+      "zh": "我會安排在第一個月結束時做一次階段性決定。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u23-l05-p5",
+      "fr": "Au regard des éléments disponibles, nous recommandons une extension progressive.",
+      "zh": "綜合現有資料，我們建議逐步擴大規模。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u24-l01-p1",
+      "fr": "Descends à la prochaine, je viens te chercher.",
+      "zh": "你下一站下車，我來接你。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l01-p2",
+      "fr": "Le bâtiment se trouve derrière la bibliothèque, après la passerelle.",
+      "zh": "那棟樓在圖書館後面，走過天橋就到。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l01-p3",
+      "fr": "Garde une pièce d'identité à portée de main pour l'accueil.",
+      "zh": "把身分證件放在好拿的地方，報到會用到。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l01-p4",
+      "fr": "Si ton train a du retard, on commencera par la visite du campus.",
+      "zh": "如果你的火車誤點，我們會先從參觀校園開始。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l01-p5",
+      "fr": "Nous serions ravis de vous accueillir à l'entrée principale à partir de neuf heures.",
+      "zh": "我們很樂意自九點起在正門迎接您。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u24-l02-p1",
+      "fr": "On vient de perdre la moitié des chaises, tu y crois ?",
+      "zh": "剛有一半的椅子沒了，你敢信？",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l02-p2",
+      "fr": "La salle voisine peut accueillir le deuxième groupe.",
+      "zh": "隔壁教室可以容納第二組。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l02-p3",
+      "fr": "Je préviens les intervenants pendant que tu affiches le nouveau plan.",
+      "zh": "你貼新平面圖，我來通知講者。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l02-p4",
+      "fr": "Les inscrits recevront un message avec leur numéro de salle.",
+      "zh": "報名者會收到載有自己教室編號的訊息。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l02-p5",
+      "fr": "Nous vous prions de nous excuser pour ce changement de dernière minute.",
+      "zh": "對於這項臨時變動，敬請見諒。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u24-l03-p1",
+      "fr": "Et si on testait l'idée sur une seule classe pour commencer ?",
+      "zh": "要不我們先找一個班試試？",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u24-l03-p2",
+      "fr": "Les enseignants choisiront eux-mêmes le créneau le moins perturbant.",
+      "zh": "老師們會自行挑選最不干擾上課的時段。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l03-p3",
+      "fr": "Nous comparerons les retours des élèves et ceux des familles.",
+      "zh": "我們會比較學生與家長的回饋。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l03-p4",
+      "fr": "Une seule séance ne suffira pas pour mesurer les progrès.",
+      "zh": "只上一堂課不足以衡量進步程度。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l03-p5",
+      "fr": "Toute décision d'élargir le dispositif sera prise conjointement avec l'établissement.",
+      "zh": "是否擴大方案，將與校方共同決定。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u24-l04-p1",
+      "fr": "On a dû revoir notre copie après le premier atelier.",
+      "zh": "第一個工作坊結束後，我們不得不重做方案。",
+      "register": "familier"
+    },
+    {
+      "id": "fr-u24-l04-p2",
+      "fr": "La demande portait davantage sur la lecture que sur l'expression orale.",
+      "zh": "需求更多集中在閱讀，而非口語表達。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l04-p3",
+      "fr": "Nous avons sollicité l'avis des enseignants avant de modifier les activités.",
+      "zh": "我們在修改活動前徵詢了老師的意見。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l04-p4",
+      "fr": "Le nouveau format conserve le même nombre d'heures.",
+      "zh": "新形式的總時數維持不變。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l04-p5",
+      "fr": "Vous trouverez en annexe un relevé des ajustements apportés et de leurs motifs.",
+      "zh": "附件列出了各項調整及其原因。",
+      "register": "soutenu"
+    },
+    {
+      "id": "fr-u24-l05-p1",
+      "fr": "Ce que je retiens, c'est qu'on aurait dû écouter plus tôt.",
+      "zh": "我最深的體會是，我們應該更早開始傾聽。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l05-p2",
+      "fr": "Je peux désormais expliquer le projet sans lire mes notes.",
+      "zh": "我現在可以不看筆記就把專案解釋清楚。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l05-p3",
+      "fr": "Pour la prochaine mission, je travaillerai surtout la conduite d'entretien.",
+      "zh": "下次任務我會特別加強主持訪談的能力。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l05-p4",
+      "fr": "J'aimerais revoir les expressions qui m'ont manqué pendant les échanges.",
+      "zh": "我想複習那些交流時需要、卻沒能說出來的表達。",
+      "register": "courant"
+    },
+    {
+      "id": "fr-u24-l05-p5",
+      "fr": "Je vous propose de fixer dès à présent une échéance pour évaluer les progrès accomplis.",
+      "zh": "我建議現在就訂下日期，屆時評估已取得的進展。",
+      "register": "soutenu"
+    }
+  ]
+}

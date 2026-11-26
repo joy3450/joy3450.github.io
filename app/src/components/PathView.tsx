@@ -40,7 +40,7 @@ export function PathView({
   const start = (nd: PathNode, level: Level) => {
     setOpen(null);
     if (nd.type === "boss") onStart(`${nd.sec}・單元考`, nd.items, { nodeId: nd.id, boss: true, level: 2 });
-    else onStart(`${nd.sec}・第 ${nd.n} 關`, nd.items, { nodeId: nd.id, level });
+    else onStart(nd.title ?? `${nd.sec}・第 ${nd.n} 關`, nd.items, { nodeId: nd.id, level });
   };
   const preferred = (game.settings.level ?? 1) as Level;
 
@@ -139,7 +139,7 @@ export function PathView({
                           ? `第 ${u.idx + 1} 單元寶箱${st === "done" ? "（已開）" : ""}`
                           : isBoss
                             ? `第 ${u.idx + 1} 單元考${st === "done" ? "（已通過）" : st === "locked" ? "（未解鎖）" : ""}`
-                            : `第 ${nd.n} 關${st === "done" ? `（已完成・${LEVEL_NAME[Math.max(1, lv) as Level]}）` : st === "locked" ? "（未解鎖）" : ""}`
+                            : `第 ${nd.n} 關${nd.title ? "・" + nd.title : ""}${st === "done" ? `（已完成・${LEVEL_NAME[Math.max(1, lv) as Level]}）` : st === "locked" ? "（未解鎖）" : ""}`
                       }
                       onClick={(e) => {
                         if (isChest) {
@@ -202,7 +202,7 @@ export function PathView({
                         ) : (
                           <>
                             <p className="m-0 text-lg font-extrabold">
-                              {nd.sec}・第 {nd.n} 關
+                              {nd.title ?? nd.sec}・第 {nd.n} 關
                             </p>
                             <p className="m-0 mt-0.5 text-sm font-semibold opacity-90">
                               {st === "locked" ? "還沒解鎖，也可以直接挑戰" : st === "done" ? `已通過「${LEVEL_NAME[Math.max(1, lv) as Level]}」${perfect ? "・曾零失誤" : ""}` : `${nd.items.length} 句`}
